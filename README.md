@@ -79,6 +79,16 @@ python -m http.server 8000
 
 Then visit http://localhost:8000 — you will be prompted for the **access phrase** (shared separately with your team; see `SECURITY.md`). Anyone who knows the direct URL to `data.json` can still download it unless you add edge protection (e.g. Cloudflare Access).
 
+**Local `dashboard/data.json`:** this file is gitignored. After a scrape, copy data in for local preview:
+
+```bash
+cp data/opportunities.json dashboard/data.json
+```
+
+Or use the empty template: `cp dashboard/data.sample.json dashboard/data.json`.
+
+**GitHub Pages:** the **Arctic Defense Opportunity Scraper** workflow runs the scraper and deploys the `dashboard/` folder (including freshly built `data.json`) to Pages **without committing** those JSON files to the repo.
+
 ## Project Structure
 
 ```
