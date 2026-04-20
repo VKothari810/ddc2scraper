@@ -14,22 +14,18 @@ on:
         type: boolean
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
-  group: scrape-and-pages
+  group: scraper
   cancel-in-progress: false
 
 jobs:
-  scrape-and-publish:
+  scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -63,14 +59,39 @@ jobs:
         run: |
           python -m scraper.main
 
-      - name: Copy data to dashboard for Pages
+      - name: Copy data to dashboard
         run: |
           cp data/opportunities.json dashboard/data.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "Arctic Scraper Bot"
+          git config user.email "bot@arctic-scraper.dev"
+          git add data/ dashboard/data.json
+          git diff --cached --quiet || git commit -m "Update opportunities $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest changes
+        run: git pull origin main
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dashboard

@@ -34,12 +34,6 @@ htmlcov/
 *.pem
 *.p12
 
-# Scraped output & dashboard data — not committed (CI builds `dashboard/data.json` and deploys to Pages)
-data/opportunities.json
-data/arctic_opportunities.json
-data/run_log.json
-dashboard/data.json
-
 # Debug screenshots
 data/debug/*.png
 
