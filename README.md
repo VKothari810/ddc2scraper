@@ -171,8 +171,11 @@ extreme environment, contested logistics, austere environment, expeditionary, NO
 2. Add these secrets:
    - `SAM_GOV_API_KEY`
    - `GEMINI_API_KEY`
-3. Enable GitHub Pages (Settings > Pages > Source: GitHub Actions)
-4. The workflow runs automatically at 6 AM and 6 PM ET, or trigger manually
+3. **GitHub Pages source must be “GitHub Actions”** (Settings → Pages → Build and deployment → Source). If it is set to **Deploy from a branch** (for example `main` / `/`), GitHub will publish the whole repository and the site will look like a **README** or Jekyll default, not the dashboard. The workflows in `.github/workflows/deploy.yml` and `.github/workflows/scrape.yml` upload only the `dashboard/` folder as the site when Actions is the source.
+4. After switching to GitHub Actions, run **Actions → “Deploy Dashboard to GitHub Pages” → Run workflow** once (or push a change under `dashboard/`) so a fresh artifact deploys.
+5. The scrape workflow runs automatically at 6 AM and 6 PM ET, or trigger it manually from Actions.
+
+If you must use **branch-based** Pages from `/` for some reason, open **`/dashboard/`** on the site (this repo includes a root `index.html` that redirects there) and keep a `.nojekyll` file at the publish root so Jekyll does not rewrite static assets.
 
 ## Running Tests
 
