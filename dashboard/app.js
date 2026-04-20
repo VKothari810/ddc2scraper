@@ -1,4 +1,12 @@
 // Dominion - Arctic Defense Opportunities Database
+// Access gate: compare SHA-256 of entered phrase to stored hash (phrase is not stored in repo).
+// See SECURITY.md for limitations of static-site auth.
+
+const SESSION_STORAGE_KEY = 'dominion_session_v1';
+const SESSION_DURATION_MS = 8 * 60 * 60 * 1000;
+/** SHA-256 (hex, lowercase) of UTF-8 access phrase — change together with team when rotating */
+const ACCESS_PHRASE_HASH_HEX =
+    'eabecb0332d95ffa448deb7d3a8b54c6b1f0621acd800312a6f534a154ee23dd';
 
 let allOpportunities = [];
 let filteredOpportunities = [];
@@ -6,25 +14,141 @@ let displayedCount = 0;
 const ITEMS_PER_PAGE = 24;
 let currentView = 'grid';
 
-// DOM Elements
-const searchInput = document.getElementById('search-input');
-const filterSource = document.getElementById('filter-source');
-const filterType = document.getElementById('filter-type');
-const filterStatus = document.getElementById('filter-status');
-const filterRelevance = document.getElementById('filter-relevance');
-const sortBy = document.getElementById('sort-by');
-const resultsCount = document.getElementById('results-count');
-const opportunitiesGrid = document.getElementById('opportunities-grid');
-const loadMoreBtn = document.getElementById('load-more');
-const modalOverlay = document.getElementById('modal-overlay');
-const modalContent = document.getElementById('modal-content');
-const modalClose = document.getElementById('modal-close');
+let searchInput;
+let filterSource;
+let filterType;
+let filterStatus;
+let filterRelevance;
+let sortBy;
+let resultsCount;
+let opportunitiesGrid;
+let loadMoreBtn;
+let modalOverlay;
+let modalContent;
+let modalClose;
 
-// Initialize
-document.addEventListener('DOMContentLoaded', async () => {
+function cacheDomRefs() {
+    searchInput = document.getElementById('search-input');
+    filterSource = document.getElementById('filter-source');
+    filterType = document.getElementById('filter-type');
+    filterStatus = document.getElementById('filter-status');
+    filterRelevance = document.getElementById('filter-relevance');
+    sortBy = document.getElementById('sort-by');
+    resultsCount = document.getElementById('results-count');
+    opportunitiesGrid = document.getElementById('opportunities-grid');
+    loadMoreBtn = document.getElementById('load-more');
+    modalOverlay = document.getElementById('modal-overlay');
+    modalContent = document.getElementById('modal-content');
+    modalClose = document.getElementById('modal-close');
+}
+
+async function sha256HexUtf8(value) {
+    const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(value));
+    return Array.from(new Uint8Array(digest))
+        .map((b) => b.toString(16).padStart(2, '0'))
+        .join('');
+}
+
+function timingSafeEqualHex(a, b) {
+    if (a.length !== b.length) return false;
+    let diff = 0;
+    for (let i = 0; i < a.length; i++) {
+        diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+    }
+    return diff === 0;
+}
+
+function isSessionValid() {
+    try {
+        const raw = sessionStorage.getItem(SESSION_STORAGE_KEY);
+        if (!raw) return false;
+        const { exp } = JSON.parse(raw);
+        return typeof exp === 'number' && Date.now() < exp;
+    } catch {
+        return false;
+    }
+}
+
+function setSession() {
+    sessionStorage.setItem(
+        SESSION_STORAGE_KEY,
+        JSON.stringify({ exp: Date.now() + SESSION_DURATION_MS })
+    );
+}
+
+function clearSession() {
+    sessionStorage.removeItem(SESSION_STORAGE_KEY);
+}
+
+function showAppShell() {
+    const gate = document.getElementById('auth-gate');
+    const root = document.getElementById('app-root');
+    gate.classList.add('is-hidden');
+    root.classList.remove('app-root--hidden');
+    root.setAttribute('aria-hidden', 'false');
+}
+
+function hideAppShell() {
+    const gate = document.getElementById('auth-gate');
+    const root = document.getElementById('app-root');
+    gate.classList.remove('is-hidden');
+    root.classList.add('app-root--hidden');
+    root.setAttribute('aria-hidden', 'true');
+}
+
+function setupAuthGate() {
+    const form = document.getElementById('auth-form');
+    const input = document.getElementById('auth-password');
+    const err = document.getElementById('auth-error');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        err.hidden = true;
+        const phrase = (input.value || '').trim();
+        const hash = await sha256HexUtf8(phrase);
+        if (timingSafeEqualHex(hash.toLowerCase(), ACCESS_PHRASE_HASH_HEX.toLowerCase())) {
+            setSession();
+            input.value = '';
+            showAppShell();
+            cacheDomRefs();
+            await bootstrapApp();
+        } else {
+            err.hidden = false;
+            input.select();
+        }
+    });
+}
+
+function setupSignOut() {
+    const btn = document.getElementById('sign-out-btn');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+        clearSession();
+        allOpportunities = [];
+        filteredOpportunities = [];
+        if (opportunitiesGrid) opportunitiesGrid.innerHTML = '';
+        hideAppShell();
+        const input = document.getElementById('auth-password');
+        if (input) input.value = '';
+        document.getElementById('auth-error').hidden = true;
+    });
+}
+
+async function bootstrapApp() {
     await loadData();
     setupEventListeners();
     setupViewToggle();
+    setupSignOut();
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    if (isSessionValid()) {
+        showAppShell();
+        cacheDomRefs();
+        await bootstrapApp();
+    } else {
+        setupAuthGate();
+    }
 });
 
 async function loadData() {

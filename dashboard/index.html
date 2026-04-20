@@ -10,100 +10,116 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <h1 class="logo">Dominion</h1>
+    <!-- Access gate: full UI and data load only after successful password (see SECURITY.md) -->
+    <div id="auth-gate" class="auth-gate" role="dialog" aria-labelledby="auth-title" aria-modal="true">
+        <div class="auth-card">
+            <h2 id="auth-title" class="auth-title">Dominion</h2>
+            <p class="auth-subtitle">Enter access phrase to continue.</p>
+            <form id="auth-form" class="auth-form" autocomplete="off">
+                <label class="auth-label" for="auth-password">Access phrase</label>
+                <input type="password" id="auth-password" class="auth-input" required placeholder="Access phrase" autocomplete="current-password">
+                <p id="auth-error" class="auth-error" role="alert" hidden>Incorrect phrase. Try again.</p>
+                <button type="submit" class="auth-submit">Continue</button>
+            </form>
         </div>
-        <div class="header-line"></div>
-    </header>
+    </div>
 
-    <main>
-        <section class="filters-section">
-            <div class="search-container">
-                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"/>
-                    <path d="M21 21l-4.35-4.35"/>
-                </svg>
-                <input type="text" id="search-input" placeholder="Search opportunities..." class="search-input">
+    <div id="app-root" class="app-root app-root--hidden" aria-hidden="true">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">Dominion</h1>
+                <button type="button" class="sign-out-btn" id="sign-out-btn" title="End session">Sign out</button>
             </div>
-            <div class="filter-row">
-                <div class="filter-group">
-                    <label>Source</label>
-                    <select id="filter-source">
-                        <option value="">All Sources</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label>Type</label>
-                    <select id="filter-type">
-                        <option value="">All Types</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label>Status</label>
-                    <select id="filter-status">
-                        <option value="">All Statuses</option>
-                        <option value="Open">Open</option>
-                        <option value="Forecasted">Forecasted</option>
-                        <option value="Closed">Closed</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label>Relevance</label>
-                    <select id="filter-relevance">
-                        <option value="">Any Relevance</option>
-                        <option value="0.7">High (70%+)</option>
-                        <option value="0.3">Medium (30%+)</option>
-                        <option value="0.1">Low (10%+)</option>
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label>Sort By</label>
-                    <select id="sort-by">
-                        <option value="relevance">Relevance</option>
-                        <option value="date-desc">Newest First</option>
-                        <option value="date-asc">Oldest First</option>
-                        <option value="closing">Closing Soon</option>
-                        <option value="title">Title A-Z</option>
-                    </select>
-                </div>
-            </div>
-        </section>
+            <div class="header-line"></div>
+        </header>
 
-        <section class="results-section">
-            <div class="results-header">
-                <span class="results-count" id="results-count">Loading opportunities...</span>
-                <div class="view-toggle">
-                    <button class="view-btn active" data-view="grid" title="Grid View">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
-                            <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
-                        </svg>
-                    </button>
-                    <button class="view-btn" data-view="list" title="List View">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/>
-                            <line x1="3" y1="18" x2="21" y2="18"/>
-                        </svg>
-                    </button>
+        <main>
+            <section class="filters-section">
+                <div class="search-container">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="M21 21l-4.35-4.35"/>
+                    </svg>
+                    <input type="text" id="search-input" placeholder="Search opportunities..." class="search-input">
                 </div>
-            </div>
-            <div class="opportunities-grid" id="opportunities-grid"></div>
-            <div class="load-more-container">
-                <button class="load-more-btn" id="load-more" style="display: none;">Load More</button>
-            </div>
-        </section>
-    </main>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>Source</label>
+                        <select id="filter-source">
+                            <option value="">All Sources</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Type</label>
+                        <select id="filter-type">
+                            <option value="">All Types</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Status</label>
+                        <select id="filter-status">
+                            <option value="">All Statuses</option>
+                            <option value="Open">Open</option>
+                            <option value="Forecasted">Forecasted</option>
+                            <option value="Closed">Closed</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Relevance</label>
+                        <select id="filter-relevance">
+                            <option value="">Any Relevance</option>
+                            <option value="0.7">High (70%+)</option>
+                            <option value="0.3">Medium (30%+)</option>
+                            <option value="0.1">Low (10%+)</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Sort By</label>
+                        <select id="sort-by">
+                            <option value="relevance">Relevance</option>
+                            <option value="date-desc">Newest First</option>
+                            <option value="date-asc">Oldest First</option>
+                            <option value="closing">Closing Soon</option>
+                            <option value="title">Title A-Z</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Modal -->
-    <div class="modal-overlay" id="modal-overlay">
-        <div class="modal" id="modal">
-            <button class="modal-close" id="modal-close">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-                </svg>
-            </button>
-            <div class="modal-content" id="modal-content"></div>
+            <section class="results-section">
+                <div class="results-header">
+                    <span class="results-count" id="results-count">Loading opportunities...</span>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid" title="Grid View">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                                <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+                            </svg>
+                        </button>
+                        <button class="view-btn" data-view="list" title="List View">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/>
+                                <line x1="3" y1="18" x2="21" y2="18"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="opportunities-grid" id="opportunities-grid"></div>
+                <div class="load-more-container">
+                    <button class="load-more-btn" id="load-more" style="display: none;">Load More</button>
+                </div>
+            </section>
+        </main>
+
+        <div class="modal-overlay" id="modal-overlay">
+            <div class="modal" id="modal">
+                <button class="modal-close" id="modal-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <div class="modal-content" id="modal-content"></div>
+            </div>
         </div>
     </div>
 

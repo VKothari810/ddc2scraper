@@ -26,10 +26,13 @@ build/
 htmlcov/
 .tox/
 
-# Environment
+# Environment — never commit real credentials
 .env
 .env.local
-*.env
+.env.*
+!.env.example
+*.pem
+*.p12
 
 # Debug screenshots
 data/debug/*.png

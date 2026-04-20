@@ -8,7 +8,11 @@ An automated Python agent that collects defense solicitations (RFPs, RFIs, SBIRs
 - **Arctic relevance filtering**: Uses Gemini AI to score opportunities for relevance to arctic/cold-region operations
 - **Smart deduplication**: Identifies the same solicitation across multiple sources and merges data
 - **Automated scheduling**: Runs twice daily via GitHub Actions (6 AM and 6 PM ET)
-- **Static dashboard**: Beautiful, responsive web interface deployed to GitHub Pages
+- **Static dashboard**: Responsive web interface deployed to GitHub Pages
+
+## Security
+
+**Do not commit** API keys, tokens, or a populated `.env` file. Use **GitHub Actions secrets** for automation and keep local keys only in `.env` (gitignored). See **[SECURITY.md](SECURITY.md)** for the full checklist, dashboard access limitations, and how to rotate credentials.
 
 ## Quick Start
 
@@ -38,7 +42,14 @@ playwright install chromium
 
 ### Configuration
 
-Set environment variables:
+Copy the template and add your keys locally (this file is never committed):
+
+```bash
+cp .env.example .env
+# Edit .env — do not commit it
+```
+
+Or export for the current shell:
 
 ```bash
 export SAM_GOV_API_KEY="your-sam-gov-api-key"
@@ -66,7 +77,7 @@ cd dashboard
 python -m http.server 8000
 ```
 
-Then visit http://localhost:8000
+Then visit http://localhost:8000 — you will be prompted for the **access phrase** (shared separately with your team; see `SECURITY.md`). Anyone who knows the direct URL to `data.json` can still download it unless you add edge protection (e.g. Cloudflare Access).
 
 ## Project Structure
 
