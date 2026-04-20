@@ -1,130 +1,350 @@
-let opportunities = [];
-let filteredOpportunities = [];
+// Dominion - Arctic Defense Opportunities Database
 
-const SOURCE_LABELS = {
-    sam_gov: 'SAM.gov',
-    grants_gov: 'Grants.gov',
-    sbir_gov: 'SBIR.gov',
-    erdcwerx: 'ERDCWERX',
-    dsip: 'DSIP',
-    diu: 'DIU',
-    darpa: 'DARPA',
-    afwerx: 'AFWERX',
-    navalx: 'NavalX',
-    sofwerx: 'SOFWERX',
-    navy_sbir: 'Navy SBIR',
-    army_apps_lab: 'Army Apps Lab',
-    spacewerx: 'SpaceWERX',
-};
+let allOpportunities = [];
+let filteredOpportunities = [];
+let displayedCount = 0;
+const ITEMS_PER_PAGE = 24;
+let currentView = 'grid';
+
+// DOM Elements
+const searchInput = document.getElementById('search-input');
+const filterSource = document.getElementById('filter-source');
+const filterType = document.getElementById('filter-type');
+const filterStatus = document.getElementById('filter-status');
+const filterRelevance = document.getElementById('filter-relevance');
+const sortBy = document.getElementById('sort-by');
+const resultsCount = document.getElementById('results-count');
+const opportunitiesGrid = document.getElementById('opportunities-grid');
+const loadMoreBtn = document.getElementById('load-more');
+const modalOverlay = document.getElementById('modal-overlay');
+const modalContent = document.getElementById('modal-content');
+const modalClose = document.getElementById('modal-close');
+
+// Initialize
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadData();
+    setupEventListeners();
+    setupViewToggle();
+});
 
 async function loadData() {
-    const container = document.getElementById('opportunities-container');
-    container.innerHTML = '<div class="loading">Loading opportunities...</div>';
-
     try {
         const response = await fetch('data.json');
-        if (!response.ok) {
-            throw new Error('Failed to load data');
-        }
-        opportunities = await response.json();
+        if (!response.ok) throw new Error('Failed to load data');
+        allOpportunities = await response.json();
         
-        populateSourceFilter();
+        populateFilters();
         applyFilters();
-        updateStats();
     } catch (error) {
         console.error('Error loading data:', error);
-        container.innerHTML = `
-            <div class="no-results">
-                <p>Failed to load opportunities data.</p>
-                <p style="font-size: 0.875rem; margin-top: 0.5rem;">
-                    Make sure data.json exists in the dashboard folder.
-                </p>
+        opportunitiesGrid.innerHTML = `
+            <div style="grid-column: 1/-1; text-align: center; padding: 4rem; color: var(--text-muted);">
+                Failed to load opportunities. Please refresh the page.
             </div>
         `;
     }
 }
 
-function populateSourceFilter() {
-    const sourceFilter = document.getElementById('source-filter');
-    const sources = [...new Set(opportunities.map(o => o.source))].sort();
+function populateFilters() {
+    const sources = [...new Set(allOpportunities.map(o => o.source))].sort();
+    const types = [...new Set(allOpportunities.map(o => o.opportunity_type))].sort();
     
     sources.forEach(source => {
         const option = document.createElement('option');
         option.value = source;
-        option.textContent = SOURCE_LABELS[source] || source;
-        sourceFilter.appendChild(option);
+        option.textContent = formatSourceName(source);
+        filterSource.appendChild(option);
+    });
+    
+    types.forEach(type => {
+        const option = document.createElement('option');
+        option.value = type;
+        option.textContent = type;
+        filterType.appendChild(option);
+    });
+}
+
+function formatSourceName(source) {
+    const names = {
+        'sam_gov': 'SAM.gov',
+        'grants_gov': 'Grants.gov',
+        'sbir_gov': 'SBIR.gov',
+        'erdcwerx': 'ERDCWERX',
+        'dsip': 'DSIP',
+        'diu': 'DIU',
+        'darpa': 'DARPA',
+        'afwerx': 'AFWERX',
+        'navalx': 'NavalX',
+        'sofwerx': 'SOFWERX',
+        'navy_sbir': 'Navy SBIR',
+        'army_apps_lab': 'Army Apps Lab',
+        'spacewerx': 'SpaceWERX'
+    };
+    return names[source] || source.toUpperCase();
+}
+
+function setupEventListeners() {
+    searchInput.addEventListener('input', debounce(applyFilters, 300));
+    filterSource.addEventListener('change', applyFilters);
+    filterType.addEventListener('change', applyFilters);
+    filterStatus.addEventListener('change', applyFilters);
+    filterRelevance.addEventListener('change', applyFilters);
+    sortBy.addEventListener('change', applyFilters);
+    loadMoreBtn.addEventListener('click', loadMore);
+    modalClose.addEventListener('click', closeModal);
+    modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+    });
+}
+
+function setupViewToggle() {
+    document.querySelectorAll('.view-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentView = btn.dataset.view;
+            opportunitiesGrid.className = currentView === 'list' ? 'opportunities-grid list-view' : 'opportunities-grid';
+        });
     });
 }
 
 function applyFilters() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const sourceFilter = document.getElementById('source-filter').value;
-    const typeFilter = document.getElementById('type-filter').value;
-    const statusFilter = document.getElementById('status-filter').value;
-    const relevanceFilter = parseFloat(document.getElementById('relevance-filter').value);
-    const sortBy = document.getElementById('sort-select').value;
-
-    filteredOpportunities = opportunities.filter(opp => {
-        if (searchTerm) {
-            const searchText = `${opp.title} ${opp.description} ${opp.agency || ''} ${opp.sub_agency || ''}`.toLowerCase();
-            if (!searchText.includes(searchTerm)) return false;
-        }
-
-        if (sourceFilter && opp.source !== sourceFilter) return false;
-        if (typeFilter && opp.opportunity_type !== typeFilter) return false;
-        if (statusFilter && opp.status !== statusFilter) return false;
-        if (opp.arctic_relevance_score < relevanceFilter) return false;
-
+    const searchTerm = searchInput.value.toLowerCase();
+    const source = filterSource.value;
+    const type = filterType.value;
+    const status = filterStatus.value;
+    const relevance = parseFloat(filterRelevance.value) || 0;
+    const sort = sortBy.value;
+    
+    filteredOpportunities = allOpportunities.filter(opp => {
+        if (searchTerm && !matchesSearch(opp, searchTerm)) return false;
+        if (source && opp.source !== source) return false;
+        if (type && opp.opportunity_type !== type) return false;
+        if (status && opp.status !== status) return false;
+        if (relevance && (opp.arctic_relevance_score || 0) < relevance) return false;
         return true;
     });
+    
+    sortOpportunities(sort);
+    displayedCount = 0;
+    opportunitiesGrid.innerHTML = '';
+    loadMore();
+    updateResultsCount();
+}
 
+function matchesSearch(opp, term) {
+    const searchFields = [
+        opp.title,
+        opp.description,
+        opp.agency,
+        opp.sub_agency,
+        opp.office,
+        opp.solicitation_number,
+        ...(opp.arctic_keywords_found || [])
+    ].filter(Boolean).join(' ').toLowerCase();
+    
+    return searchFields.includes(term);
+}
+
+function sortOpportunities(sort) {
     filteredOpportunities.sort((a, b) => {
-        switch (sortBy) {
+        switch (sort) {
             case 'relevance':
-                return b.arctic_relevance_score - a.arctic_relevance_score;
-            case 'close_date':
-                const dateA = a.close_date ? new Date(a.close_date) : new Date('2099-12-31');
-                const dateB = b.close_date ? new Date(b.close_date) : new Date('2099-12-31');
-                return dateA - dateB;
-            case 'posted_date':
-                const postedA = a.posted_date ? new Date(a.posted_date) : new Date(0);
-                const postedB = b.posted_date ? new Date(b.posted_date) : new Date(0);
-                return postedB - postedA;
+                return (b.arctic_relevance_score || 0) - (a.arctic_relevance_score || 0);
+            case 'date-desc':
+                return new Date(b.posted_date || 0) - new Date(a.posted_date || 0);
+            case 'date-asc':
+                return new Date(a.posted_date || 0) - new Date(b.posted_date || 0);
+            case 'closing':
+                const aClose = a.close_date ? new Date(a.close_date) : new Date('2099-12-31');
+                const bClose = b.close_date ? new Date(b.close_date) : new Date('2099-12-31');
+                return aClose - bClose;
             case 'title':
                 return a.title.localeCompare(b.title);
             default:
                 return 0;
         }
     });
-
-    renderOpportunities();
-    updateStats();
 }
 
-function updateStats() {
-    const now = new Date();
-    const twoWeeksFromNow = new Date(now.getTime() + 14 * 24 * 60 * 60 * 1000);
+function loadMore() {
+    const toLoad = filteredOpportunities.slice(displayedCount, displayedCount + ITEMS_PER_PAGE);
+    toLoad.forEach(opp => {
+        opportunitiesGrid.appendChild(createCard(opp));
+    });
+    displayedCount += toLoad.length;
+    loadMoreBtn.style.display = displayedCount < filteredOpportunities.length ? 'block' : 'none';
+}
 
-    document.getElementById('total-count').textContent = filteredOpportunities.length;
+function updateResultsCount() {
+    const total = filteredOpportunities.length;
+    const arctic = filteredOpportunities.filter(o => o.arctic_relevance_score >= 0.3).length;
+    resultsCount.textContent = `${total.toLocaleString()} opportunities • ${arctic} arctic relevant`;
+}
+
+function createCard(opp) {
+    const card = document.createElement('div');
+    card.className = 'opp-card';
+    card.onclick = () => openModal(opp);
     
-    document.getElementById('open-count').textContent = filteredOpportunities.filter(
-        o => o.status === 'Open'
-    ).length;
+    const relevance = opp.arctic_relevance_score || 0;
+    const relevanceClass = relevance >= 0.7 ? 'relevance-high' : relevance >= 0.3 ? 'relevance-medium' : 'relevance-low';
+    const relevancePercent = Math.round(relevance * 100);
     
-    document.getElementById('closing-soon-count').textContent = filteredOpportunities.filter(o => {
-        if (!o.close_date || o.status === 'Closed') return false;
-        const closeDate = new Date(o.close_date);
-        return closeDate > now && closeDate <= twoWeeksFromNow;
-    }).length;
+    const typeClass = getTypeClass(opp.opportunity_type);
+    const statusClass = getStatusClass(opp.status);
     
-    document.getElementById('high-relevance-count').textContent = filteredOpportunities.filter(
-        o => o.arctic_relevance_score >= 0.7
-    ).length;
+    const agency = opp.agency || 'Unknown Agency';
+    const postedDate = opp.posted_date ? formatDate(opp.posted_date) : '—';
+    const closeDate = opp.close_date ? formatDate(opp.close_date) : '—';
+    
+    card.innerHTML = `
+        <div class="opp-card-header">
+            <span class="opp-source">${formatSourceName(opp.source)}</span>
+            <span class="opp-relevance ${relevanceClass}">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                ${relevancePercent}%
+            </span>
+        </div>
+        <h3 class="opp-title">${escapeHtml(opp.title)}</h3>
+        <div class="opp-meta">
+            <span class="opp-badge ${typeClass}">${opp.opportunity_type}</span>
+            <span class="opp-badge ${statusClass}">${opp.status}</span>
+        </div>
+        <p class="opp-agency">${escapeHtml(agency)}</p>
+        <div class="opp-dates">
+            <div class="opp-date-item">
+                <span class="opp-date-label">Posted</span>
+                <span class="opp-date-value">${postedDate}</span>
+            </div>
+            <div class="opp-date-item">
+                <span class="opp-date-label">Closes</span>
+                <span class="opp-date-value">${closeDate}</span>
+            </div>
+        </div>
+    `;
+    
+    return card;
+}
+
+function getTypeClass(type) {
+    const typeMap = {
+        'SBIR': 'type-sbir',
+        'STTR': 'type-sttr',
+        'BAA': 'type-baa',
+        'Grant': 'type-grant',
+        'CSO': 'type-cso'
+    };
+    return typeMap[type] || '';
+}
+
+function getStatusClass(status) {
+    const statusMap = {
+        'Open': 'status-open',
+        'Forecasted': 'status-forecasted',
+        'Closed': 'status-closed'
+    };
+    return statusMap[status] || '';
+}
+
+function openModal(opp) {
+    const relevance = opp.arctic_relevance_score || 0;
+    const relevancePercent = Math.round(relevance * 100);
+    const relevanceClass = relevance >= 0.7 ? 'relevance-high' : relevance >= 0.3 ? 'relevance-medium' : 'relevance-low';
+    
+    const typeClass = getTypeClass(opp.opportunity_type);
+    const statusClass = getStatusClass(opp.status);
+    
+    const keywords = opp.arctic_keywords_found || [];
+    const keywordsHtml = keywords.length > 0 
+        ? keywords.map(k => `<span class="modal-keyword">${escapeHtml(k)}</span>`).join('')
+        : '<span style="color: var(--text-muted)">None detected</span>';
+    
+    modalContent.innerHTML = `
+        <div class="modal-header">
+            <div class="modal-badges">
+                <span class="opp-source">${formatSourceName(opp.source)}</span>
+                <span class="opp-badge ${typeClass}">${opp.opportunity_type}</span>
+                <span class="opp-badge ${statusClass}">${opp.status}</span>
+            </div>
+            <h2 class="modal-title">${escapeHtml(opp.title)}</h2>
+            <p class="modal-agency">${escapeHtml(opp.agency || 'Unknown Agency')}</p>
+        </div>
+        
+        <div class="modal-grid">
+            <div class="modal-field">
+                <span class="modal-field-label">Solicitation #</span>
+                <span class="modal-field-value">${escapeHtml(opp.solicitation_number || '—')}</span>
+            </div>
+            <div class="modal-field">
+                <span class="modal-field-label">Sub-Agency</span>
+                <span class="modal-field-value">${escapeHtml(opp.sub_agency || '—')}</span>
+            </div>
+            <div class="modal-field">
+                <span class="modal-field-label">Office</span>
+                <span class="modal-field-value">${escapeHtml(opp.office || '—')}</span>
+            </div>
+            <div class="modal-field">
+                <span class="modal-field-label">Arctic Relevance</span>
+                <span class="modal-field-value ${relevanceClass}">${relevancePercent}%</span>
+            </div>
+            <div class="modal-field">
+                <span class="modal-field-label">Posted Date</span>
+                <span class="modal-field-value">${opp.posted_date ? formatDate(opp.posted_date) : '—'}</span>
+            </div>
+            <div class="modal-field">
+                <span class="modal-field-label">Close Date</span>
+                <span class="modal-field-value">${opp.close_date ? formatDate(opp.close_date) : '—'}</span>
+            </div>
+        </div>
+        
+        ${opp.description ? `
+        <div class="modal-section">
+            <h4 class="modal-section-title">Description</h4>
+            <p class="modal-section-content">${escapeHtml(opp.description)}</p>
+        </div>
+        ` : ''}
+        
+        <div class="modal-section">
+            <h4 class="modal-section-title">Arctic Relevance Analysis</h4>
+            <p class="modal-section-content">${escapeHtml(opp.arctic_relevance_reasoning || 'No analysis available')}</p>
+        </div>
+        
+        <div class="modal-section">
+            <h4 class="modal-section-title">Keywords Found</h4>
+            <div class="modal-keywords">${keywordsHtml}</div>
+        </div>
+        
+        <div class="modal-action">
+            <a href="${opp.source_url}" target="_blank" rel="noopener" class="modal-btn">
+                View Original Source
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+            </a>
+        </div>
+    `;
+    
+    modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    modalOverlay.classList.remove('active');
+    document.body.style.overflow = '';
 }
 
 function formatDate(dateStr) {
-    if (!dateStr) return 'N/A';
+    if (!dateStr) return '—';
     const date = new Date(dateStr);
+    if (isNaN(date)) return dateStr;
     return date.toLocaleDateString('en-US', { 
         year: 'numeric', 
         month: 'short', 
@@ -132,183 +352,12 @@ function formatDate(dateStr) {
     });
 }
 
-function getDaysUntilClose(closeDate) {
-    if (!closeDate) return null;
-    const now = new Date();
-    const close = new Date(closeDate);
-    const diff = Math.ceil((close - now) / (1000 * 60 * 60 * 24));
-    return diff;
-}
-
-function getRelevanceClass(score) {
-    if (score >= 0.7) return 'relevance-high';
-    if (score >= 0.4) return 'relevance-medium';
-    return 'relevance-low';
-}
-
-function renderOpportunities() {
-    const container = document.getElementById('opportunities-container');
-
-    if (filteredOpportunities.length === 0) {
-        container.innerHTML = `
-            <div class="no-results">
-                <p>No opportunities match your filters.</p>
-                <p style="font-size: 0.875rem; margin-top: 0.5rem;">
-                    Try adjusting your search or filter criteria.
-                </p>
-            </div>
-        `;
-        return;
-    }
-
-    container.innerHTML = filteredOpportunities.map((opp, index) => {
-        const daysUntilClose = getDaysUntilClose(opp.close_date);
-        const isClosingSoon = daysUntilClose !== null && daysUntilClose > 0 && daysUntilClose <= 14;
-        const relevancePercent = Math.round(opp.arctic_relevance_score * 100);
-
-        return `
-            <div class="opportunity-card" onclick="showDetail(${index})">
-                <div class="card-header">
-                    <div class="card-badges">
-                        <span class="badge badge-source">${SOURCE_LABELS[opp.source] || opp.source}</span>
-                        <span class="badge badge-type">${opp.opportunity_type}</span>
-                        <span class="badge badge-status-${opp.status.toLowerCase()}">${opp.status}</span>
-                        ${isClosingSoon ? `<span class="badge badge-deadline">${daysUntilClose}d left</span>` : ''}
-                    </div>
-                </div>
-                <h3 class="card-title">${escapeHtml(opp.title)}</h3>
-                <p class="card-agency">${escapeHtml(opp.agency || 'Unknown Agency')}${opp.sub_agency ? ' / ' + escapeHtml(opp.sub_agency) : ''}</p>
-                <div class="card-dates">
-                    <span>Posted: ${formatDate(opp.posted_date)}</span>
-                    <span>Closes: ${formatDate(opp.close_date)}</span>
-                </div>
-                <div class="relevance-bar">
-                    <div class="relevance-fill ${getRelevanceClass(opp.arctic_relevance_score)}" 
-                         style="width: ${relevancePercent}%"></div>
-                </div>
-                <div class="relevance-label">Arctic Relevance: ${relevancePercent}%</div>
-            </div>
-        `;
-    }).join('');
-}
-
-function showDetail(index) {
-    const opp = filteredOpportunities[index];
-    const modal = document.getElementById('detail-modal');
-    const modalBody = document.getElementById('modal-body');
-
-    const relevancePercent = Math.round(opp.arctic_relevance_score * 100);
-
-    modalBody.innerHTML = `
-        <h2>${escapeHtml(opp.title)}</h2>
-        
-        <div class="card-badges" style="margin-bottom: 1rem;">
-            <span class="badge badge-source">${SOURCE_LABELS[opp.source] || opp.source}</span>
-            <span class="badge badge-type">${opp.opportunity_type}</span>
-            <span class="badge badge-status-${opp.status.toLowerCase()}">${opp.status}</span>
-        </div>
-
-        <div class="modal-meta">
-            <div class="meta-item">
-                <strong>Agency</strong>
-                ${escapeHtml(opp.agency || 'N/A')}
-            </div>
-            <div class="meta-item">
-                <strong>Sub-Agency</strong>
-                ${escapeHtml(opp.sub_agency || 'N/A')}
-            </div>
-            <div class="meta-item">
-                <strong>Office</strong>
-                ${escapeHtml(opp.office || 'N/A')}
-            </div>
-            <div class="meta-item">
-                <strong>Solicitation #</strong>
-                ${escapeHtml(opp.solicitation_number || 'N/A')}
-            </div>
-            <div class="meta-item">
-                <strong>Posted Date</strong>
-                ${formatDate(opp.posted_date)}
-            </div>
-            <div class="meta-item">
-                <strong>Close Date</strong>
-                ${formatDate(opp.close_date)}
-            </div>
-            <div class="meta-item">
-                <strong>Arctic Relevance</strong>
-                ${relevancePercent}%
-            </div>
-            <div class="meta-item">
-                <strong>Set-Aside</strong>
-                ${escapeHtml(opp.set_aside || 'None')}
-            </div>
-        </div>
-
-        ${opp.description ? `
-        <div class="modal-section">
-            <h3>Description</h3>
-            <p>${escapeHtml(opp.description)}</p>
-        </div>
-        ` : ''}
-
-        ${opp.arctic_relevance_reasoning ? `
-        <div class="modal-section">
-            <h3>Arctic Relevance Analysis</h3>
-            <p>${escapeHtml(opp.arctic_relevance_reasoning)}</p>
-        </div>
-        ` : ''}
-
-        ${opp.arctic_keywords_found && opp.arctic_keywords_found.length > 0 ? `
-        <div class="modal-section">
-            <h3>Arctic Keywords Found</h3>
-            <ul class="keywords-list">
-                ${opp.arctic_keywords_found.map(kw => `<li>${escapeHtml(kw)}</li>`).join('')}
-            </ul>
-        </div>
-        ` : ''}
-
-        ${opp.naics_codes && opp.naics_codes.length > 0 ? `
-        <div class="modal-section">
-            <h3>NAICS Codes</h3>
-            <p>${opp.naics_codes.join(', ')}</p>
-        </div>
-        ` : ''}
-
-        <a href="${escapeHtml(opp.source_url)}" target="_blank" class="source-link">
-            View Original Source
-        </a>
-    `;
-
-    modal.classList.add('active');
-}
-
-function closeModal() {
-    document.getElementById('detail-modal').classList.remove('active');
-}
-
-function escapeHtml(text) {
-    if (!text) return '';
+function escapeHtml(str) {
+    if (!str) return '';
     const div = document.createElement('div');
-    div.textContent = text;
+    div.textContent = str;
     return div.innerHTML;
 }
-
-document.getElementById('search-input').addEventListener('input', debounce(applyFilters, 300));
-document.getElementById('source-filter').addEventListener('change', applyFilters);
-document.getElementById('type-filter').addEventListener('change', applyFilters);
-document.getElementById('status-filter').addEventListener('change', applyFilters);
-document.getElementById('relevance-filter').addEventListener('input', function() {
-    document.getElementById('relevance-value').textContent = this.value;
-    applyFilters();
-});
-document.getElementById('sort-select').addEventListener('change', applyFilters);
-
-document.getElementById('modal-close').addEventListener('click', closeModal);
-document.getElementById('detail-modal').addEventListener('click', function(e) {
-    if (e.target === this) closeModal();
-});
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeModal();
-});
 
 function debounce(func, wait) {
     let timeout;
@@ -321,5 +370,3 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
-
-loadData();

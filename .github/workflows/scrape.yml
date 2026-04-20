@@ -61,7 +61,7 @@ jobs:
 
       - name: Copy data to dashboard
         run: |
-          cp data/arctic_opportunities.json dashboard/data.json
+          cp data/opportunities.json dashboard/data.json
 
       - name: Commit updated data
         run: |

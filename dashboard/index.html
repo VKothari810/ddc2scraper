@@ -3,110 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arctic Defense Opportunities</title>
+    <title>Dominion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header-content">
-            <h1>Arctic Defense Opportunities</h1>
-            <p class="subtitle">Defense solicitations filtered for arctic and cold-region relevance</p>
+            <h1 class="logo">Dominion</h1>
         </div>
+        <div class="header-line"></div>
     </header>
 
     <main>
-        <div class="stats-bar" id="stats-bar">
-            <div class="stat">
-                <span class="stat-value" id="total-count">-</span>
-                <span class="stat-label">Total</span>
+        <section class="filters-section">
+            <div class="search-container">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="M21 21l-4.35-4.35"/>
+                </svg>
+                <input type="text" id="search-input" placeholder="Search opportunities..." class="search-input">
             </div>
-            <div class="stat">
-                <span class="stat-value" id="open-count">-</span>
-                <span class="stat-label">Open</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="closing-soon-count">-</span>
-                <span class="stat-label">Closing Soon</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="high-relevance-count">-</span>
-                <span class="stat-label">High Relevance</span>
-            </div>
-        </div>
-
-        <div class="controls">
-            <div class="search-box">
-                <input type="text" id="search-input" placeholder="Search opportunities...">
-            </div>
-
-            <div class="filters">
+            <div class="filter-row">
                 <div class="filter-group">
                     <label>Source</label>
-                    <select id="source-filter">
+                    <select id="filter-source">
                         <option value="">All Sources</option>
                     </select>
                 </div>
-
                 <div class="filter-group">
                     <label>Type</label>
-                    <select id="type-filter">
+                    <select id="filter-type">
                         <option value="">All Types</option>
-                        <option value="SBIR">SBIR</option>
-                        <option value="STTR">STTR</option>
-                        <option value="BAA">BAA</option>
-                        <option value="CSO">CSO</option>
-                        <option value="OTA">OTA</option>
-                        <option value="RFP">RFP</option>
-                        <option value="RFI">RFI</option>
-                        <option value="Grant">Grant</option>
-                        <option value="Other">Other</option>
                     </select>
                 </div>
-
                 <div class="filter-group">
                     <label>Status</label>
-                    <select id="status-filter">
-                        <option value="">All Status</option>
+                    <select id="filter-status">
+                        <option value="">All Statuses</option>
                         <option value="Open">Open</option>
                         <option value="Forecasted">Forecasted</option>
                         <option value="Closed">Closed</option>
                     </select>
                 </div>
-
                 <div class="filter-group">
-                    <label>Min Relevance: <span id="relevance-value">0.3</span></label>
-                    <input type="range" id="relevance-filter" min="0" max="1" step="0.1" value="0.3">
+                    <label>Relevance</label>
+                    <select id="filter-relevance">
+                        <option value="">Any Relevance</option>
+                        <option value="0.7">High (70%+)</option>
+                        <option value="0.3">Medium (30%+)</option>
+                        <option value="0.1">Low (10%+)</option>
+                    </select>
                 </div>
-
                 <div class="filter-group">
                     <label>Sort By</label>
-                    <select id="sort-select">
-                        <option value="relevance">Arctic Relevance</option>
-                        <option value="close_date">Close Date (Soonest)</option>
-                        <option value="posted_date">Posted Date (Newest)</option>
-                        <option value="title">Title (A-Z)</option>
+                    <select id="sort-by">
+                        <option value="relevance">Relevance</option>
+                        <option value="date-desc">Newest First</option>
+                        <option value="date-asc">Oldest First</option>
+                        <option value="closing">Closing Soon</option>
+                        <option value="title">Title A-Z</option>
                     </select>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="opportunities-container" id="opportunities-container">
-            <div class="loading">Loading opportunities...</div>
-        </div>
+        <section class="results-section">
+            <div class="results-header">
+                <span class="results-count" id="results-count">Loading opportunities...</span>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid" title="Grid View">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                            <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+                        </svg>
+                    </button>
+                    <button class="view-btn" data-view="list" title="List View">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/>
+                            <line x1="3" y1="18" x2="21" y2="18"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="opportunities-grid" id="opportunities-grid"></div>
+            <div class="load-more-container">
+                <button class="load-more-btn" id="load-more" style="display: none;">Load More</button>
+            </div>
+        </section>
     </main>
 
-    <div class="modal" id="detail-modal">
-        <div class="modal-content">
-            <button class="modal-close" id="modal-close">&times;</button>
-            <div class="modal-body" id="modal-body"></div>
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="modal">
+            <button class="modal-close" id="modal-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="modal-content" id="modal-content"></div>
         </div>
     </div>
-
-    <footer>
-        <p>Data updated automatically twice daily. 
-           <a href="https://github.com" target="_blank">View on GitHub</a>
-        </p>
-    </footer>
 
     <script src="app.js"></script>
 </body>

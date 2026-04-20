@@ -61,20 +61,36 @@ class GrantsGovCollector(BaseCollector):
             close_date = self._normalize_date(data.get("closeDate"))
 
             title = data.get("title", "Untitled")
+            
+            # Get full agency name - API returns both 'agency' and 'agencyCode'
+            agency_name = data.get("agency") or data.get("agencyName") or ""
+            agency_code = data.get("agencyCode", "")
+            
+            # Build description from available fields
+            cfda_list = data.get("cfdaList", [])
+            doc_type = data.get("docType", "")
+            
+            description_parts = []
+            if doc_type:
+                description_parts.append(f"Document Type: {doc_type.title()}")
+            if cfda_list:
+                description_parts.append(f"CFDA: {', '.join(cfda_list)}")
+            if agency_code:
+                description_parts.append(f"Agency Code: {agency_code}")
+            
+            description = " | ".join(description_parts) if description_parts else ""
 
             return Opportunity(
                 source=self.source_name,
                 source_id=opp_id,
                 source_url=source_url,
                 title=title,
-                description="",
-                opportunity_type=self._map_opportunity_type(
-                    data.get("docType", ""), title
-                ),
+                description=description,
+                opportunity_type=self._map_opportunity_type(doc_type, title),
                 status=self._map_status(data.get("oppStatus", "")),
                 solicitation_number=opp_number,
-                agency=data.get("agencyName"),
-                sub_agency=None,
+                agency=agency_name,
+                sub_agency=agency_code if agency_code != agency_name else None,
                 office=None,
                 posted_date=posted_date,
                 close_date=close_date,

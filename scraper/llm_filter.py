@@ -1,148 +1,257 @@
-"""Gemini LLM filter for arctic relevance scoring"""
-import json
+"""Arctic defense relevance filtering - keyword and rule-based scoring"""
 import logging
+import re
 from typing import Optional
 
-from .config import (
-    ARCTIC_KEYWORDS,
-    ARCTIC_ADJACENT_KEYWORDS,
-    get_config,
-)
+from .config import get_config
 from .models import Opportunity
 
 logger = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = """You are an analyst for a defense technology company focused on arctic and cold-region operations. Your job is to evaluate whether a government solicitation or opportunity is relevant to arctic/cold-region defense needs.
+# Defense-related sources that should get higher baseline scores
+DEFENSE_SOURCES = {
+    "sam_gov", "dsip", "darpa", "diu", "afwerx", "spacewerx", 
+    "sofwerx", "navy_sbir", "navalx", "army_apps_lab", "erdcwerx"
+}
 
-Score each opportunity from 0.0 to 1.0:
-- 1.0: Explicitly about arctic, polar, cold regions, or extreme cold operations
-- 0.8: Strongly related (e.g., Alaska operations, CRREL, permafrost, ice, high-latitude)
-- 0.6: Moderately related (e.g., extreme environment operations that could include cold, contested logistics in northern theaters, INDOPACOM/EUCOM cold-weather relevant)
-- 0.4: Tangentially related (e.g., general resilience tech applicable to cold regions)
-- 0.2: Weakly related (e.g., broad BAA where cold regions is one of many possible applications)
-- 0.0: Not relevant to arctic/cold regions
+# Keywords that indicate DEFENSE + ARCTIC relevance (high confidence)
+ARCTIC_DEFENSE_KEYWORDS = [
+    # Arctic/cold specific military terms
+    "arctic operations",
+    "arctic warfare",
+    "cold weather operations", 
+    "cold region operations",
+    "extreme cold operations",
+    "polar operations",
+    "high latitude operations",
+    "northern operations",
+    "cold weather military",
+    "arctic defense",
+    "polar defense",
+    
+    # Military cold-region infrastructure
+    "crrel",  # Cold Regions Research and Engineering Laboratory
+    "cold regions research",
+    "icebreaker",
+    "ice operations",
+    "permafrost infrastructure",
+    "arctic base",
+    "arctic airfield",
+    "cold weather equipment",
+    "cold weather gear",
+    "extreme cold environment",
+    
+    # Geographic military relevance
+    "alaskan command",
+    "alcom",
+    "joint base elmendorf",
+    "fort wainwright", 
+    "eielson",
+    "thule",
+    "northern command",
+    "northcom arctic",
+    
+    # Specific defense arctic programs
+    "arctic strategy",
+    "arctic domain awareness",
+    "polar security",
+    "northern flank",
+    "arctic undersea",
+    "ice navigation",
+    "polar navigation",
+]
 
-Respond ONLY with valid JSON for each opportunity in this exact format:
-{
-  "scores": [
-    {
-      "id": "opportunity_id_here",
-      "score": 0.8,
-      "reasoning": "One sentence explaining why",
-      "keywords_found": ["arctic", "cold weather", "Alaska"]
-    }
-  ]
-}"""
+# Keywords that suggest arctic relevance but need defense context
+# Note: These must be whole words or specific phrases to avoid false matches
+ARCTIC_CONTEXT_KEYWORDS = [
+    "arctic",
+    "polar",
+    "subarctic", 
+    "sub-arctic",
+    "tundra",
+    "permafrost",
+    "glacial",
+    "sea ice",
+    "ice operations",
+    "icebreaking",
+    "frozen terrain",
+    "extreme cold",
+    "cold region",
+    "cold weather",
+    "high latitude",
+    "northern theater",
+    "greenland",
+    "nordic",
+    "antarctic",
+    "winter warfare",
+    "snow operations",
+    "thermal management",
+    "cold start",
+    "freeze protection",
+    "low temperature",
+    "extreme environment",
+    "harsh environment",
+    "austere environment",
+]
+
+# Keywords that indicate defense/military context
+DEFENSE_CONTEXT_KEYWORDS = [
+    "dod", "department of defense", "defense", "military",
+    "army", "navy", "air force", "marine", "space force", "coast guard",
+    "darpa", "diu", "afwerx", "sofwerx", "spacewerx", "erdcwerx", "navalx",
+    "sbir", "sttr", "baa", "broad agency announcement",
+    "solicitation", "contract", "procurement",
+    "warfighter", "combat", "tactical", "strategic", "operational",
+    "weapon", "munition", "platform", "system",
+    "c4isr", "isr", "surveillance", "reconnaissance",
+    "logistics", "sustainment", "mobility",
+    "sensor", "radar", "sonar", "communications",
+    "autonomous", "unmanned", "uav", "usv", "uuv",
+    "hypersonic", "missile", "deterrence",
+]
+
+# Exclusion patterns - these indicate NON-defense opportunities
+EXCLUSION_PATTERNS = [
+    r"alaska native",
+    r"native american",
+    r"indigenous",
+    r"tribal",
+    r"indian health",
+    r"cultural heritage",
+    r"historical preservation",
+    r"fish and wildlife",
+    r"national park",
+    r"forest service",
+    r"bureau of land management",
+    r"environmental protection agency",
+    r"education grant",
+    r"scholarship",
+    r"fellowship",
+    r"doctoral dissertation",
+    r"academic research",
+    r"university grant",
+    r"social science",
+    r"anthropology",
+    r"archaeology",
+    r"community development",
+    r"economic development",
+    r"housing",
+    r"healthcare",
+    r"public health",
+    r"mental health",
+    r"substance abuse",
+    r"agriculture",
+    r"farming",
+    r"fisheries management",
+    r"wildlife conservation",
+    r"endangered species",
+    r"climate change adaptation",  # civilian context
+    r"renewable energy.*community",
+    r"rural development",
+]
 
 
-def keyword_prefilter(opp: Opportunity) -> tuple[str, list[str]]:
+def is_defense_opportunity(opp: Opportunity) -> bool:
+    """Check if opportunity is from a defense source or has defense context"""
+    # Check source
+    if opp.source in DEFENSE_SOURCES:
+        return True
+    
+    # Check agency
+    agency_text = f"{opp.agency or ''} {opp.sub_agency or ''} {opp.office or ''}".lower()
+    defense_agencies = ["dod", "defense", "army", "navy", "air force", "darpa", "dla", "disa"]
+    if any(da in agency_text for da in defense_agencies):
+        return True
+    
+    # Check title/description for defense context
+    text = f"{opp.title} {opp.description}".lower()
+    defense_hits = sum(1 for kw in DEFENSE_CONTEXT_KEYWORDS if kw in text)
+    
+    return defense_hits >= 2
+
+
+def should_exclude(opp: Opportunity) -> bool:
+    """Check if opportunity should be excluded (non-defense)"""
+    text = f"{opp.title} {opp.description} {opp.agency or ''}".lower()
+    
+    for pattern in EXCLUSION_PATTERNS:
+        if re.search(pattern, text):
+            return True
+    
+    return False
+
+
+def score_opportunity(opp: Opportunity) -> tuple[float, str, list[str]]:
     """
-    Quick keyword-based pre-filter to categorize opportunities.
+    Score an opportunity for arctic defense relevance.
     
     Returns:
-        Tuple of (category, keywords_found):
-        - 'definite' - Contains arctic keywords, high priority for LLM
-        - 'maybe' - Contains adjacent keywords, send to LLM
-        - 'low' - No keywords but still defense-related, assign baseline score
+        Tuple of (score, reasoning, keywords_found)
     """
     text = f"{opp.title} {opp.description}".lower()
+    agency_text = f"{opp.agency or ''} {opp.sub_agency or ''} {opp.office or ''}".lower()
+    full_text = f"{text} {agency_text}"
     
-    # Also check agency/sub_agency fields
-    if opp.agency:
-        text += f" {opp.agency.lower()}"
-    if opp.sub_agency:
-        text += f" {opp.sub_agency.lower()}"
-    if opp.office:
-        text += f" {opp.office.lower()}"
+    keywords_found = []
     
-    found_keywords = []
-
-    for kw in ARCTIC_KEYWORDS:
-        if kw.lower() in text:
-            found_keywords.append(kw)
+    # Check exclusions first
+    if should_exclude(opp):
+        return 0.0, "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)", []
     
-    if found_keywords:
-        return "definite", found_keywords
-
-    for kw in ARCTIC_ADJACENT_KEYWORDS:
-        if kw.lower() in text:
-            found_keywords.append(kw)
+    # Check for high-confidence arctic defense keywords
+    for kw in ARCTIC_DEFENSE_KEYWORDS:
+        if kw in full_text:
+            keywords_found.append(kw)
     
-    if found_keywords:
-        return "maybe", found_keywords
-
-    return "low", []
-
-
-async def score_opportunities_batch(
-    opportunities: list[Opportunity],
-    client,
-) -> list[Opportunity]:
-    """
-    Score a batch of opportunities using Gemini.
+    if keywords_found:
+        score = min(1.0, 0.8 + len(keywords_found) * 0.05)
+        return score, f"High arctic defense relevance: {', '.join(keywords_found[:3])}", keywords_found
     
-    Args:
-        opportunities: List of opportunities to score
-        client: google.genai.Client instance
+    # Check for arctic context keywords
+    arctic_keywords = []
+    for kw in ARCTIC_CONTEXT_KEYWORDS:
+        if kw in full_text:
+            arctic_keywords.append(kw)
+    
+    # Must have defense context for arctic keywords to count
+    is_defense = is_defense_opportunity(opp)
+    
+    if arctic_keywords and is_defense:
+        # Has arctic keywords AND defense context
+        score = min(0.7, 0.4 + len(arctic_keywords) * 0.1)
+        keywords_found = arctic_keywords
+        return score, f"Arctic keywords with defense context: {', '.join(arctic_keywords[:3])}", keywords_found
+    
+    if arctic_keywords and not is_defense:
+        # Arctic keywords but no defense context - low score
+        return 0.1, f"Arctic keywords but non-defense context", arctic_keywords
+    
+    # Defense opportunity without arctic keywords
+    if is_defense:
+        # Check for technologies highly applicable to arctic operations
+        high_relevance_tech = [
+            "undersea", "submarine", "sonar", "maritime domain", "naval",
+            "expeditionary", "contested logistics", "forward operating",
+            "remote operations", "denied environment", "resilient",
+            "all-weather", "rugged", "ruggedized"
+        ]
+        high_tech_found = [kw for kw in high_relevance_tech if kw in full_text]
         
-    Returns:
-        Opportunities with arctic_relevance fields populated
-    """
-    if not opportunities:
-        return []
-
-    config = get_config()
-
-    opp_texts = []
-    for opp in opportunities:
-        opp_texts.append(
-            f"ID: {opp.id}\n"
-            f"Title: {opp.title}\n"
-            f"Agency: {opp.agency or 'Unknown'}\n"
-            f"Description: {opp.description[:2000]}\n"
-        )
-
-    prompt = f"""Evaluate these {len(opportunities)} opportunities for arctic/cold-region relevance:
-
-{chr(10).join(opp_texts)}
-
-Return JSON with scores for all {len(opportunities)} opportunities."""
-
-    try:
-        response = await client.aio.models.generate_content(
-            model=config.gemini_model,
-            contents=[
-                {"role": "user", "parts": [{"text": SYSTEM_PROMPT}]},
-                {"role": "model", "parts": [{"text": "I understand. I will evaluate opportunities for arctic relevance and respond with JSON only."}]},
-                {"role": "user", "parts": [{"text": prompt}]},
-            ],
-        )
-
-        response_text = response.text.strip()
-        if response_text.startswith("```"):
-            response_text = response_text.split("```")[1]
-            if response_text.startswith("json"):
-                response_text = response_text[4:]
-        response_text = response_text.strip()
-
-        scores_data = json.loads(response_text)
-        scores_by_id = {s["id"]: s for s in scores_data.get("scores", [])}
-
-        for opp in opportunities:
-            if opp.id in scores_by_id:
-                score_info = scores_by_id[opp.id]
-                opp.arctic_relevance_score = float(score_info.get("score", 0.0))
-                opp.arctic_relevance_reasoning = score_info.get("reasoning", "")
-                opp.arctic_keywords_found = score_info.get("keywords_found", [])
-
-        return opportunities
-
-    except json.JSONDecodeError as e:
-        logger.error(f"Failed to parse LLM response as JSON: {e}")
-        return opportunities
-    except Exception as e:
-        logger.error(f"LLM scoring failed: {e}")
-        return opportunities
+        if high_tech_found:
+            return 0.35, f"Defense technology relevant to arctic operations: {', '.join(high_tech_found[:3])}", high_tech_found
+        
+        # General defense tech with potential arctic application
+        tech_keywords = ["sensor", "autonomous", "unmanned", "communications", "logistics", 
+                        "thermal", "battery", "energy storage", "propulsion"]
+        tech_found = [kw for kw in tech_keywords if kw in full_text]
+        
+        if tech_found:
+            return 0.2, f"Defense technology potentially applicable to arctic: {', '.join(tech_found[:3])}", tech_found
+        
+        return 0.1, "Defense opportunity - potential arctic application", []
+    
+    # Non-defense, non-arctic
+    return 0.0, "Not relevant to arctic defense", []
 
 
 async def filter_opportunities(
@@ -150,90 +259,49 @@ async def filter_opportunities(
     gemini_api_key: Optional[str] = None,
 ) -> tuple[list[Opportunity], list[Opportunity]]:
     """
-    Filter and score opportunities for arctic relevance.
+    Filter and score opportunities for arctic defense relevance.
+    Uses rule-based scoring (LLM disabled due to model availability).
     
     Returns:
         Tuple of (all_scored_opportunities, arctic_relevant_opportunities)
     """
     config = get_config()
-    api_key = gemini_api_key or config.gemini_api_key
-
-    if not api_key:
-        logger.warning("No Gemini API key provided, returning unscored opportunities")
-        return opportunities, []
-
-    definite = []
-    maybe = []
-    low = []
-
+    
+    logger.info(f"Scoring {len(opportunities)} opportunities for arctic defense relevance...")
+    
+    scored_high = 0
+    scored_medium = 0
+    scored_low = 0
+    excluded = 0
+    
     for opp in opportunities:
-        category, keywords = keyword_prefilter(opp)
-        if category == "definite":
-            opp.arctic_keywords_found = keywords
-            definite.append(opp)
-        elif category == "maybe":
-            opp.arctic_keywords_found = keywords
-            maybe.append(opp)
+        score, reasoning, keywords = score_opportunity(opp)
+        opp.arctic_relevance_score = score
+        opp.arctic_relevance_reasoning = reasoning
+        opp.arctic_keywords_found = keywords
+        
+        if score >= 0.7:
+            scored_high += 1
+        elif score >= 0.3:
+            scored_medium += 1
+        elif score > 0:
+            scored_low += 1
         else:
-            low.append(opp)
-
-    logger.info(
-        f"Pre-filter results: {len(definite)} definite, {len(maybe)} maybe, {len(low)} low priority"
-    )
-
-    # Score all opportunities, not just definite/maybe
-    to_score = definite + maybe + low
-
-    if not to_score:
-        logger.info("No opportunities to score")
-        return opportunities, []
-
-    try:
-        from google import genai
-
-        client = genai.Client(api_key=api_key)
-    except ImportError:
-        logger.error("google-genai package not installed")
-        return opportunities, []
-    except Exception as e:
-        logger.error(f"Failed to initialize Gemini client: {e}")
-        return opportunities, []
-
-    scored = []
-    batch_size = config.llm_batch_size
-
-    for i in range(0, len(to_score), batch_size):
-        batch = to_score[i : i + batch_size]
-        logger.info(f"Scoring batch {i // batch_size + 1} ({len(batch)} opportunities)")
-        scored_batch = await score_opportunities_batch(batch, client)
-        scored.extend(scored_batch)
-
-    # Apply baseline scores for opportunities that weren't scored by LLM
-    for opp in definite:
-        if opp.arctic_relevance_score == 0.0:
-            opp.arctic_relevance_score = 0.7
-            opp.arctic_relevance_reasoning = f"Contains arctic keywords: {', '.join(opp.arctic_keywords_found or [])}"
+            excluded += 1
     
-    for opp in maybe:
-        if opp.arctic_relevance_score == 0.0:
-            opp.arctic_relevance_score = 0.3
-            opp.arctic_relevance_reasoning = f"Contains related keywords: {', '.join(opp.arctic_keywords_found or [])}"
+    logger.info(f"Scoring complete: {scored_high} high, {scored_medium} medium, {scored_low} low, {excluded} excluded")
     
-    for opp in low:
-        if opp.arctic_relevance_score == 0.0:
-            opp.arctic_relevance_score = 0.1
-            opp.arctic_relevance_reasoning = "Defense opportunity - potential arctic application"
-
-    all_opportunities = scored
-
+    # Filter for arctic-relevant (score >= threshold)
     arctic_relevant = [
-        opp for opp in all_opportunities if opp.arctic_relevance_score >= config.arctic_relevance_threshold
+        opp for opp in opportunities 
+        if opp.arctic_relevance_score >= config.arctic_relevance_threshold
     ]
-
+    
+    # Sort by relevance score
     arctic_relevant.sort(key=lambda x: x.arctic_relevance_score, reverse=True)
-
+    
     logger.info(
-        f"LLM filtering complete: {len(arctic_relevant)} arctic-relevant (>={config.arctic_relevance_threshold}) out of {len(all_opportunities)} total"
+        f"Arctic defense filtering complete: {len(arctic_relevant)} relevant (>={config.arctic_relevance_threshold}) out of {len(opportunities)} total"
     )
-
-    return all_opportunities, arctic_relevant
+    
+    return opportunities, arctic_relevant
