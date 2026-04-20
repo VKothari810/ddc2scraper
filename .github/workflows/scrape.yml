@@ -1,0 +1,101 @@
+name: Arctic Defense Opportunity Scraper
+
+on:
+  schedule:
+    # Run at 6 AM and 6 PM ET (11:00 and 23:00 UTC)
+    - cron: '0 11 * * *'
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      skip_llm:
+        description: 'Skip LLM filtering (faster, for testing)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scraper
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest pytest-asyncio
+
+      - name: Install Playwright browsers
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Create data directories
+        run: |
+          mkdir -p data/debug
+
+      - name: Run scraper
+        env:
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SKIP_LLM: ${{ github.event.inputs.skip_llm || 'false' }}
+        run: |
+          python -m scraper.main
+
+      - name: Copy data to dashboard
+        run: |
+          cp data/arctic_opportunities.json dashboard/data.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "Arctic Scraper Bot"
+          git config user.email "bot@arctic-scraper.dev"
+          git add data/ dashboard/data.json
+          git diff --cached --quiet || git commit -m "Update opportunities $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

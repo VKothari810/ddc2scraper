@@ -1,0 +1,116 @@
+{
+  "run_id": "2f2a89e6-e97c-41b9-99bd-aaf1fee58fdd",
+  "started_at": "2026-04-20T18:11:36.694640",
+  "completed_at": "2026-04-20T18:14:45.666837",
+  "collectors_run": [
+    "sam_gov",
+    "grants_gov",
+    "sbir_gov",
+    "erdcwerx",
+    "dsip",
+    "diu",
+    "darpa",
+    "afwerx",
+    "navalx",
+    "sofwerx",
+    "navy_sbir",
+    "army_apps_lab",
+    "spacewerx"
+  ],
+  "collector_results": {
+    "sam_gov": {
+      "status": "success",
+      "count": 0,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 60.453464
+    },
+    "grants_gov": {
+      "status": "success",
+      "count": 425,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 13.113496
+    },
+    "sbir_gov": {
+      "status": "success",
+      "count": 0,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 19.653051
+    },
+    "erdcwerx": {
+      "status": "success",
+      "count": 7,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 6.726305
+    },
+    "dsip": {
+      "status": "success",
+      "count": 115,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 2.041404
+    },
+    "diu": {
+      "status": "success",
+      "count": 2,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 12.057732
+    },
+    "darpa": {
+      "status": "success",
+      "count": 25,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 12.058933
+    },
+    "afwerx": {
+      "status": "success",
+      "count": 4,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 11.90746
+    },
+    "navalx": {
+      "status": "success",
+      "count": 0,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 2.294288
+    },
+    "sofwerx": {
+      "status": "success",
+      "count": 4,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 2.72521
+    },
+    "navy_sbir": {
+      "status": "success",
+      "count": 45,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 0.787033
+    },
+    "army_apps_lab": {
+      "status": "success",
+      "count": 0,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 1.627334
+    },
+    "spacewerx": {
+      "status": "success",
+      "count": 3,
+      "errors": 0,
+      "error_message": "",
+      "duration_seconds": 10.666703
+    }
+  },
+  "total_opportunities": 577,
+  "arctic_opportunities": 354,
+  "errors": []
+}
