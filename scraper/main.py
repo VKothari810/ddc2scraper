@@ -2,6 +2,7 @@
 import asyncio
 import json
 import logging
+import shutil
 from datetime import datetime
 from pathlib import Path
 
@@ -84,6 +85,21 @@ def save_run_log(run_log: RunLog, filepath: str):
         json.dump(run_log.model_dump(mode="json"), f, indent=2, default=str)
 
 
+def sync_dashboard_data_json(opportunities_path: str) -> None:
+    """
+    Copy scored opportunities to dashboard/data.json (what GitHub Pages loads).
+
+    Avoids drift where data/opportunities.json is fresh but dashboard/data.json is stale.
+    """
+    src = Path(opportunities_path)
+    dst = Path(__file__).resolve().parent.parent / "dashboard" / "data.json"
+    if not src.is_file():
+        return
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dst)
+    logger.info("Synced %s -> %s", src, dst)
+
+
 async def run_collectors(collector_classes: list = None) -> tuple[list[Opportunity], dict]:
     """
     Run all collectors and return collected opportunities.
@@ -155,6 +171,7 @@ async def main():
 
     save_opportunities(all_scored, config.opportunities_file)
     save_opportunities(arctic_relevant, config.arctic_opportunities_file)
+    sync_dashboard_data_json(config.opportunities_file)
     save_run_log(run_log, config.run_log_file)
 
     logger.info("=" * 60)

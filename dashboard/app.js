@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('data.json', { cache: 'no-store' });
         if (!response.ok) throw new Error('Failed to load data');
         allOpportunities = await response.json();
         
