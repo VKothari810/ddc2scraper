@@ -1,10 +1,11 @@
 name: Deploy Dashboard to GitHub Pages
 
+# Note: pushes made *inside* another workflow using the default GITHUB_TOKEN do not
+# fire `on: push` workflows. Data updates rely on the deploy job in scrape.yml.
+# This workflow still redeploys whenever a normal push hits main (any path).
 on:
   push:
     branches: [main]
-    paths:
-      - 'dashboard/**'
   workflow_dispatch:
 
 permissions:

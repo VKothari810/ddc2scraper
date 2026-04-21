@@ -30,9 +30,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          # Required for `git pull --rebase` + push after new commits; shallow clones often break rebases.
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -57,19 +60,26 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SKIP_LLM: ${{ github.event.inputs.skip_llm || 'false' }}
         run: |
+          set -euo pipefail
           python -m scraper.main
 
       - name: Copy data to dashboard
         run: |
+          set -euo pipefail
+          test -f data/opportunities.json
           cp data/opportunities.json dashboard/data.json
 
       - name: Commit updated data
         run: |
+          set -euo pipefail
           git config user.name "Arctic Scraper Bot"
           git config user.email "bot@arctic-scraper.dev"
           git add data/ dashboard/data.json
           git diff --cached --quiet || git commit -m "Update opportunities $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push
+          # main may have moved while the scraper ran (your pushes, other workflows). Fetch + rebase, then push.
+          git fetch origin main
+          git rebase origin/main
+          git push origin main
 
   deploy:
     needs: scrape
@@ -84,9 +94,10 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Pull latest changes
-        run: git pull origin main
+        run: git pull --ff-only origin main
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

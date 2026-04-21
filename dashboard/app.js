@@ -245,7 +245,7 @@ function applyFilters() {
     
     filteredOpportunities = allOpportunities.filter(opp => {
         if (searchTerm && !matchesSearch(opp, searchTerm)) return false;
-        if (source && opp.source !== source) return false;
+        if (source && !matchesSourceFilter(opp, source)) return false;
         if (type && opp.opportunity_type !== type) return false;
         if (status && opp.status !== status) return false;
         if (relevance && (opp.arctic_relevance_score || 0) < relevance) return false;
@@ -257,6 +257,13 @@ function applyFilters() {
     opportunitiesGrid.innerHTML = '';
     loadMore();
     updateResultsCount();
+}
+
+/** Primary source or merged duplicate from that source (see dedup also_found_on). */
+function matchesSourceFilter(opp, source) {
+    if (opp.source === source) return true;
+    const also = opp.raw_data && Array.isArray(opp.raw_data.also_found_on) ? opp.raw_data.also_found_on : [];
+    return also.includes(source);
 }
 
 function matchesSearch(opp, term) {
