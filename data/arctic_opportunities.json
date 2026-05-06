@@ -1089,6 +1089,39 @@
     }
   },
   {
+    "id": "1fcbc2d8-38a5-4602-9579-613e7f301799",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_5_6342",
+    "source_url": "https://www.erdcwerx.org/cold-regions-research-and-engineering-laboratory-cso/",
+    "title": "Cold Regions Research and Engineering Laboratory CSO",
+    "description": "ERDC's Cold Regions Research and Engineering Laboratory invites commercial solutions or potential new capabilities in support of challenges facing Warfighters and the nation in cold and complex regions.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "CRREL (Cold Regions Research and Engineering Laboratory)",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2026-12-31T00:00:00",
+    "response_deadline": "2026-12-31T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.9,
+    "arctic_relevance_reasoning": "High arctic defense relevance: crrel, cold regions research",
+    "arctic_keywords_found": [
+      "crrel",
+      "cold regions research"
+    ],
+    "first_seen": "2026-05-06T12:59:15.252494",
+    "last_updated": "2026-05-06T12:59:15.252497",
+    "raw_data": {
+      "deadline_text": "Open through December 31, 2026ERDC's Cold Regions Research and Engineering Laboratory invites commercial solutions or potential new capabilities in support of challenges facing Warfighters and the nation in cold and complex regions.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
     "id": "1411282c-37c8-4793-8d4b-ee87b53e8b99",
     "source": "grants_gov",
     "source_id": "348746",
@@ -1114,7 +1147,7 @@
       "joint base elmendorf"
     ],
     "first_seen": "2026-04-20T20:32:52.531513",
-    "last_updated": "2026-05-05T23:38:57.272699",
+    "last_updated": "2026-05-06T12:58:34.163702",
     "raw_data": {
       "id": "348746",
       "number": "W9126G-23-2-SOI-3250",
@@ -1200,7 +1233,7 @@
       "joint base elmendorf"
     ],
     "first_seen": "2026-04-20T20:33:02.561664",
-    "last_updated": "2026-05-05T23:39:07.345138",
+    "last_updated": "2026-05-06T12:58:44.187401",
     "raw_data": {
       "id": "361951",
       "number": "W911KB-26-2-0001",
@@ -1243,7 +1276,7 @@
       "polar navigation"
     ],
     "first_seen": "2026-04-20T20:34:13.078429",
-    "last_updated": "2026-05-05T23:40:09.539001",
+    "last_updated": "2026-05-06T12:59:49.375200",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV027",
@@ -1280,7 +1313,7 @@
       "austere environment"
     ],
     "first_seen": "2026-04-20T20:33:35.424419",
-    "last_updated": "2026-05-05T23:39:38.210244",
+    "last_updated": "2026-05-06T12:59:17.464532",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -1289,6 +1322,42 @@
       "focus_areas": [],
       "technology_areas": [],
       "also_found_on": []
+    }
+  },
+  {
+    "id": "50ffeff9-dc79-425b-b5dc-6472f618dde0",
+    "source": "dsip",
+    "source_id": "DAF26BX02-NV502",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DAF26BX02-NV502",
+    "title": "Project Authentication on the Move (ATOM): Context-Aware Authentication Framework for Austere Environments",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DAF26BX02-NV502",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-05-27T12:00:00",
+    "close_date": "2026-06-24T16:00:00",
+    "response_deadline": "2026-06-24T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.5,
+    "arctic_relevance_reasoning": "Arctic keywords with defense context: austere environment",
+    "arctic_keywords_found": [
+      "austere environment"
+    ],
+    "first_seen": "2026-05-06T12:59:16.934518",
+    "last_updated": "2026-05-06T12:59:16.934519",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 2,
+      "focus_areas": [],
+      "technology_areas": []
     }
   },
   {
@@ -1317,7 +1386,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:51.751718",
-    "last_updated": "2026-05-05T23:38:56.694709",
+    "last_updated": "2026-05-06T12:58:33.426456",
     "raw_data": {
       "id": "360183",
       "number": "N00178-26-0001",
@@ -1360,7 +1429,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:55.164012",
-    "last_updated": "2026-05-05T23:38:59.794397",
+    "last_updated": "2026-05-06T12:58:36.652173",
     "raw_data": {
       "id": "352741",
       "number": "N00173-24-S-BA01",
@@ -1403,7 +1472,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:55.553004",
-    "last_updated": "2026-05-05T12:09:01.395990",
+    "last_updated": "2026-05-06T12:58:37.170069",
     "raw_data": {
       "id": "356605",
       "number": "N0001425SB001",
@@ -1446,7 +1515,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:33:01.527260",
-    "last_updated": "2026-05-05T23:39:06.400724",
+    "last_updated": "2026-05-06T12:58:43.154838",
     "raw_data": {
       "id": "359802",
       "number": "N00421-25-S-0001",
@@ -1489,7 +1558,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:33:02.128478",
-    "last_updated": "2026-05-05T23:39:06.805789",
+    "last_updated": "2026-05-06T12:58:43.680078",
     "raw_data": {
       "id": "361099",
       "number": "N00244-26-S-NPS-F001",
@@ -1564,7 +1633,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-04-20T20:33:35.411411",
-    "last_updated": "2026-05-05T23:39:38.208968",
+    "last_updated": "2026-05-06T12:59:16.934461",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -1601,7 +1670,7 @@
       "resilient"
     ],
     "first_seen": "2026-04-20T20:33:35.422889",
-    "last_updated": "2026-05-05T23:39:38.209264",
+    "last_updated": "2026-05-06T12:59:16.935059",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -1639,7 +1708,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.077880",
-    "last_updated": "2026-05-05T23:40:09.536898",
+    "last_updated": "2026-05-06T12:59:49.373754",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV005",
@@ -1676,7 +1745,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-04-20T20:34:13.078021",
-    "last_updated": "2026-05-05T23:40:09.537178",
+    "last_updated": "2026-05-06T12:59:49.373985",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV008",
@@ -1713,7 +1782,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078295",
-    "last_updated": "2026-05-05T23:40:09.538363",
+    "last_updated": "2026-05-06T12:59:49.374751",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV020",
@@ -1750,7 +1819,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078392",
-    "last_updated": "2026-05-05T23:40:09.538792",
+    "last_updated": "2026-05-06T12:59:49.375082",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV025",
@@ -1787,7 +1856,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:34:13.078553",
-    "last_updated": "2026-05-05T23:40:09.539483",
+    "last_updated": "2026-05-06T12:59:49.375566",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV033",
@@ -1824,7 +1893,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:33:35.424305",
-    "last_updated": "2026-05-05T23:39:38.210184",
+    "last_updated": "2026-05-06T12:59:17.464477",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -1861,7 +1930,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:33:35.424351",
-    "last_updated": "2026-05-05T23:39:38.210198",
+    "last_updated": "2026-05-06T12:59:17.464491",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -1898,7 +1967,7 @@
       "rugged"
     ],
     "first_seen": "2026-04-20T20:33:35.424440",
-    "last_updated": "2026-05-05T23:39:38.210276",
+    "last_updated": "2026-05-06T12:59:17.464562",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -1935,7 +2004,7 @@
       "resilient"
     ],
     "first_seen": "2026-04-20T20:34:13.078789",
-    "last_updated": "2026-05-05T23:40:09.540602",
+    "last_updated": "2026-05-06T12:59:49.376366",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NP001",
@@ -3386,6 +3455,182 @@
     "raw_data": {
       "deadline_text": "Continuously OpenERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
       "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "3b014c63-144c-4d2e-9e73-848078e6f485",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_2_5223",
+    "source_url": "https://www.erdcwerx.org/broad-other-transaction-authority-announcement/",
+    "title": "Broad Other Transaction Authority Announcement",
+    "description": "ERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+    "opportunity_type": "OTA",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-05-06T12:59:15.139650",
+    "last_updated": "2026-05-06T12:59:15.139653",
+    "raw_data": {
+      "deadline_text": "Continuously OpenERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "8fb69b51-5fe5-41bd-9214-2c0eb6ed9a4b",
+    "source": "dsip",
+    "source_id": "DAF26BX02-NV501",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DAF26BX02-NV501",
+    "title": "Resilient Voice-Enabled Artificial Intelligence Assistant for Autonomous Logistics Command and Control in Contested Environments",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DAF26BX02-NV501",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-05-27T12:00:00",
+    "close_date": "2026-06-24T16:00:00",
+    "response_deadline": "2026-06-24T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-05-06T12:59:16.934502",
+    "last_updated": "2026-05-06T12:59:16.934503",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 2,
+      "focus_areas": [],
+      "technology_areas": []
+    }
+  },
+  {
+    "id": "0ab02e17-0671-4c50-9d2b-5c4ecbac61c1",
+    "source": "dsip",
+    "source_id": "DAF26BX02-NV504",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DAF26BX02-NV504",
+    "title": "Project Able Baker: Maritime Re-purposing of Offshore Infrastructure for Resilient Launch-Vehicle Recovery",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DAF26BX02-NV504",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-05-27T12:00:00",
+    "close_date": "2026-06-24T16:00:00",
+    "response_deadline": "2026-06-24T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-05-06T12:59:16.934551",
+    "last_updated": "2026-05-06T12:59:16.934552",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 2,
+      "focus_areas": [],
+      "technology_areas": []
+    }
+  },
+  {
+    "id": "831d9254-1880-4499-9766-6358ae961faa",
+    "source": "dsip",
+    "source_id": "DON26BZ02-NV048",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DON26BZ02-NV048",
+    "title": "Advanced Techniques for Enhanced Deep-Sea Object Detection and Localization for Towed Mine Countermeasures (MCM) Sonar",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DON26BZ02-NV048",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-05-27T12:00:00",
+    "close_date": "2026-06-24T16:00:00",
+    "response_deadline": "2026-06-24T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: sonar",
+    "arctic_keywords_found": [
+      "sonar"
+    ],
+    "first_seen": "2026-05-06T12:59:17.464288",
+    "last_updated": "2026-05-06T12:59:17.464289",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 2,
+      "focus_areas": [],
+      "technology_areas": []
+    }
+  },
+  {
+    "id": "5039498e-4d6c-4d65-8871-94b4aaaf735b",
+    "source": "dsip",
+    "source_id": "DON26TZ02-NV020",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DON26TZ02-NV020",
+    "title": "Submarine Top-side Anti-Slip Anti-Foulant",
+    "description": "",
+    "opportunity_type": "STTR",
+    "status": "Forecasted",
+    "solicitation_number": "DON26TZ02-NV020",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-05-27T12:00:00",
+    "close_date": "2026-06-24T16:00:00",
+    "response_deadline": "2026-06-24T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: submarine",
+    "arctic_keywords_found": [
+      "submarine"
+    ],
+    "first_seen": "2026-05-06T12:59:17.464607",
+    "last_updated": "2026-05-06T12:59:17.464608",
+    "raw_data": {
+      "component": "",
+      "program": "STTR",
+      "solicitation": "",
+      "release_number": 2,
+      "focus_areas": [],
+      "technology_areas": []
     }
   }
 ]
