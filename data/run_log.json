@@ -1,7 +1,7 @@
 {
-  "run_id": "686321c9-5c27-450b-baa2-2ddb7d17cce5",
-  "started_at": "2026-05-26T23:55:49.740317",
-  "completed_at": "2026-05-26T23:57:12.281533",
+  "run_id": "b13cc953-2ba5-4e12-90ec-3b77f4fa478c",
+  "started_at": "2026-05-27T14:29:51.798704",
+  "completed_at": "2026-05-27T14:31:16.289295",
   "collectors_run": [
     "sam_gov",
     "grants_gov",
@@ -23,94 +23,94 @@
       "count": 0,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 0.000136
+      "duration_seconds": 0.0001
     },
     "grants_gov": {
       "status": "success",
-      "count": 479,
+      "count": 474,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 14.645519
+      "duration_seconds": 14.594547
     },
     "sbir_gov": {
       "status": "success",
       "count": 0,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 20.411124
+      "duration_seconds": 19.730377
     },
     "erdcwerx": {
       "status": "success",
       "count": 10,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 6.623086
+      "duration_seconds": 5.891809
     },
     "dsip": {
       "status": "success",
-      "count": 132,
+      "count": 131,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 1.583944
+      "duration_seconds": 1.59388
     },
     "diu": {
       "status": "success",
       "count": 2,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 11.475525
+      "duration_seconds": 11.512973
     },
     "darpa": {
       "status": "success",
-      "count": 46,
+      "count": 45,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 8.794233
+      "duration_seconds": 7.962755
     },
     "afwerx": {
       "status": "success",
       "count": 4,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 6.422079
+      "duration_seconds": 10.034857
     },
     "navalx": {
       "status": "success",
       "count": 0,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 2.019168
+      "duration_seconds": 3.286837
     },
     "sofwerx": {
       "status": "success",
-      "count": 4,
+      "count": 5,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 2.474698
+      "duration_seconds": 2.064055
     },
     "navy_sbir": {
       "status": "success",
       "count": 44,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 1.095598
+      "duration_seconds": 1.245489
     },
     "army_apps_lab": {
       "status": "success",
       "count": 0,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 1.54286
+      "duration_seconds": 1.295258
     },
     "spacewerx": {
       "status": "success",
       "count": 3,
       "errors": 0,
       "error_message": "",
-      "duration_seconds": 5.295996
+      "duration_seconds": 5.119721
     }
   },
-  "total_opportunities": 2504,
-  "arctic_opportunities": 199,
+  "total_opportunities": 2529,
+  "arctic_opportunities": 202,
   "errors": []
 }
