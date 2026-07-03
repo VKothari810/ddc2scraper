@@ -4884,6 +4884,39 @@
     }
   },
   {
+    "id": "80c23ddb-0034-4b26-9414-5833f56f30d5",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_6_9380",
+    "source_url": "https://www.erdcwerx.org/cold-regions-research-and-engineering-laboratory-cso/",
+    "title": "Cold Regions Research and Engineering Laboratory CSO",
+    "description": "ERDC invites commercial solutions or potential new capabilities in support of challenges facing Warfighters and the nation in cold and complex regions.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "CRREL (Cold Regions Research and Engineering Laboratory)",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2026-12-31T00:00:00",
+    "response_deadline": "2026-12-31T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.9,
+    "arctic_relevance_reasoning": "High arctic defense relevance: crrel, cold regions research",
+    "arctic_keywords_found": [
+      "crrel",
+      "cold regions research"
+    ],
+    "first_seen": "2026-07-03T13:00:27.642624",
+    "last_updated": "2026-07-03T13:00:27.642628",
+    "raw_data": {
+      "deadline_text": "Open through December 31, 2026ERDC invites commercial solutions or potential new capabilities in support of challenges facing Warfighters and the nation in cold and complex regions.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
     "id": "1411282c-37c8-4793-8d4b-ee87b53e8b99",
     "source": "grants_gov",
     "source_id": "348746",
@@ -4909,7 +4942,7 @@
       "joint base elmendorf"
     ],
     "first_seen": "2026-04-20T20:32:52.531513",
-    "last_updated": "2026-07-02T23:54:30.298250",
+    "last_updated": "2026-07-03T12:59:45.343662",
     "raw_data": {
       "id": "348746",
       "number": "W9126G-23-2-SOI-3250",
@@ -5038,7 +5071,7 @@
       "polar navigation"
     ],
     "first_seen": "2026-04-20T20:34:13.078429",
-    "last_updated": "2026-07-02T23:55:43.663075",
+    "last_updated": "2026-07-03T13:02:23.416155",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV027",
@@ -5201,7 +5234,7 @@
       "thermal management"
     ],
     "first_seen": "2026-06-03T15:50:36.397382",
-    "last_updated": "2026-07-02T23:55:14.147880",
+    "last_updated": "2026-07-03T13:00:29.669740",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -5238,7 +5271,7 @@
       "extreme environment"
     ],
     "first_seen": "2026-07-02T00:01:56.168786",
-    "last_updated": "2026-07-02T23:55:32.669379",
+    "last_updated": "2026-07-03T13:00:29.670357",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -5354,7 +5387,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:51.751718",
-    "last_updated": "2026-07-02T23:54:29.084858",
+    "last_updated": "2026-07-03T12:59:44.167274",
     "raw_data": {
       "id": "360183",
       "number": "N00178-26-0001",
@@ -5397,7 +5430,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:55.164012",
-    "last_updated": "2026-07-02T23:54:32.802474",
+    "last_updated": "2026-07-03T12:59:47.867583",
     "raw_data": {
       "id": "352741",
       "number": "N00173-24-S-BA01",
@@ -5677,7 +5710,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.077880",
-    "last_updated": "2026-07-02T23:55:43.660975",
+    "last_updated": "2026-07-03T13:02:23.413990",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV005",
@@ -5714,7 +5747,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-04-20T20:34:13.078021",
-    "last_updated": "2026-07-02T23:55:43.661282",
+    "last_updated": "2026-07-03T13:02:23.414284",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV008",
@@ -5751,7 +5784,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078295",
-    "last_updated": "2026-07-02T23:55:43.662384",
+    "last_updated": "2026-07-03T13:02:23.415424",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV020",
@@ -5788,7 +5821,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078392",
-    "last_updated": "2026-07-02T23:55:43.662824",
+    "last_updated": "2026-07-03T13:02:23.415909",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV025",
@@ -5825,7 +5858,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:34:13.078553",
-    "last_updated": "2026-07-02T23:55:43.663630",
+    "last_updated": "2026-07-03T13:02:23.416720",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV033",
@@ -5973,7 +6006,7 @@
       "resilient"
     ],
     "first_seen": "2026-04-20T20:34:13.078789",
-    "last_updated": "2026-07-02T23:55:43.664617",
+    "last_updated": "2026-07-03T13:02:23.417776",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NP001",
@@ -10259,7 +10292,7 @@
       "resilient"
     ],
     "first_seen": "2026-06-03T15:50:36.397564",
-    "last_updated": "2026-07-02T23:55:14.147993",
+    "last_updated": "2026-07-03T13:00:29.669851",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -10297,7 +10330,7 @@
       "ruggedized"
     ],
     "first_seen": "2026-06-03T15:50:58.429575",
-    "last_updated": "2026-07-02T23:55:32.667872",
+    "last_updated": "2026-07-03T13:00:29.670254",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -11053,7 +11086,7 @@
       "naval"
     ],
     "first_seen": "2026-06-10T00:04:36.265940",
-    "last_updated": "2026-07-02T23:54:31.803105",
+    "last_updated": "2026-07-03T12:59:46.874659",
     "raw_data": {
       "id": "362725",
       "number": "N0001426SBC04",
@@ -12184,7 +12217,7 @@
       "naval"
     ],
     "first_seen": "2026-06-18T14:14:37.180125",
-    "last_updated": "2026-07-02T23:54:34.802165",
+    "last_updated": "2026-07-03T12:59:49.854250",
     "raw_data": {
       "id": "362871",
       "number": "N0001426SF001",
@@ -14230,6 +14263,102 @@
     ],
     "first_seen": "2026-07-02T23:55:32.773919",
     "last_updated": "2026-07-02T23:55:32.775502",
+    "raw_data": {
+      "source": "rss",
+      "also_found_on": []
+    }
+  },
+  {
+    "id": "522c8aee-be51-4b47-a141-9c2a7153e1c0",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_1_7436",
+    "source_url": "https://www.erdcwerx.org/information-technology-laboratory-cso/",
+    "title": "Information Technology Laboratory CSO",
+    "description": "ERDC invites commercial solutions in support of integrated digital transformation, advanced computing, secure and resilient systems, and data-driven decision-making to address complex defense and civil works challenges.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2027-10-30T00:00:00",
+    "response_deadline": "2027-10-30T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-07-03T13:00:27.513368",
+    "last_updated": "2026-07-03T13:00:27.513370",
+    "raw_data": {
+      "deadline_text": "October 30, 2027ERDC invites commercial solutions in support of integrated digital transformation, advanced computing, secure and resilient systems, and data-driven decision-making to address complex defense and civil works challenges.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "bb84a209-a32d-4f62-b9f9-9cee7cb72207",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_3_6374",
+    "source_url": "https://www.erdcwerx.org/broad-other-transaction-authority-announcement/",
+    "title": "Broad Other Transaction Authority Announcement",
+    "description": "ERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+    "opportunity_type": "OTA",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-07-03T13:00:27.565228",
+    "last_updated": "2026-07-03T13:00:27.565232",
+    "raw_data": {
+      "deadline_text": "Continuously OpenERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "f5f7e492-f8c9-4888-926c-77f0671979bb",
+    "source": "darpa",
+    "source_id": "darpa_rss_39609",
+    "source_url": "https://www.darpa.mil/work-with-us/opportunities",
+    "title": "Proposers Day: Perrseus",
+    "description": "<p>The RAAPTR program seeks RF system architectures that exploit an optical timing backbone that maintains low phase noise and timing deviation in form factors and ruggedness traceable to compact mobile defense platforms. | <a href=\"https://www.darpa.mil/research/programs/raaptr\">See Program</a></p>",
+    "opportunity_type": "BAA",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "DARPA",
+    "office": "DARPA",
+    "posted_date": "2026-07-01T17:22:10",
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: rugged",
+    "arctic_keywords_found": [
+      "rugged"
+    ],
+    "first_seen": "2026-07-03T13:02:12.924194",
+    "last_updated": "2026-07-03T13:02:12.925327",
     "raw_data": {
       "source": "rss",
       "also_found_on": []
