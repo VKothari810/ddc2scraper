@@ -7062,6 +7062,39 @@
     }
   },
   {
+    "id": "f70f9701-082b-46a4-b502-564bc7acc3f3",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_6_3144",
+    "source_url": "https://www.erdcwerx.org/cold-regions-research-and-engineering-laboratory-cso/",
+    "title": "Cold Regions Research and Engineering Laboratory CSO",
+    "description": "ERDC invites commercial solutions or potential new capabilities in support of challenges facing Warfighters and the nation in cold and complex regions.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "CRREL (Cold Regions Research and Engineering Laboratory)",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2026-12-31T00:00:00",
+    "response_deadline": "2026-12-31T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.9,
+    "arctic_relevance_reasoning": "High arctic defense relevance: crrel, cold regions research",
+    "arctic_keywords_found": [
+      "crrel",
+      "cold regions research"
+    ],
+    "first_seen": "2026-08-05T12:58:52.579333",
+    "last_updated": "2026-08-05T12:58:52.579336",
+    "raw_data": {
+      "deadline_text": "Open through December 31, 2026ERDC invites commercial solutions or potential new capabilities in support of challenges facing Warfighters and the nation in cold and complex regions.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
     "id": "1411282c-37c8-4793-8d4b-ee87b53e8b99",
     "source": "grants_gov",
     "source_id": "348746",
@@ -7087,7 +7120,7 @@
       "joint base elmendorf"
     ],
     "first_seen": "2026-04-20T20:32:52.531513",
-    "last_updated": "2026-08-04T23:52:46.576522",
+    "last_updated": "2026-08-05T12:58:12.281529",
     "raw_data": {
       "id": "348746",
       "number": "W9126G-23-2-SOI-3250",
@@ -7216,7 +7249,7 @@
       "polar navigation"
     ],
     "first_seen": "2026-04-20T20:34:13.078429",
-    "last_updated": "2026-08-04T23:53:56.157296",
+    "last_updated": "2026-08-05T12:59:25.797598",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV027",
@@ -7416,7 +7449,7 @@
       "extreme environment"
     ],
     "first_seen": "2026-07-02T00:01:56.168786",
-    "last_updated": "2026-08-04T23:53:45.404871",
+    "last_updated": "2026-08-05T12:59:13.536983",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -7532,7 +7565,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:51.751718",
-    "last_updated": "2026-08-04T23:52:45.227426",
+    "last_updated": "2026-08-05T12:58:11.025665",
     "raw_data": {
       "id": "360183",
       "number": "N00178-26-0001",
@@ -7575,7 +7608,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:55.164012",
-    "last_updated": "2026-08-04T23:52:51.072263",
+    "last_updated": "2026-08-05T12:58:16.789884",
     "raw_data": {
       "id": "352741",
       "number": "N00173-24-S-BA01",
@@ -7855,7 +7888,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.077880",
-    "last_updated": "2026-08-04T23:53:56.155981",
+    "last_updated": "2026-08-05T12:59:25.796002",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV005",
@@ -7892,7 +7925,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-04-20T20:34:13.078021",
-    "last_updated": "2026-08-04T23:53:56.156159",
+    "last_updated": "2026-08-05T12:59:25.796213",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV008",
@@ -7929,7 +7962,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078295",
-    "last_updated": "2026-08-04T23:53:56.156899",
+    "last_updated": "2026-08-05T12:59:25.797074",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV020",
@@ -7966,7 +7999,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078392",
-    "last_updated": "2026-08-04T23:53:56.157181",
+    "last_updated": "2026-08-05T12:59:25.797490",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV025",
@@ -8003,7 +8036,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:34:13.078553",
-    "last_updated": "2026-08-04T23:53:56.157648",
+    "last_updated": "2026-08-05T12:59:25.797869",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV033",
@@ -8151,7 +8184,7 @@
       "resilient"
     ],
     "first_seen": "2026-04-20T20:34:13.078789",
-    "last_updated": "2026-08-04T23:53:56.158258",
+    "last_updated": "2026-08-05T12:59:25.798386",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NP001",
@@ -13233,7 +13266,7 @@
       "naval"
     ],
     "first_seen": "2026-06-10T00:04:36.265940",
-    "last_updated": "2026-08-04T23:52:48.068845",
+    "last_updated": "2026-08-05T12:58:13.796337",
     "raw_data": {
       "id": "362725",
       "number": "N0001426SBC04",
@@ -14364,7 +14397,7 @@
       "naval"
     ],
     "first_seen": "2026-06-18T14:14:37.180125",
-    "last_updated": "2026-08-04T23:52:51.071662",
+    "last_updated": "2026-08-05T12:58:16.789056",
     "raw_data": {
       "id": "362871",
       "number": "N0001426SF001",
@@ -20953,7 +20986,7 @@
       "resilient"
     ],
     "first_seen": "2026-08-04T23:53:45.405302",
-    "last_updated": "2026-08-04T23:53:45.405303",
+    "last_updated": "2026-08-05T12:59:13.537458",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -20973,7 +21006,233 @@
           "text": "See Event"
         }
       ],
-      "primary_url": "https://sam.gov/opp/e2f1e04ac210472aa02ea3502d31d49d/view"
+      "primary_url": "https://sam.gov/opp/e2f1e04ac210472aa02ea3502d31d49d/view",
+      "also_found_on": []
+    }
+  },
+  {
+    "id": "760abac7-149b-481b-b14b-a82a657a67dd",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_1_1677",
+    "source_url": "https://www.erdcwerx.org/information-technology-laboratory-cso/",
+    "title": "Information Technology Laboratory CSO",
+    "description": "ERDC invites commercial solutions in support of integrated digital transformation, advanced computing, secure and resilient systems, and data-driven decision-making to address complex defense and civil works challenges.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2027-10-30T00:00:00",
+    "response_deadline": "2027-10-30T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-08-05T12:58:52.475026",
+    "last_updated": "2026-08-05T12:58:52.475030",
+    "raw_data": {
+      "deadline_text": "October 30, 2027ERDC invites commercial solutions in support of integrated digital transformation, advanced computing, secure and resilient systems, and data-driven decision-making to address complex defense and civil works challenges.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "23a38795-3cab-4c8b-8dc8-430bdd0533d6",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_3_9709",
+    "source_url": "https://www.erdcwerx.org/broad-other-transaction-authority-announcement/",
+    "title": "Broad Other Transaction Authority Announcement",
+    "description": "ERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+    "opportunity_type": "OTA",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-08-05T12:58:52.516616",
+    "last_updated": "2026-08-05T12:58:52.516619",
+    "raw_data": {
+      "deadline_text": "Continuously OpenERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "39228689-0938-4856-af06-6bf542d5e2f9",
+    "source": "dsip",
+    "source_id": "DON26BZ05-NV068",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DON26BZ05-NV068",
+    "title": "Intelligent Tools for Naval Aircrew Performance and Readiness",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DON26BZ05-NV068",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-08-26T12:00:00",
+    "close_date": "2026-09-23T16:00:00",
+    "response_deadline": "2026-09-23T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: naval",
+    "arctic_keywords_found": [
+      "naval"
+    ],
+    "first_seen": "2026-08-05T12:58:54.354872",
+    "last_updated": "2026-08-05T12:58:54.354873",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 5,
+      "focus_areas": [],
+      "technology_areas": []
+    }
+  },
+  {
+    "id": "ebc1fa4c-20fd-49ed-8e56-797c02bc78e3",
+    "source": "dsip",
+    "source_id": "DON26BZ05-NV069",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DON26BZ05-NV069",
+    "title": "Wearable Real-Time Command-and-Control Interface for Enhanced Naval Situational Awareness",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DON26BZ05-NV069",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-08-26T12:00:00",
+    "close_date": "2026-09-23T16:00:00",
+    "response_deadline": "2026-09-23T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: naval",
+    "arctic_keywords_found": [
+      "naval"
+    ],
+    "first_seen": "2026-08-05T12:58:54.354889",
+    "last_updated": "2026-08-05T12:58:54.354890",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 5,
+      "focus_areas": [],
+      "technology_areas": []
+    }
+  },
+  {
+    "id": "51b47540-15a3-41ce-ac32-847059592896",
+    "source": "dsip",
+    "source_id": "DON26BZ05-NV080",
+    "source_url": "https://www.dodsbirsttr.mil/topics-app/?topicNum=DON26BZ05-NV080",
+    "title": "Submarine Cabinet Sound Dampening Alternative",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": "DON26BZ05-NV080",
+    "agency": "Department of Defense",
+    "sub_agency": "DoD",
+    "office": null,
+    "posted_date": "2026-08-26T12:00:00",
+    "close_date": "2026-09-23T16:00:00",
+    "response_deadline": "2026-09-23T16:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: submarine",
+    "arctic_keywords_found": [
+      "submarine"
+    ],
+    "first_seen": "2026-08-05T12:58:54.355069",
+    "last_updated": "2026-08-05T12:58:54.355070",
+    "raw_data": {
+      "component": "",
+      "program": "SBIR",
+      "solicitation": "",
+      "release_number": 5,
+      "focus_areas": [],
+      "technology_areas": []
+    }
+  },
+  {
+    "id": "d401418b-ed84-47f1-880a-d0329efe5e4f",
+    "source": "darpa",
+    "source_id": "darpa_site_dpa26bz05_dv021",
+    "source_url": "https://www.darpa.mil/research/programs/open-architecture-platform-underwater-vehicles",
+    "title": "SBIR: Open Architecture Platform for Underwater Vehicles",
+    "description": "This topic seeks to develop and demo a modular, open-architecture AUVs for rapid payload swapping, collaborative fleet deployment, and resilient undersea navigation.",
+    "opportunity_type": "SBIR",
+    "status": "Open",
+    "solicitation_number": "DPA26BZ05-DV021",
+    "agency": "Department of Defense",
+    "sub_agency": "DARPA",
+    "office": "Small Business Programs Office",
+    "posted_date": "2026-08-26T12:00:00",
+    "close_date": "2026-09-23T16:00:00",
+    "response_deadline": "2026-09-23T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: undersea, resilient",
+    "arctic_keywords_found": [
+      "undersea",
+      "resilient"
+    ],
+    "first_seen": "2026-08-05T12:59:13.537904",
+    "last_updated": "2026-08-05T12:59:13.537905",
+    "raw_data": {
+      "source": "darpa_opportunities_page",
+      "card_lines": [
+        "DPA26BZ05-DV021",
+        "SBIR: Open Architecture Platform for Underwater Vehicles",
+        "This topic seeks to develop and demo a modular, open-architecture AUVs for rapid payload swapping, collaborative fleet deployment, and resilient undersea navigation. | See Topic",
+        "Deadline date: Sept. 23, 2026",
+        "Small Business Programs Office"
+      ],
+      "card_links": [
+        {
+          "href": "https://www.dodsbirsttr.mil/submissions/solicitation-documents/active-solicitations",
+          "text": "SBIR: Open Architecture Platform for Underwater Vehicles"
+        },
+        {
+          "href": "https://www.darpa.mil/research/programs/open-architecture-platform-underwater-vehicles",
+          "text": "See Topic"
+        }
+      ],
+      "primary_url": "https://www.darpa.mil/research/programs/open-architecture-platform-underwater-vehicles",
+      "also_found_on": [
+        "dsip"
+      ]
     }
   }
 ]
