@@ -23,7 +23,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:51.751562",
-    "last_updated": "2026-11-25T05:07:49.587068",
+    "last_updated": "2026-11-25T20:25:12.312652",
     "raw_data": {
       "id": "361896",
       "number": "20-597",
@@ -66,7 +66,7 @@
       "arctic"
     ],
     "first_seen": "2026-04-20T20:32:51.751650",
-    "last_updated": "2026-11-25T05:07:49.587185",
+    "last_updated": "2026-11-25T20:25:12.312756",
     "raw_data": {
       "id": "349724",
       "number": "23-572",
@@ -107,7 +107,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:51.751690",
-    "last_updated": "2026-11-25T05:07:51.466310",
+    "last_updated": "2026-11-25T20:25:14.033210",
     "raw_data": {
       "id": "351547",
       "number": "EPA-OLEM-R10-NC-24-01",
@@ -150,7 +150,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:51.751718",
-    "last_updated": "2026-11-25T05:07:49.587346",
+    "last_updated": "2026-11-25T20:25:12.312933",
     "raw_data": {
       "id": "360183",
       "number": "N00178-26-0001",
@@ -437,7 +437,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:51.751907",
-    "last_updated": "2026-11-25T05:07:49.587710",
+    "last_updated": "2026-11-25T20:25:12.313344",
     "raw_data": {
       "id": "344592",
       "number": "W911NF-23-S-0001",
@@ -478,7 +478,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:51.751932",
-    "last_updated": "2026-11-25T05:07:49.587624",
+    "last_updated": "2026-11-25T20:25:12.313251",
     "raw_data": {
       "id": "349586",
       "number": "HT9425-23-S-SOC1",
@@ -519,7 +519,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146111",
-    "last_updated": "2026-11-25T05:07:49.982189",
+    "last_updated": "2026-11-25T20:25:12.554862",
     "raw_data": {
       "id": "361080",
       "number": "W912HZ26S0001",
@@ -560,7 +560,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146157",
-    "last_updated": "2026-11-25T05:07:49.982409",
+    "last_updated": "2026-11-25T20:25:12.554995",
     "raw_data": {
       "id": "345083",
       "number": "P23AS00132",
@@ -642,7 +642,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146215",
-    "last_updated": "2026-11-25T05:07:49.982499",
+    "last_updated": "2026-11-25T20:25:12.555055",
     "raw_data": {
       "id": "356561",
       "number": "GR-RDC-25-002",
@@ -683,7 +683,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146242",
-    "last_updated": "2026-11-25T05:07:49.982588",
+    "last_updated": "2026-11-25T20:25:12.555108",
     "raw_data": {
       "id": "356559",
       "number": "GR-RCE-25-001",
@@ -724,7 +724,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146270",
-    "last_updated": "2026-11-25T05:07:49.982678",
+    "last_updated": "2026-11-25T20:25:12.555161",
     "raw_data": {
       "id": "356562",
       "number": "GR-RDC-25-001",
@@ -765,7 +765,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146288",
-    "last_updated": "2026-11-25T05:07:49.982735",
+    "last_updated": "2026-11-25T20:25:12.555197",
     "raw_data": {
       "id": "332127",
       "number": "EDA-SEA-TA-SRO-2021-2006853",
@@ -807,7 +807,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146304",
-    "last_updated": "2026-11-25T05:07:49.982790",
+    "last_updated": "2026-11-25T20:25:12.555231",
     "raw_data": {
       "id": "332052",
       "number": "EDA-ATL-TA-ATRO-2021-2006846",
@@ -849,7 +849,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146322",
-    "last_updated": "2026-11-25T05:07:49.982844",
+    "last_updated": "2026-11-25T20:25:12.555262",
     "raw_data": {
       "id": "332126",
       "number": "EDA-DEN-TA-DRO-2021-2006850",
@@ -891,7 +891,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146338",
-    "last_updated": "2026-11-25T05:07:49.982929",
+    "last_updated": "2026-11-25T20:25:12.555295",
     "raw_data": {
       "id": "332137",
       "number": "EDA-AUS-TA-AURO-2021-2006848",
@@ -933,7 +933,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146354",
-    "last_updated": "2026-11-25T05:07:49.982993",
+    "last_updated": "2026-11-25T20:25:12.555327",
     "raw_data": {
       "id": "332125",
       "number": "EDA-CHI-TA-CRO-2021-2006849",
@@ -975,7 +975,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146370",
-    "last_updated": "2026-11-25T05:07:49.983049",
+    "last_updated": "2026-11-25T20:25:12.555359",
     "raw_data": {
       "id": "332138",
       "number": "EDA-PHI-TA-PRO-2021-2006851",
@@ -1263,7 +1263,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146521",
-    "last_updated": "2026-11-25T05:07:49.983159",
+    "last_updated": "2026-11-25T20:25:12.555426",
     "raw_data": {
       "id": "359225",
       "number": "EDA-DISASTER-2025",
@@ -1345,7 +1345,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146573",
-    "last_updated": "2026-11-25T05:07:49.983489",
+    "last_updated": "2026-11-25T20:25:12.555620",
     "raw_data": {
       "id": "359701",
       "number": "PAR-26-106",
@@ -1431,7 +1431,7 @@
       "antarctic"
     ],
     "first_seen": "2026-04-20T20:32:52.146644",
-    "last_updated": "2026-11-25T05:07:49.983409",
+    "last_updated": "2026-11-25T20:25:12.555558",
     "raw_data": {
       "id": "357893",
       "number": "25-525",
@@ -1513,7 +1513,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.146677",
-    "last_updated": "2026-11-25T05:07:49.983234",
+    "last_updated": "2026-11-25T20:25:12.555458",
     "raw_data": {
       "id": "334259",
       "number": "MAPUTO-PCO-FY22-01",
@@ -1598,7 +1598,7 @@
       "antarctic"
     ],
     "first_seen": "2026-04-20T20:32:52.531396",
-    "last_updated": "2026-11-25T05:07:49.983326",
+    "last_updated": "2026-11-25T20:25:12.555509",
     "raw_data": {
       "id": "357826",
       "number": "25-526",
@@ -1730,7 +1730,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531463",
-    "last_updated": "2026-11-25T05:07:49.983587",
+    "last_updated": "2026-11-25T20:25:12.555697",
     "raw_data": {
       "id": "347414",
       "number": "EDA-DISASTER-2023",
@@ -1771,7 +1771,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531480",
-    "last_updated": "2026-11-25T05:07:49.983635",
+    "last_updated": "2026-11-25T20:25:12.555731",
     "raw_data": {
       "id": "346815",
       "number": "PWEAA2023",
@@ -1813,7 +1813,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531496",
-    "last_updated": "2026-11-25T05:07:49.983690",
+    "last_updated": "2026-11-25T20:25:12.555765",
     "raw_data": {
       "id": "103313",
       "number": "NOAA-OAR-CPO-2012-2003041",
@@ -1856,7 +1856,7 @@
       "joint base elmendorf"
     ],
     "first_seen": "2026-04-20T20:32:52.531513",
-    "last_updated": "2026-11-25T05:07:49.983742",
+    "last_updated": "2026-11-25T20:25:12.555797",
     "raw_data": {
       "id": "348746",
       "number": "W9126G-23-2-SOI-3250",
@@ -2348,7 +2348,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531814",
-    "last_updated": "2026-11-25T05:07:50.470337",
+    "last_updated": "2026-11-25T20:25:13.040545",
     "raw_data": {
       "id": "353012",
       "number": "DOS-AZE-PD-24-02",
@@ -2389,7 +2389,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531831",
-    "last_updated": "2026-11-25T05:07:50.470414",
+    "last_updated": "2026-11-25T20:25:13.040606",
     "raw_data": {
       "id": "338874",
       "number": "TIRCVEFY22",
@@ -2430,7 +2430,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531847",
-    "last_updated": "2026-11-25T05:07:50.470476",
+    "last_updated": "2026-11-25T20:25:13.040685",
     "raw_data": {
       "id": "334093",
       "number": "AFHAR-FY21-02",
@@ -2471,7 +2471,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:52.531862",
-    "last_updated": "2026-11-25T05:07:50.470617",
+    "last_updated": "2026-11-25T20:25:13.040787",
     "raw_data": {
       "id": "348303",
       "number": "TIRYOUTHFY23",
@@ -2512,7 +2512,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.007903",
-    "last_updated": "2026-11-25T05:07:50.470671",
+    "last_updated": "2026-11-25T20:25:13.040825",
     "raw_data": {
       "id": "340365",
       "number": "TIRDEMCOMMR2FY22",
@@ -2594,7 +2594,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.007969",
-    "last_updated": "2026-11-25T05:07:50.470727",
+    "last_updated": "2026-11-25T20:25:13.040864",
     "raw_data": {
       "id": "347569",
       "number": "TIRDEMCOMMR2FY23",
@@ -3004,7 +3004,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008288",
-    "last_updated": "2026-11-25T05:07:51.045233",
+    "last_updated": "2026-11-25T20:25:13.628724",
     "raw_data": {
       "id": "358882",
       "number": "PD-19-126Y",
@@ -3045,7 +3045,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008303",
-    "last_updated": "2026-11-25T05:07:50.470976",
+    "last_updated": "2026-11-25T20:25:13.041016",
     "raw_data": {
       "id": "356425",
       "number": "PD-24-7298",
@@ -3086,7 +3086,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008320",
-    "last_updated": "2026-11-25T05:07:50.471027",
+    "last_updated": "2026-11-25T20:25:13.041051",
     "raw_data": {
       "id": "325472",
       "number": "L20AS00080",
@@ -3127,7 +3127,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008336",
-    "last_updated": "2026-11-25T05:07:50.471078",
+    "last_updated": "2026-11-25T20:25:13.041083",
     "raw_data": {
       "id": "335224",
       "number": "SCB60021PAS0002",
@@ -3168,7 +3168,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008357",
-    "last_updated": "2026-11-25T05:07:50.471128",
+    "last_updated": "2026-11-25T20:25:13.041115",
     "raw_data": {
       "id": "322814",
       "number": "AFCP20",
@@ -3209,7 +3209,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008376",
-    "last_updated": "2026-11-25T05:07:50.471179",
+    "last_updated": "2026-11-25T20:25:13.041146",
     "raw_data": {
       "id": "335069",
       "number": "S-NL800-20-GR-3013",
@@ -3250,7 +3250,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008391",
-    "last_updated": "2026-11-25T05:07:50.471229",
+    "last_updated": "2026-11-25T20:25:13.041178",
     "raw_data": {
       "id": "336962",
       "number": "FA8651-22-S0021",
@@ -3291,7 +3291,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008407",
-    "last_updated": "2026-11-25T05:07:50.471276",
+    "last_updated": "2026-11-25T20:25:13.041209",
     "raw_data": {
       "id": "322815",
       "number": "AFCPLG20",
@@ -3332,7 +3332,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.008423",
-    "last_updated": "2026-11-25T05:07:50.471323",
+    "last_updated": "2026-11-25T20:25:13.041240",
     "raw_data": {
       "id": "322667",
       "number": "PAS-SCB-600-20-PAS-0001",
@@ -3555,7 +3555,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.522813",
-    "last_updated": "2026-11-25T05:07:50.471372",
+    "last_updated": "2026-11-25T20:25:13.041273",
     "raw_data": {
       "id": "360373",
       "number": "RFA-DE-27-003",
@@ -3596,7 +3596,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.522864",
-    "last_updated": "2026-11-25T05:07:50.471448",
+    "last_updated": "2026-11-25T20:25:13.041324",
     "raw_data": {
       "id": "359068",
       "number": "RFA-DA-27-004",
@@ -3647,7 +3647,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.522887",
-    "last_updated": "2026-11-25T05:07:50.471498",
+    "last_updated": "2026-11-25T20:25:13.041358",
     "raw_data": {
       "id": "254073",
       "number": "PD-14-5720",
@@ -3688,7 +3688,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.522912",
-    "last_updated": "2026-11-25T05:07:50.471630",
+    "last_updated": "2026-11-25T20:25:13.041444",
     "raw_data": {
       "id": "358689",
       "number": "23-566",
@@ -3729,7 +3729,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.522927",
-    "last_updated": "2026-11-25T05:07:51.045151",
+    "last_updated": "2026-11-25T20:25:13.628663",
     "raw_data": {
       "id": "348164",
       "number": "PD-23-1320",
@@ -3770,7 +3770,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.522942",
-    "last_updated": "2026-11-25T05:07:51.045068",
+    "last_updated": "2026-11-25T20:25:13.628575",
     "raw_data": {
       "id": "45810",
       "number": "PD-98-1331",
@@ -4139,7 +4139,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.523122",
-    "last_updated": "2026-11-25T05:07:51.045944",
+    "last_updated": "2026-11-25T20:25:13.629180",
     "raw_data": {
       "id": "352238",
       "number": "N0016424SNB35",
@@ -4221,7 +4221,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.523170",
-    "last_updated": "2026-11-25T05:07:51.046106",
+    "last_updated": "2026-11-25T20:25:13.629282",
     "raw_data": {
       "id": "361895",
       "number": "DFOP0017890",
@@ -4306,7 +4306,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.523210",
-    "last_updated": "2026-11-25T05:07:51.046025",
+    "last_updated": "2026-11-25T20:25:13.629230",
     "raw_data": {
       "id": "325932",
       "number": "W911NF-20-S-0008",
@@ -4347,7 +4347,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.523234",
-    "last_updated": "2026-11-25T05:07:51.046263",
+    "last_updated": "2026-11-25T20:25:13.629386",
     "raw_data": {
       "id": "343725",
       "number": "HT942523SBAA1",
@@ -4388,7 +4388,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:53.523258",
-    "last_updated": "2026-11-25T05:07:51.046184",
+    "last_updated": "2026-11-25T20:25:13.629334",
     "raw_data": {
       "id": "356612",
       "number": "HDTRA1-25-S-0001",
@@ -4513,7 +4513,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.044920",
-    "last_updated": "2026-11-25T05:07:51.466382",
+    "last_updated": "2026-11-25T20:25:14.033264",
     "raw_data": {
       "id": "334079",
       "number": "EDA-HDQ-RNTA-2021",
@@ -4678,7 +4678,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.045029",
-    "last_updated": "2026-11-25T05:07:51.467069",
+    "last_updated": "2026-11-25T20:25:14.033809",
     "raw_data": {
       "id": "331415",
       "number": "SI-INDUSTRY-DAY",
@@ -4924,7 +4924,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.045177",
-    "last_updated": "2026-11-25T05:07:51.467346",
+    "last_updated": "2026-11-25T20:25:14.033998",
     "raw_data": {
       "id": "280970",
       "number": "DE-SOL-0008318",
@@ -5211,7 +5211,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.045341",
-    "last_updated": "2026-11-25T05:07:51.467638",
+    "last_updated": "2026-11-25T20:25:14.034263",
     "raw_data": {
       "id": "334971",
       "number": "RFA-OH-22-005",
@@ -5252,7 +5252,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.045358",
-    "last_updated": "2026-11-25T05:07:51.467762",
+    "last_updated": "2026-11-25T20:25:14.034347",
     "raw_data": {
       "id": "359063",
       "number": "2025-FREETOWN-PDS-01",
@@ -5580,7 +5580,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.564842",
-    "last_updated": "2026-11-25T05:07:51.468058",
+    "last_updated": "2026-11-25T20:25:14.034539",
     "raw_data": {
       "id": "361614",
       "number": "PDS-NER-AEIF-26-001",
@@ -6113,7 +6113,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.565180",
-    "last_updated": "2026-11-25T05:07:51.972527",
+    "last_updated": "2026-11-25T20:25:14.590400",
     "raw_data": {
       "id": "334972",
       "number": "RFA-OH-22-006",
@@ -6195,7 +6195,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.565230",
-    "last_updated": "2026-11-25T05:07:51.972877",
+    "last_updated": "2026-11-25T20:25:14.590627",
     "raw_data": {
       "id": "358289",
       "number": "DFOP0017042",
@@ -6236,7 +6236,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:54.565342",
-    "last_updated": "2026-11-25T05:07:51.468009",
+    "last_updated": "2026-11-25T20:25:14.034506",
     "raw_data": {
       "id": "343653",
       "number": "W81XWH-22-DHAPP",
@@ -6482,7 +6482,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.163731",
-    "last_updated": "2026-11-25T05:07:51.973051",
+    "last_updated": "2026-11-25T20:25:14.590742",
     "raw_data": {
       "id": "361876",
       "number": "USDA-AMS-TM-SCMP-G-26-0020",
@@ -6819,7 +6819,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.163964",
-    "last_updated": "2026-11-25T05:07:51.973128",
+    "last_updated": "2026-11-25T20:25:14.590800",
     "raw_data": {
       "id": "360205",
       "number": "USDA-NIFA-AFRI-011134",
@@ -6903,7 +6903,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:55.164012",
-    "last_updated": "2026-11-25T05:07:51.973505",
+    "last_updated": "2026-11-25T20:25:14.591062",
     "raw_data": {
       "id": "352741",
       "number": "N00173-24-S-BA01",
@@ -8174,7 +8174,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.552913",
-    "last_updated": "2026-11-25T05:07:51.974096",
+    "last_updated": "2026-11-25T20:25:15.040434",
     "raw_data": {
       "id": "361608",
       "number": "2026-FREETOWN-AEIF-01",
@@ -8217,7 +8217,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:32:55.553004",
-    "last_updated": "2026-11-25T05:07:52.550937",
+    "last_updated": "2026-11-25T20:25:15.040850",
     "raw_data": {
       "id": "356605",
       "number": "N0001425SB001",
@@ -8299,7 +8299,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.553061",
-    "last_updated": "2026-11-25T05:07:52.550527",
+    "last_updated": "2026-11-25T20:25:15.040561",
     "raw_data": {
       "id": "355791",
       "number": "TIRAMERICANSPACESFY24",
@@ -8340,7 +8340,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.553081",
-    "last_updated": "2026-11-25T05:07:52.550590",
+    "last_updated": "2026-11-25T20:25:15.040598",
     "raw_data": {
       "id": "346737",
       "number": "TIRCVEFY23",
@@ -8381,7 +8381,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.553097",
-    "last_updated": "2026-11-25T05:07:52.550730",
+    "last_updated": "2026-11-25T20:25:15.040726",
     "raw_data": {
       "id": "359120",
       "number": "PAS-TUNIS-FY2025",
@@ -8422,7 +8422,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.553113",
-    "last_updated": "2026-11-25T05:07:52.550782",
+    "last_updated": "2026-11-25T20:25:15.040761",
     "raw_data": {
       "id": "334551",
       "number": "DRC-ARDF-FY20-01",
@@ -8463,7 +8463,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:55.553131",
-    "last_updated": "2026-11-25T05:07:52.550833",
+    "last_updated": "2026-11-25T20:25:15.040795",
     "raw_data": {
       "id": "337347",
       "number": "SMK800-22-PAS002",
@@ -8586,7 +8586,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:56.073672",
-    "last_updated": "2026-11-25T05:07:53.470621",
+    "last_updated": "2026-11-25T20:25:16.061262",
     "raw_data": {
       "id": "351404",
       "number": "HM047623BAA0001",
@@ -8668,7 +8668,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:56.597341",
-    "last_updated": "2026-11-25T05:07:54.477018",
+    "last_updated": "2026-11-25T20:25:17.061279",
     "raw_data": {
       "id": "359866",
       "number": "FOR-TR-27-002",
@@ -8793,7 +8793,7 @@
       "autonomous"
     ],
     "first_seen": "2026-04-20T20:32:56.597405",
-    "last_updated": "2026-11-25T05:07:54.477389",
+    "last_updated": "2026-11-25T20:25:17.061543",
     "raw_data": {
       "id": "339728",
       "number": "W911NF-22-S-0011",
@@ -8998,7 +8998,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:57.303704",
-    "last_updated": "2026-11-25T05:07:54.975989",
+    "last_updated": "2026-11-25T20:25:17.546240",
     "raw_data": {
       "id": "360258",
       "number": "FA238424S2233",
@@ -9039,7 +9039,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:57.303771",
-    "last_updated": "2026-11-25T05:07:53.471105",
+    "last_updated": "2026-11-25T20:25:16.061524",
     "raw_data": {
       "id": "361526",
       "number": "DE-FOA-0003612",
@@ -9326,7 +9326,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:57.304004",
-    "last_updated": "2026-11-25T05:07:52.970677",
+    "last_updated": "2026-11-25T20:25:15.547024",
     "raw_data": {
       "id": "348830",
       "number": "HQ003423NFOEASD07",
@@ -9408,7 +9408,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:57.304063",
-    "last_updated": "2026-11-25T05:07:59.978631",
+    "last_updated": "2026-11-25T20:25:22.573191",
     "raw_data": {
       "id": "350338",
       "number": "2023-NIST-CHIPS-SMME-01",
@@ -9449,7 +9449,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:57.304093",
-    "last_updated": "2026-11-25T05:07:54.976410",
+    "last_updated": "2026-11-25T20:25:17.546543",
     "raw_data": {
       "id": "361169",
       "number": "USDA-NIFA-AFRI-011596",
@@ -9581,7 +9581,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:57.495344",
-    "last_updated": "2026-11-25T05:07:55.465523",
+    "last_updated": "2026-11-25T20:25:18.063287",
     "raw_data": {
       "id": "330175",
       "number": "FA7000-21-S-0001",
@@ -9745,7 +9745,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585075",
-    "last_updated": "2026-11-25T05:07:56.519569",
+    "last_updated": "2026-11-25T20:25:19.086674",
     "raw_data": {
       "id": "350230",
       "number": "PD-24-1340",
@@ -9786,7 +9786,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585140",
-    "last_updated": "2026-11-25T05:07:56.519730",
+    "last_updated": "2026-11-25T20:25:19.086802",
     "raw_data": {
       "id": "333638",
       "number": "S-DR860-21-NOFO-005",
@@ -9950,7 +9950,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585327",
-    "last_updated": "2026-11-25T05:07:56.520032",
+    "last_updated": "2026-11-25T20:25:19.086989",
     "raw_data": {
       "id": "331311",
       "number": "95332421K0004",
@@ -10032,7 +10032,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585442",
-    "last_updated": "2026-11-25T05:07:56.520114",
+    "last_updated": "2026-11-25T20:25:19.087044",
     "raw_data": {
       "id": "357485",
       "number": "PAR-25-265",
@@ -10073,7 +10073,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585501",
-    "last_updated": "2026-11-25T05:07:56.520193",
+    "last_updated": "2026-11-25T20:25:19.087097",
     "raw_data": {
       "id": "357377",
       "number": "PAR-25-272",
@@ -10116,7 +10116,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585558",
-    "last_updated": "2026-11-25T05:07:56.520274",
+    "last_updated": "2026-11-25T20:25:19.087149",
     "raw_data": {
       "id": "357345",
       "number": "PAR-25-291",
@@ -10157,7 +10157,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585612",
-    "last_updated": "2026-11-25T05:07:56.520350",
+    "last_updated": "2026-11-25T20:25:19.087199",
     "raw_data": {
       "id": "357487",
       "number": "PAR-25-266",
@@ -10239,7 +10239,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585691",
-    "last_updated": "2026-11-25T05:07:56.520400",
+    "last_updated": "2026-11-25T20:25:19.087233",
     "raw_data": {
       "id": "351128",
       "number": "FOR-FD-24-006",
@@ -10280,7 +10280,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:58.585750",
-    "last_updated": "2026-11-25T05:07:56.520474",
+    "last_updated": "2026-11-25T20:25:19.087283",
     "raw_data": {
       "id": "357346",
       "number": "PAR-25-290",
@@ -10526,7 +10526,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.061543",
-    "last_updated": "2026-11-25T05:07:56.520522",
+    "last_updated": "2026-11-25T20:25:19.087330",
     "raw_data": {
       "id": "361394",
       "number": "PAR-26-119",
@@ -10567,7 +10567,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.062530",
-    "last_updated": "2026-11-25T05:07:56.520694",
+    "last_updated": "2026-11-25T20:25:19.087448",
     "raw_data": {
       "id": "361008",
       "number": "26-501",
@@ -10608,7 +10608,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.062789",
-    "last_updated": "2026-11-25T05:07:56.520571",
+    "last_updated": "2026-11-25T20:25:19.087363",
     "raw_data": {
       "id": "360642",
       "number": "PAR-26-036",
@@ -10690,7 +10690,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.063508",
-    "last_updated": "2026-11-25T05:07:56.520766",
+    "last_updated": "2026-11-25T20:25:19.087499",
     "raw_data": {
       "id": "344124",
       "number": "23-510",
@@ -10813,7 +10813,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.064175",
-    "last_updated": "2026-11-25T05:07:56.520839",
+    "last_updated": "2026-11-25T20:25:19.087550",
     "raw_data": {
       "id": "351847",
       "number": "RFA-DA-25-060",
@@ -10854,7 +10854,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.064398",
-    "last_updated": "2026-11-25T05:07:56.520936",
+    "last_updated": "2026-11-25T20:25:19.087604",
     "raw_data": {
       "id": "355867",
       "number": "RFA-DA-25-024",
@@ -11182,7 +11182,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.065932",
-    "last_updated": "2026-11-25T05:07:52.971944",
+    "last_updated": "2026-11-25T20:25:15.547748",
     "raw_data": {
       "id": "332894",
       "number": "W911NF21S0009",
@@ -11223,7 +11223,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.066081",
-    "last_updated": "2026-11-25T05:07:56.971965",
+    "last_updated": "2026-11-25T20:25:19.555260",
     "raw_data": {
       "id": "356623",
       "number": "DE-FOA-0003467",
@@ -11264,7 +11264,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.066163",
-    "last_updated": "2026-11-25T05:07:56.972031",
+    "last_updated": "2026-11-25T20:25:19.555296",
     "raw_data": {
       "id": "326841",
       "number": "W911NF-17-S-0003-SPECIALNOTICE-LC-CSAC",
@@ -11305,7 +11305,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.636961",
-    "last_updated": "2026-11-25T05:07:56.972194",
+    "last_updated": "2026-11-25T20:25:19.555403",
     "raw_data": {
       "id": "359659",
       "number": "PAR-26-116",
@@ -11469,7 +11469,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.639808",
-    "last_updated": "2026-11-25T05:07:56.972486",
+    "last_updated": "2026-11-25T20:25:19.555590",
     "raw_data": {
       "id": "355936",
       "number": "AH-TPS-25-001",
@@ -11510,7 +11510,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.640081",
-    "last_updated": "2026-11-25T05:07:56.972541",
+    "last_updated": "2026-11-25T20:25:19.555648",
     "raw_data": {
       "id": "355937",
       "number": "PA-FPT-25-001",
@@ -11551,7 +11551,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.640142",
-    "last_updated": "2026-11-25T05:07:56.972597",
+    "last_updated": "2026-11-25T20:25:19.555690",
     "raw_data": {
       "id": "275109",
       "number": "PD-05-1743",
@@ -11808,7 +11808,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.640901",
-    "last_updated": "2026-11-25T05:07:56.972645",
+    "last_updated": "2026-11-25T20:25:19.555725",
     "raw_data": {
       "id": "352500",
       "number": "24-547",
@@ -11890,7 +11890,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.641265",
-    "last_updated": "2026-11-25T05:07:56.972702",
+    "last_updated": "2026-11-25T20:25:19.555762",
     "raw_data": {
       "id": "359070",
       "number": "NOT-HD-25-008",
@@ -11931,7 +11931,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.641348",
-    "last_updated": "2026-11-25T05:07:56.972750",
+    "last_updated": "2026-11-25T20:25:19.555796",
     "raw_data": {
       "id": "359827",
       "number": "NOT-HD-25-006",
@@ -11972,7 +11972,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.641446",
-    "last_updated": "2026-11-25T05:07:56.972824",
+    "last_updated": "2026-11-25T20:25:19.555851",
     "raw_data": {
       "id": "359816",
       "number": "PAR-25-003",
@@ -12013,7 +12013,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:32:59.641523",
-    "last_updated": "2026-11-25T05:07:56.972925",
+    "last_updated": "2026-11-25T20:25:19.555904",
     "raw_data": {
       "id": "360007",
       "number": "RFA-FD-25-017",
@@ -12185,7 +12185,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.068456",
-    "last_updated": "2026-11-25T05:07:57.480033",
+    "last_updated": "2026-11-25T20:25:20.148762",
     "raw_data": {
       "id": "359985",
       "number": "FOR-FD-25-017",
@@ -12685,7 +12685,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.070386",
-    "last_updated": "2026-11-25T05:07:57.480141",
+    "last_updated": "2026-11-25T20:25:20.148853",
     "raw_data": {
       "id": "357192",
       "number": "PAR-25-243",
@@ -12808,7 +12808,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.070908",
-    "last_updated": "2026-11-25T05:07:57.480199",
+    "last_updated": "2026-11-25T20:25:20.148895",
     "raw_data": {
       "id": "342752",
       "number": "FOR-FD-23-015",
@@ -12849,7 +12849,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.071089",
-    "last_updated": "2026-11-25T05:07:57.480253",
+    "last_updated": "2026-11-25T20:25:20.148932",
     "raw_data": {
       "id": "356044",
       "number": "FOR-FD-25-004",
@@ -12931,7 +12931,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.071268",
-    "last_updated": "2026-11-25T05:07:57.480306",
+    "last_updated": "2026-11-25T20:25:20.148970",
     "raw_data": {
       "id": "356045",
       "number": "FOR-FD-25-005",
@@ -13013,7 +13013,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.071598",
-    "last_updated": "2026-11-25T05:07:57.480358",
+    "last_updated": "2026-11-25T20:25:20.149006",
     "raw_data": {
       "id": "360911",
       "number": "PAR-26-081",
@@ -13054,7 +13054,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.071751",
-    "last_updated": "2026-11-25T05:07:57.992884",
+    "last_updated": "2026-11-25T20:25:20.572328",
     "raw_data": {
       "id": "357724",
       "number": "25-522",
@@ -13095,7 +13095,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.071925",
-    "last_updated": "2026-11-25T05:07:57.480439",
+    "last_updated": "2026-11-25T20:25:20.149061",
     "raw_data": {
       "id": "359655",
       "number": "RFA-AG-26-011",
@@ -13341,7 +13341,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.657332",
-    "last_updated": "2026-11-25T05:07:57.480517",
+    "last_updated": "2026-11-25T20:25:20.149114",
     "raw_data": {
       "id": "358937",
       "number": "PAR-25-446",
@@ -13382,7 +13382,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.657612",
-    "last_updated": "2026-11-25T05:07:57.480595",
+    "last_updated": "2026-11-25T20:25:20.149165",
     "raw_data": {
       "id": "356617",
       "number": "PA-25-080",
@@ -13450,7 +13450,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.657703",
-    "last_updated": "2026-11-25T05:07:57.480646",
+    "last_updated": "2026-11-25T20:25:20.149200",
     "raw_data": {
       "id": "325599",
       "number": "AFPRA-20-04",
@@ -13532,7 +13532,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.658072",
-    "last_updated": "2026-11-25T05:07:57.480723",
+    "last_updated": "2026-11-25T20:25:20.149250",
     "raw_data": {
       "id": "357193",
       "number": "PAR-25-244",
@@ -13573,7 +13573,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.658267",
-    "last_updated": "2026-11-25T05:07:57.480800",
+    "last_updated": "2026-11-25T20:25:20.149302",
     "raw_data": {
       "id": "356530",
       "number": "RFA-MH-26-120",
@@ -13705,7 +13705,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.658750",
-    "last_updated": "2026-11-25T05:07:57.480895",
+    "last_updated": "2026-11-25T20:25:20.149351",
     "raw_data": {
       "id": "357544",
       "number": "RFA-DA-26-055",
@@ -13747,7 +13747,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.658887",
-    "last_updated": "2026-11-25T05:07:57.480975",
+    "last_updated": "2026-11-25T20:25:20.149399",
     "raw_data": {
       "id": "357545",
       "number": "RFA-DA-26-056",
@@ -14003,7 +14003,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.659808",
-    "last_updated": "2026-11-25T05:07:57.481050",
+    "last_updated": "2026-11-25T20:25:20.149453",
     "raw_data": {
       "id": "355722",
       "number": "RFA-OH-25-003",
@@ -14135,7 +14135,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.660679",
-    "last_updated": "2026-11-25T05:07:57.481102",
+    "last_updated": "2026-11-25T20:25:20.149485",
     "raw_data": {
       "id": "360666",
       "number": "RFA-TR-25-016",
@@ -14176,7 +14176,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:00.660883",
-    "last_updated": "2026-11-25T05:07:57.481150",
+    "last_updated": "2026-11-25T20:25:20.149519",
     "raw_data": {
       "id": "361170",
       "number": "PAR-25-461",
@@ -14340,7 +14340,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:01.060133",
-    "last_updated": "2026-11-25T05:07:57.992972",
+    "last_updated": "2026-11-25T20:25:20.572380",
     "raw_data": {
       "id": "314126",
       "number": "19-570",
@@ -14587,7 +14587,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:01.061555",
-    "last_updated": "2026-11-25T05:07:57.993051",
+    "last_updated": "2026-11-25T20:25:20.572432",
     "raw_data": {
       "id": "334326",
       "number": "21-595",
@@ -14628,7 +14628,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:01.061654",
-    "last_updated": "2026-11-25T05:07:57.481317",
+    "last_updated": "2026-11-25T20:25:20.149654",
     "raw_data": {
       "id": "351947",
       "number": "24-529",
@@ -15414,7 +15414,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.127903",
-    "last_updated": "2026-11-25T05:07:58.989388",
+    "last_updated": "2026-11-25T20:25:21.565587",
     "raw_data": {
       "id": "280932",
       "number": "DE-SOL-0008246",
@@ -15455,7 +15455,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.127974",
-    "last_updated": "2026-11-25T05:07:58.989734",
+    "last_updated": "2026-11-25T20:25:21.565873",
     "raw_data": {
       "id": "347858",
       "number": "W911NF-23-S-0010",
@@ -15537,7 +15537,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.128069",
-    "last_updated": "2026-11-25T05:07:58.989568",
+    "last_updated": "2026-11-25T20:25:21.565752",
     "raw_data": {
       "id": "355499",
       "number": "RDK-RAD-FOA-2024",
@@ -15578,7 +15578,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.128151",
-    "last_updated": "2026-11-25T05:07:58.989813",
+    "last_updated": "2026-11-25T20:25:21.565932",
     "raw_data": {
       "id": "345938",
       "number": "HQ003423NFOEASD01",
@@ -15702,7 +15702,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.128432",
-    "last_updated": "2026-11-25T05:07:58.989917",
+    "last_updated": "2026-11-25T20:25:21.565985",
     "raw_data": {
       "id": "328902",
       "number": "20-01",
@@ -15745,7 +15745,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:33:02.128478",
-    "last_updated": "2026-11-25T05:07:58.990050",
+    "last_updated": "2026-11-25T20:25:21.566070",
     "raw_data": {
       "id": "361099",
       "number": "N00244-26-S-NPS-F001",
@@ -16075,7 +16075,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.561803",
-    "last_updated": "2026-11-25T05:08:00.519598",
+    "last_updated": "2026-11-25T20:25:23.077550",
     "raw_data": {
       "id": "334905",
       "number": "RANDENDEPSTEMFY22RFI",
@@ -16157,7 +16157,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:02.561895",
-    "last_updated": "2026-11-25T05:08:00.519685",
+    "last_updated": "2026-11-25T20:25:23.077627",
     "raw_data": {
       "id": "358373",
       "number": "PAR-25-378",
@@ -16864,7 +16864,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:03.087604",
-    "last_updated": "2026-11-25T05:07:59.482854",
+    "last_updated": "2026-11-25T20:25:22.145600",
     "raw_data": {
       "id": "358100",
       "number": "DE-FOA-0003339",
@@ -17028,7 +17028,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:03.089380",
-    "last_updated": "2026-11-25T05:08:00.984096",
+    "last_updated": "2026-11-25T20:25:23.566280",
     "raw_data": {
       "id": "337086",
       "number": "CDC-RFA-TP22-2201",
@@ -17192,7 +17192,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:03.089853",
-    "last_updated": "2026-11-25T05:07:52.551278",
+    "last_updated": "2026-11-25T20:25:15.041074",
     "raw_data": {
       "id": "327658",
       "number": "SRB10020FO006",
@@ -17685,7 +17685,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:33:03.711392",
-    "last_updated": "2026-11-25T05:08:01.994588",
+    "last_updated": "2026-11-25T20:25:24.568096",
     "raw_data": {
       "id": "345738",
       "number": "RFA-OH-24-001",
@@ -19264,7 +19264,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.077652",
-    "last_updated": "2026-11-25T05:09:38.258846",
+    "last_updated": "2026-11-25T20:29:20.922142",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV001",
@@ -19299,7 +19299,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.077796",
-    "last_updated": "2026-11-25T05:09:38.259004",
+    "last_updated": "2026-11-25T20:29:20.922275",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV002",
@@ -19334,7 +19334,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.077831",
-    "last_updated": "2026-11-25T05:09:38.259086",
+    "last_updated": "2026-11-25T20:29:20.922341",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV003",
@@ -19369,7 +19369,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.077857",
-    "last_updated": "2026-11-25T05:09:38.259194",
+    "last_updated": "2026-11-25T20:29:20.922401",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV004",
@@ -19407,7 +19407,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.077880",
-    "last_updated": "2026-11-25T05:09:38.259288",
+    "last_updated": "2026-11-25T20:29:20.922461",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV005",
@@ -19442,7 +19442,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.077905",
-    "last_updated": "2026-11-25T05:09:38.259373",
+    "last_updated": "2026-11-25T20:29:20.922522",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV006",
@@ -19477,7 +19477,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.077959",
-    "last_updated": "2026-11-25T05:09:38.259455",
+    "last_updated": "2026-11-25T20:29:20.922589",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV007",
@@ -19514,7 +19514,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-04-20T20:34:13.078021",
-    "last_updated": "2026-11-25T05:09:38.259537",
+    "last_updated": "2026-11-25T20:29:20.922671",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV008",
@@ -19549,7 +19549,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078055",
-    "last_updated": "2026-11-25T05:09:38.259631",
+    "last_updated": "2026-11-25T20:29:20.922735",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV009",
@@ -19584,7 +19584,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078083",
-    "last_updated": "2026-11-25T05:09:38.259714",
+    "last_updated": "2026-11-25T20:29:20.922793",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV010",
@@ -19621,7 +19621,7 @@
       "battery"
     ],
     "first_seen": "2026-04-20T20:34:13.078109",
-    "last_updated": "2026-11-25T05:09:38.259779",
+    "last_updated": "2026-11-25T20:29:20.922854",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV011",
@@ -19656,7 +19656,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078133",
-    "last_updated": "2026-11-25T05:09:38.259839",
+    "last_updated": "2026-11-25T20:29:20.922910",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV012",
@@ -19691,7 +19691,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078156",
-    "last_updated": "2026-11-25T05:09:38.259962",
+    "last_updated": "2026-11-25T20:29:20.922964",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV013",
@@ -19726,7 +19726,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078176",
-    "last_updated": "2026-11-25T05:09:38.260062",
+    "last_updated": "2026-11-25T20:29:20.923015",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV014",
@@ -19761,7 +19761,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078197",
-    "last_updated": "2026-11-25T05:09:38.260155",
+    "last_updated": "2026-11-25T20:29:20.923066",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV015",
@@ -19798,7 +19798,7 @@
       "energy storage"
     ],
     "first_seen": "2026-04-20T20:34:13.078219",
-    "last_updated": "2026-11-25T05:09:38.260245",
+    "last_updated": "2026-11-25T20:29:20.923118",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV016",
@@ -19833,7 +19833,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078239",
-    "last_updated": "2026-11-25T05:09:38.260337",
+    "last_updated": "2026-11-25T20:29:20.923168",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV017",
@@ -19868,7 +19868,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078258",
-    "last_updated": "2026-11-25T05:09:38.260431",
+    "last_updated": "2026-11-25T20:29:20.923221",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV018",
@@ -19903,7 +19903,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078277",
-    "last_updated": "2026-11-25T05:09:38.260525",
+    "last_updated": "2026-11-25T20:29:20.923272",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV019",
@@ -19940,7 +19940,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078295",
-    "last_updated": "2026-11-25T05:09:38.260618",
+    "last_updated": "2026-11-25T20:29:20.923320",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV020",
@@ -19977,7 +19977,7 @@
       "sensor"
     ],
     "first_seen": "2026-04-20T20:34:13.078315",
-    "last_updated": "2026-11-25T05:09:38.260708",
+    "last_updated": "2026-11-25T20:29:20.923372",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV021",
@@ -20012,7 +20012,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078334",
-    "last_updated": "2026-11-25T05:09:38.260799",
+    "last_updated": "2026-11-25T20:29:20.923421",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV022",
@@ -20047,7 +20047,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078354",
-    "last_updated": "2026-11-25T05:09:38.260907",
+    "last_updated": "2026-11-25T20:29:20.923469",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV023",
@@ -20084,7 +20084,7 @@
       "sensor"
     ],
     "first_seen": "2026-04-20T20:34:13.078373",
-    "last_updated": "2026-11-25T05:09:38.261007",
+    "last_updated": "2026-11-25T20:29:20.923517",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV024",
@@ -20121,7 +20121,7 @@
       "sonar"
     ],
     "first_seen": "2026-04-20T20:34:13.078392",
-    "last_updated": "2026-11-25T05:09:38.261102",
+    "last_updated": "2026-11-25T20:29:20.923565",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV025",
@@ -20158,7 +20158,7 @@
       "unmanned"
     ],
     "first_seen": "2026-04-20T20:34:13.078410",
-    "last_updated": "2026-11-25T05:09:38.261194",
+    "last_updated": "2026-11-25T20:29:20.923661",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV026",
@@ -20195,7 +20195,7 @@
       "polar navigation"
     ],
     "first_seen": "2026-04-20T20:34:13.078429",
-    "last_updated": "2026-11-25T05:09:38.261285",
+    "last_updated": "2026-11-25T20:29:20.923726",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV027",
@@ -20230,7 +20230,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078447",
-    "last_updated": "2026-11-25T05:09:38.261379",
+    "last_updated": "2026-11-25T20:29:20.923784",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV028",
@@ -20265,7 +20265,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078466",
-    "last_updated": "2026-11-25T05:09:38.261474",
+    "last_updated": "2026-11-25T20:29:20.923834",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV029",
@@ -20300,7 +20300,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078493",
-    "last_updated": "2026-11-25T05:09:38.261568",
+    "last_updated": "2026-11-25T20:29:20.923882",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV030",
@@ -20337,7 +20337,7 @@
       "autonomous"
     ],
     "first_seen": "2026-04-20T20:34:13.078514",
-    "last_updated": "2026-11-25T05:09:38.261659",
+    "last_updated": "2026-11-25T20:29:20.923932",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV031",
@@ -20372,7 +20372,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078533",
-    "last_updated": "2026-11-25T05:09:38.261749",
+    "last_updated": "2026-11-25T20:29:20.923963",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV032",
@@ -20409,7 +20409,7 @@
       "naval"
     ],
     "first_seen": "2026-04-20T20:34:13.078553",
-    "last_updated": "2026-11-25T05:09:38.261844",
+    "last_updated": "2026-11-25T20:29:20.923997",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV033",
@@ -20444,7 +20444,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078573",
-    "last_updated": "2026-11-25T05:09:38.261975",
+    "last_updated": "2026-11-25T20:29:20.924028",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV034",
@@ -20479,7 +20479,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078593",
-    "last_updated": "2026-11-25T05:09:38.262068",
+    "last_updated": "2026-11-25T20:29:20.924059",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV035",
@@ -20516,7 +20516,7 @@
       "propulsion"
     ],
     "first_seen": "2026-04-20T20:34:13.078610",
-    "last_updated": "2026-11-25T05:09:38.262158",
+    "last_updated": "2026-11-25T20:29:20.924089",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV036",
@@ -20553,7 +20553,7 @@
       "sensor"
     ],
     "first_seen": "2026-04-20T20:34:13.078631",
-    "last_updated": "2026-11-25T05:09:38.262247",
+    "last_updated": "2026-11-25T20:29:20.924118",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV037",
@@ -20588,7 +20588,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-20T20:34:13.078650",
-    "last_updated": "2026-11-25T05:09:38.262339",
+    "last_updated": "2026-11-25T20:29:20.924147",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NV038",
@@ -23021,7 +23021,7 @@
       "resilient"
     ],
     "first_seen": "2026-04-20T20:34:13.078789",
-    "last_updated": "2026-11-25T05:09:38.262906",
+    "last_updated": "2026-11-25T20:29:20.924337",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "NP001",
@@ -24322,7 +24322,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-21T00:47:52.627513",
-    "last_updated": "2026-11-25T05:07:59.482770",
+    "last_updated": "2026-11-25T20:25:22.145542",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -28345,7 +28345,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-22T23:37:45.896946",
-    "last_updated": "2026-11-25T05:07:54.976176",
+    "last_updated": "2026-11-25T20:25:17.546377",
     "raw_data": {
       "id": "362029",
       "number": "USDA-NIFA-TCRGP-011697",
@@ -29854,7 +29854,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-23T23:35:42.545014",
-    "last_updated": "2026-11-25T05:07:51.972156",
+    "last_updated": "2026-11-25T20:25:14.590178",
     "raw_data": {
       "id": "362034",
       "number": "NOAA-NMFS-AK-2026-33268",
@@ -37998,7 +37998,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-29T12:20:20.046253",
-    "last_updated": "2026-11-25T05:07:50.471550",
+    "last_updated": "2026-11-25T20:25:13.041392",
     "raw_data": {
       "id": "362108",
       "number": "PAR-28-010",
@@ -40185,7 +40185,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-04-30T12:18:24.942834",
-    "last_updated": "2026-11-25T05:07:51.973580",
+    "last_updated": "2026-11-25T20:25:14.591112",
     "raw_data": {
       "id": "354620",
       "number": "DHS-24-MT-144-000-99",
@@ -46247,7 +46247,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-04T23:42:33.963670",
-    "last_updated": "2026-11-25T05:07:56.972272",
+    "last_updated": "2026-11-25T20:25:19.555454",
     "raw_data": {
       "id": "359695",
       "number": "PAR-27-075",
@@ -46290,7 +46290,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-04T23:42:36.466247",
-    "last_updated": "2026-11-25T05:07:58.989650",
+    "last_updated": "2026-11-25T20:25:21.565818",
     "raw_data": {
       "id": "360676",
       "number": "PAR-27-081",
@@ -46581,7 +46581,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-05T12:11:03.093781",
-    "last_updated": "2026-11-25T05:09:38.262438",
+    "last_updated": "2026-11-25T20:29:20.924177",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "DV040",
@@ -46616,7 +46616,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-05T12:11:03.093865",
-    "last_updated": "2026-11-25T05:09:38.262529",
+    "last_updated": "2026-11-25T20:29:20.924208",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "DV041",
@@ -46651,7 +46651,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-05T12:11:03.093949",
-    "last_updated": "2026-11-25T05:09:38.262619",
+    "last_updated": "2026-11-25T20:29:20.924239",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "DV042",
@@ -46686,7 +46686,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-05T12:11:03.094031",
-    "last_updated": "2026-11-25T05:09:38.262709",
+    "last_updated": "2026-11-25T20:29:20.924274",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "DV043",
@@ -46721,7 +46721,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-05T12:11:03.094113",
-    "last_updated": "2026-11-25T05:09:38.262800",
+    "last_updated": "2026-11-25T20:29:20.924307",
     "raw_data": {
       "baa_number": "DON26BZ01",
       "topic_number": "DV044",
@@ -50961,7 +50961,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-06T23:40:07.740739",
-    "last_updated": "2026-11-25T05:07:57.481197",
+    "last_updated": "2026-11-25T20:25:20.149552",
     "raw_data": {
       "id": "362278",
       "number": "PAR-27-029",
@@ -52384,7 +52384,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-07T23:42:26.457073",
-    "last_updated": "2026-11-25T05:07:51.468134",
+    "last_updated": "2026-11-25T20:25:14.590099",
     "raw_data": {
       "id": "362303",
       "number": "F26AS00084",
@@ -52466,7 +52466,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-07T23:42:31.462449",
-    "last_updated": "2026-11-25T05:07:56.972349",
+    "last_updated": "2026-11-25T20:25:19.555506",
     "raw_data": {
       "id": "359692",
       "number": "PAR-27-083",
@@ -52507,7 +52507,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-07T23:42:33.523186",
-    "last_updated": "2026-11-25T05:07:57.481244",
+    "last_updated": "2026-11-25T20:25:20.149584",
     "raw_data": {
       "id": "362313",
       "number": "RFA-DA-27-012",
@@ -54317,7 +54317,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-08T23:44:42.193676",
-    "last_updated": "2026-11-25T05:07:52.551776",
+    "last_updated": "2026-11-25T20:25:15.041408",
     "raw_data": {
       "id": "362325",
       "number": "ETA-TEGL-09-24-CH1",
@@ -60794,7 +60794,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-12T23:51:22.454653",
-    "last_updated": "2026-11-25T05:07:58.989482",
+    "last_updated": "2026-11-25T20:25:21.565693",
     "raw_data": {
       "id": "360654",
       "number": "RFA-OD-27-004",
@@ -63907,7 +63907,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-14T23:45:00.623830",
-    "last_updated": "2026-11-25T05:07:51.467836",
+    "last_updated": "2026-11-25T20:25:14.034399",
     "raw_data": {
       "id": "362395",
       "number": "R26AS00034",
@@ -64071,7 +64071,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-14T23:45:02.503564",
-    "last_updated": "2026-11-25T05:07:51.467493",
+    "last_updated": "2026-11-25T20:25:14.034101",
     "raw_data": {
       "id": "362396",
       "number": "R26AS00079",
@@ -64112,7 +64112,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-14T23:45:02.779857",
-    "last_updated": "2026-11-25T05:07:51.973896",
+    "last_updated": "2026-11-25T20:25:14.591315",
     "raw_data": {
       "id": "362394",
       "number": "R26AS00017",
@@ -72757,7 +72757,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-19T23:53:18.636664",
-    "last_updated": "2026-11-25T05:07:59.978288",
+    "last_updated": "2026-11-25T20:25:22.572974",
     "raw_data": {
       "id": "359650",
       "number": "RFA-ES-27-004",
@@ -74323,7 +74323,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-21T00:00:09.976234",
-    "last_updated": "2026-11-25T05:07:51.972262",
+    "last_updated": "2026-11-25T20:25:14.590242",
     "raw_data": {
       "id": "362498",
       "number": "F26AS00085",
@@ -74364,7 +74364,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-21T00:00:14.991988",
-    "last_updated": "2026-11-25T05:07:56.972114",
+    "last_updated": "2026-11-25T20:25:19.555351",
     "raw_data": {
       "id": "359696",
       "number": "RFA-DC-27-003",
@@ -85276,7 +85276,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-27T23:53:54.717449",
-    "last_updated": "2026-11-25T05:07:50.471680",
+    "last_updated": "2026-11-25T20:25:13.041478",
     "raw_data": {
       "id": "362575",
       "number": "PAR-28-025",
@@ -86977,7 +86977,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-29T00:00:46.759573",
-    "last_updated": "2026-11-25T05:08:01.519770",
+    "last_updated": "2026-11-25T20:25:24.078340",
     "raw_data": {
       "id": "359758",
       "number": "PA-27-101",
@@ -87038,7 +87038,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-29T00:00:46.759641",
-    "last_updated": "2026-11-25T05:08:01.519876",
+    "last_updated": "2026-11-25T20:25:24.078399",
     "raw_data": {
       "id": "359671",
       "number": "PA-27-100",
@@ -87119,7 +87119,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-29T00:00:46.759705",
-    "last_updated": "2026-11-25T05:08:01.519673",
+    "last_updated": "2026-11-25T20:25:24.078279",
     "raw_data": {
       "id": "359757",
       "number": "PA-27-102",
@@ -87190,7 +87190,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-05-29T00:00:46.759824",
-    "last_updated": "2026-11-25T05:08:01.519966",
+    "last_updated": "2026-11-25T20:25:24.078455",
     "raw_data": {
       "id": "359669",
       "number": "PAR-27-098",
@@ -96018,7 +96018,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-03T15:50:36.397141",
-    "last_updated": "2026-11-25T05:08:29.184328",
+    "last_updated": "2026-11-25T20:25:53.285626",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -99129,7 +99129,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-04T23:59:05.762952",
-    "last_updated": "2026-11-25T05:07:51.045885",
+    "last_updated": "2026-11-25T20:25:13.629147",
     "raw_data": {
       "id": "362681",
       "number": "FA955026S0001",
@@ -99211,7 +99211,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-04T23:59:11.299572",
-    "last_updated": "2026-11-25T05:07:56.519817",
+    "last_updated": "2026-11-25T20:25:19.086861",
     "raw_data": {
       "id": "358991",
       "number": "PAR-27-026",
@@ -99252,7 +99252,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-04T23:59:11.299657",
-    "last_updated": "2026-11-25T05:07:56.519980",
+    "last_updated": "2026-11-25T20:25:19.086952",
     "raw_data": {
       "id": "360626",
       "number": "RFA-DK-27-108",
@@ -104780,7 +104780,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-08T23:56:52.833984",
-    "last_updated": "2026-11-25T05:07:51.973206",
+    "last_updated": "2026-11-25T20:25:14.590856",
     "raw_data": {
       "id": "360446",
       "number": "PAR-27-024",
@@ -104903,7 +104903,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-08T23:57:00.344839",
-    "last_updated": "2026-11-25T05:08:00.519536",
+    "last_updated": "2026-11-25T20:25:23.077497",
     "raw_data": {
       "id": "362715",
       "number": "P26AS00125",
@@ -105547,7 +105547,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-09T13:46:32.479441",
-    "last_updated": "2026-11-25T05:07:58.475829",
+    "last_updated": "2026-11-25T20:25:21.123053",
     "raw_data": {
       "id": "362723",
       "number": "PAR-27-119",
@@ -107732,7 +107732,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-11T00:07:22.557726",
-    "last_updated": "2026-11-25T05:07:51.972610",
+    "last_updated": "2026-11-25T20:25:14.590453",
     "raw_data": {
       "id": "362749",
       "number": "F26AS00083",
@@ -107773,7 +107773,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-11T00:07:23.050132",
-    "last_updated": "2026-11-25T05:07:51.973653",
+    "last_updated": "2026-11-25T20:25:14.591164",
     "raw_data": {
       "id": "362755",
       "number": "R26AS00349",
@@ -107814,7 +107814,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-11T00:07:29.077755",
-    "last_updated": "2026-11-25T05:07:57.481366",
+    "last_updated": "2026-11-25T20:25:20.149690",
     "raw_data": {
       "id": "362752",
       "number": "PAR-27-109",
@@ -107855,7 +107855,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-11T00:07:29.077792",
-    "last_updated": "2026-11-25T05:07:57.481413",
+    "last_updated": "2026-11-25T20:25:20.149725",
     "raw_data": {
       "id": "362753",
       "number": "PAR-28-031",
@@ -107978,7 +107978,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-11T00:07:32.092059",
-    "last_updated": "2026-11-25T05:08:01.520169",
+    "last_updated": "2026-11-25T20:25:24.078565",
     "raw_data": {
       "id": "362364",
       "number": "PDR-2600-DC-0USP",
@@ -118390,7 +118390,7 @@
       "naval"
     ],
     "first_seen": "2026-06-18T14:14:37.180125",
-    "last_updated": "2026-11-25T05:07:54.976334",
+    "last_updated": "2026-11-25T20:25:17.546489",
     "raw_data": {
       "id": "362871",
       "number": "N0001426SF001",
@@ -118431,7 +118431,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-18T14:14:43.700675",
-    "last_updated": "2026-11-25T05:08:01.520080",
+    "last_updated": "2026-11-25T20:25:24.078512",
     "raw_data": {
       "id": "360613",
       "number": "PAR-27-055",
@@ -120468,7 +120468,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-19T23:57:41.577638",
-    "last_updated": "2026-11-25T05:07:51.973358",
+    "last_updated": "2026-11-25T20:25:14.590960",
     "raw_data": {
       "id": "362893",
       "number": "F26AS00104",
@@ -122314,7 +122314,7 @@
     "sub_agency": "CERL (Construction Engineering Research Laboratory)",
     "office": "ERDC",
     "posted_date": null,
-    "close_date": "2026-10-30T00:00:00",
+    "close_date": "2026-12-31T00:00:00",
     "response_deadline": "2026-10-30T00:00:00",
     "naics_codes": [],
     "set_aside": null,
@@ -122324,10 +122324,11 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-21T13:11:55.024572",
-    "last_updated": "2026-06-21T13:11:55.024574",
+    "last_updated": "2026-11-25T20:25:52.233307",
     "raw_data": {
       "deadline_text": "October 30, 2026ERDC seeks to obtain innovative solutions or potential new capabilities in support of Infrastructure Science and Engineering (ISE) and Operational Science and Engineering (OSE).",
-      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/",
+      "also_found_on": []
     }
   },
   {
@@ -127049,7 +127050,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-24T23:56:43.064291",
-    "last_updated": "2026-11-25T05:07:57.992310",
+    "last_updated": "2026-11-25T20:25:20.571950",
     "raw_data": {
       "id": "362950",
       "number": "RFA-AI-28-007",
@@ -128881,7 +128882,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-26T13:15:17.373480",
-    "last_updated": "2026-11-25T05:07:54.477093",
+    "last_updated": "2026-11-25T20:25:17.061340",
     "raw_data": {
       "id": "362978",
       "number": "RFA-ES-28-002",
@@ -128922,7 +128923,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-06-26T13:15:17.373710",
-    "last_updated": "2026-11-25T05:07:54.477250",
+    "last_updated": "2026-11-25T20:25:17.061447",
     "raw_data": {
       "id": "362979",
       "number": "RFA-ES-28-003",
@@ -135679,7 +135680,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-01T13:36:27.381787",
-    "last_updated": "2026-11-25T05:08:29.184385",
+    "last_updated": "2026-11-25T20:25:53.285658",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -137315,7 +137316,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-02T00:01:03.191866",
-    "last_updated": "2026-11-25T05:07:57.992784",
+    "last_updated": "2026-11-25T20:25:20.572271",
     "raw_data": {
       "id": "363037",
       "number": "RFA-DK-28-114",
@@ -138667,7 +138668,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-02T23:54:38.809333",
-    "last_updated": "2026-11-25T05:07:57.992419",
+    "last_updated": "2026-11-25T20:25:20.572027",
     "raw_data": {
       "id": "363049",
       "number": "PAR-28-039",
@@ -138872,7 +138873,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-02T23:54:42.816595",
-    "last_updated": "2026-11-25T05:07:53.471025",
+    "last_updated": "2026-11-25T20:25:16.061475",
     "raw_data": {
       "id": "362880",
       "number": "OFH-2600-DC-021A",
@@ -153788,7 +153789,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-14T12:17:56.837324",
-    "last_updated": "2026-11-25T05:07:57.992365",
+    "last_updated": "2026-11-25T20:25:20.571988",
     "raw_data": {
       "id": "363169",
       "number": "RFA-CA-28-001",
@@ -156761,7 +156762,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-16T12:24:04.136868",
-    "last_updated": "2026-11-25T05:07:51.973730",
+    "last_updated": "2026-11-25T20:25:14.591213",
     "raw_data": {
       "id": "363151",
       "number": "DHS-26-MT-144-000-99",
@@ -156843,7 +156844,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-16T12:24:10.139960",
-    "last_updated": "2026-11-25T05:07:57.992480",
+    "last_updated": "2026-11-25T20:25:20.572067",
     "raw_data": {
       "id": "363204",
       "number": "PAR-28-045",
@@ -157673,7 +157674,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-16T23:46:32.448486",
-    "last_updated": "2026-11-25T05:08:00.519424",
+    "last_updated": "2026-11-25T20:25:23.077336",
     "raw_data": {
       "id": "363217",
       "number": "RFA-MD-27-001",
@@ -159025,7 +159026,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-17T23:40:54.836216",
-    "last_updated": "2026-11-25T05:07:51.045526",
+    "last_updated": "2026-11-25T20:25:13.628922",
     "raw_data": {
       "id": "363232",
       "number": "RFA-OH-27-045",
@@ -159230,7 +159231,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-17T23:41:04.366527",
-    "last_updated": "2026-11-25T05:08:00.519989",
+    "last_updated": "2026-11-25T20:25:23.077810",
     "raw_data": {
       "id": "363222",
       "number": "HHS-2027-ACF-ECD-TH-0003",
@@ -159897,7 +159898,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-18T11:56:32.762162",
-    "last_updated": "2026-11-25T05:07:57.993228",
+    "last_updated": "2026-11-25T20:25:20.572552",
     "raw_data": {
       "id": "363233",
       "number": "24-590",
@@ -162634,7 +162635,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-20T23:45:27.374185",
-    "last_updated": "2026-11-25T05:07:51.044890",
+    "last_updated": "2026-11-25T20:25:13.628448",
     "raw_data": {
       "id": "363242",
       "number": "DOT-HASS-FY26-DIIG",
@@ -162675,7 +162676,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-20T23:45:33.380637",
-    "last_updated": "2026-11-25T05:07:56.520987",
+    "last_updated": "2026-11-25T20:25:19.087655",
     "raw_data": {
       "id": "363250",
       "number": "PAR-28-006",
@@ -167570,7 +167571,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-24T23:54:05.899459",
-    "last_updated": "2026-11-25T05:07:57.481460",
+    "last_updated": "2026-11-25T20:25:20.149762",
     "raw_data": {
       "id": "363313",
       "number": "CDC-RFA-DD-27-0028",
@@ -167611,7 +167612,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-24T23:54:05.899523",
-    "last_updated": "2026-11-25T05:07:57.481507",
+    "last_updated": "2026-11-25T20:25:20.149796",
     "raw_data": {
       "id": "363310",
       "number": "CDC-RFA-PS-27-0239",
@@ -170741,7 +170742,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-27T23:52:58.557434",
-    "last_updated": "2026-11-25T05:07:57.481554",
+    "last_updated": "2026-11-25T20:25:20.149837",
     "raw_data": {
       "id": "363323",
       "number": "CDC-RFA-PS-27-0037",
@@ -172075,7 +172076,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-28T23:48:44.823952",
-    "last_updated": "2026-11-25T05:07:57.992254",
+    "last_updated": "2026-11-25T20:25:20.571910",
     "raw_data": {
       "id": "363360",
       "number": "RFA-DP-27-051",
@@ -173392,7 +173393,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-29T23:51:36.851903",
-    "last_updated": "2026-11-25T05:07:56.520618",
+    "last_updated": "2026-11-25T20:25:19.087395",
     "raw_data": {
       "id": "363389",
       "number": "CDC-RFA-PS-27-0061",
@@ -173989,7 +173990,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-30T12:48:29.133516",
-    "last_updated": "2026-11-25T05:07:57.992682",
+    "last_updated": "2026-11-25T20:25:20.572206",
     "raw_data": {
       "id": "363391",
       "number": "PAR-28-037",
@@ -174609,7 +174610,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-30T23:52:19.450665",
-    "last_updated": "2026-11-25T05:07:57.992632",
+    "last_updated": "2026-11-25T20:25:20.572172",
     "raw_data": {
       "id": "363398",
       "number": "CDC-RFA-CE-27-0039",
@@ -176075,7 +176076,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-31T23:51:17.900791",
-    "last_updated": "2026-11-25T05:07:50.471730",
+    "last_updated": "2026-11-25T20:25:13.041512",
     "raw_data": {
       "id": "363416",
       "number": "CDC-RFA-TO-23-00010101SUPP27",
@@ -176198,7 +176199,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-31T23:51:25.266311",
-    "last_updated": "2026-11-25T05:07:57.992533",
+    "last_updated": "2026-11-25T20:25:20.572105",
     "raw_data": {
       "id": "363410",
       "number": "HRSA-27-034",
@@ -176239,7 +176240,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-07-31T23:51:25.266365",
-    "last_updated": "2026-11-25T05:07:57.992584",
+    "last_updated": "2026-11-25T20:25:20.572138",
     "raw_data": {
       "id": "363415",
       "number": "HRSA-27-068",
@@ -179801,7 +179802,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-03T23:58:25.636329",
-    "last_updated": "2026-11-25T05:07:57.993481",
+    "last_updated": "2026-11-25T20:25:20.572747",
     "raw_data": {
       "id": "363450",
       "number": "HRSA-27-014",
@@ -180374,7 +180375,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-04T13:05:30.300145",
-    "last_updated": "2026-11-25T05:07:57.992734",
+    "last_updated": "2026-11-25T20:25:20.572239",
     "raw_data": {
       "id": "363454",
       "number": "RFA-DK-28-115",
@@ -181826,7 +181827,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-05T12:58:54.354376",
-    "last_updated": "2026-11-25T05:08:29.184436",
+    "last_updated": "2026-11-25T20:25:53.285676",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -181861,7 +181862,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-05T12:58:54.354416",
-    "last_updated": "2026-11-25T05:08:29.184470",
+    "last_updated": "2026-11-25T20:25:53.285690",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -184175,7 +184176,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-05T23:45:42.021297",
-    "last_updated": "2026-11-25T05:07:51.467565",
+    "last_updated": "2026-11-25T20:25:14.034153",
     "raw_data": {
       "id": "363384",
       "number": "DFOP0018774",
@@ -184216,7 +184217,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-05T23:45:42.548704",
-    "last_updated": "2026-11-25T05:07:51.467934",
+    "last_updated": "2026-11-25T20:25:14.034453",
     "raw_data": {
       "id": "363381",
       "number": "DFOP0018770",
@@ -184257,7 +184258,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-05T23:45:43.027174",
-    "last_updated": "2026-11-25T05:07:51.972354",
+    "last_updated": "2026-11-25T20:25:14.590296",
     "raw_data": {
       "id": "363383",
       "number": "DFOP0018775",
@@ -185559,7 +185560,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-07T01:40:09.869913",
-    "last_updated": "2026-11-25T05:08:00.519745",
+    "last_updated": "2026-11-25T20:25:23.077673",
     "raw_data": {
       "id": "363494",
       "number": "HHS-2027-IHS-NUIBH-0001",
@@ -185600,7 +185601,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-07T01:40:09.869960",
-    "last_updated": "2026-11-25T05:08:00.519934",
+    "last_updated": "2026-11-25T20:25:23.077776",
     "raw_data": {
       "id": "363495",
       "number": "HHS-2027-IHS-PHN-0001",
@@ -185641,7 +185642,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-07T01:40:09.870041",
-    "last_updated": "2026-11-25T05:08:00.519873",
+    "last_updated": "2026-11-25T20:25:23.077742",
     "raw_data": {
       "id": "363496",
       "number": "HHS-2027-IHS-SPIP-0001",
@@ -185682,7 +185683,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-07T01:40:09.870081",
-    "last_updated": "2026-11-25T05:08:00.519801",
+    "last_updated": "2026-11-25T20:25:23.077708",
     "raw_data": {
       "id": "363503",
       "number": "HHS-2027-IHS-YRTC-0001",
@@ -190183,7 +190184,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-10T23:24:11.430834",
-    "last_updated": "2026-11-25T05:07:52.551850",
+    "last_updated": "2026-11-25T20:25:15.041457",
     "raw_data": {
       "id": "363526",
       "number": "NOFOAFRLAFOSR20260004",
@@ -191356,7 +191357,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-11T23:28:09.081332",
-    "last_updated": "2026-11-25T05:07:51.467150",
+    "last_updated": "2026-11-25T20:25:14.033865",
     "raw_data": {
       "id": "363530",
       "number": "NOFOAFRLAFOSR20260003",
@@ -194872,7 +194873,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-14T23:11:11.186401",
-    "last_updated": "2026-11-25T05:07:57.993278",
+    "last_updated": "2026-11-25T20:25:20.572585",
     "raw_data": {
       "id": "363591",
       "number": "CDC-RFA-JG-27-0069",
@@ -195600,7 +195601,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-15T11:25:00.531651",
-    "last_updated": "2026-11-25T05:07:52.971792",
+    "last_updated": "2026-11-25T20:25:15.547694",
     "raw_data": {
       "id": "361822",
       "number": "HHS-2026-ACF-ORR-ZU-0019",
@@ -198342,7 +198343,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-17T23:12:00.448759",
-    "last_updated": "2026-11-25T05:07:51.973431",
+    "last_updated": "2026-11-25T20:25:14.591010",
     "raw_data": {
       "id": "363633",
       "number": "DFOP0018819",
@@ -198383,7 +198384,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-17T23:12:01.467352",
-    "last_updated": "2026-11-25T05:07:54.477470",
+    "last_updated": "2026-11-25T20:25:17.061593",
     "raw_data": {
       "id": "363620",
       "number": "26-522",
@@ -198467,7 +198468,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-17T23:12:05.972623",
-    "last_updated": "2026-11-25T05:07:57.992115",
+    "last_updated": "2026-11-25T20:25:20.571807",
     "raw_data": {
       "id": "363625",
       "number": "CDC-RFA-DD-27-0065",
@@ -199730,7 +199731,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-18T23:11:24.660354",
-    "last_updated": "2026-11-25T05:08:00.520054",
+    "last_updated": "2026-11-25T20:25:23.077847",
     "raw_data": {
       "id": "363650",
       "number": "HHS-2027-IHS-BH2I-0001",
@@ -199771,7 +199772,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-18T23:11:24.660413",
-    "last_updated": "2026-11-25T05:08:00.520110",
+    "last_updated": "2026-11-25T20:25:23.077884",
     "raw_data": {
       "id": "363652",
       "number": "HHS-2027-IHS-SAPTA-0001",
@@ -199812,7 +199813,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-18T23:11:24.660470",
-    "last_updated": "2026-11-25T05:08:00.520160",
+    "last_updated": "2026-11-25T20:25:23.077917",
     "raw_data": {
       "id": "363653",
       "number": "HHS-2027-IHS-ZSI-0001",
@@ -201070,7 +201071,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-19T23:13:01.618134",
-    "last_updated": "2026-11-25T05:08:01.519564",
+    "last_updated": "2026-11-25T20:25:24.078198",
     "raw_data": {
       "id": "360611",
       "number": "PAR-27-054",
@@ -201111,7 +201112,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-19T23:13:01.619626",
-    "last_updated": "2026-11-25T05:07:52.551480",
+    "last_updated": "2026-11-25T20:25:15.041208",
     "raw_data": {
       "id": "360883",
       "number": "PAR-27-056",
@@ -203426,7 +203427,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-22T11:24:59.904023",
-    "last_updated": "2026-11-25T05:07:58.990209",
+    "last_updated": "2026-11-25T20:25:21.566178",
     "raw_data": {
       "id": "362672",
       "number": "RFA-DA-27-016",
@@ -205560,7 +205561,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-24T23:12:49.787048",
-    "last_updated": "2026-11-25T05:07:49.983105",
+    "last_updated": "2026-11-25T20:25:12.555394",
     "raw_data": {
       "id": "363697",
       "number": "HRSA-27-053",
@@ -205642,7 +205643,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-24T23:12:52.768953",
-    "last_updated": "2026-11-25T05:07:51.972441",
+    "last_updated": "2026-11-25T20:25:14.590348",
     "raw_data": {
       "id": "363692",
       "number": "NOAA-NMFS-FHQ-2027-33398",
@@ -206609,7 +206610,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-25T23:15:19.996680",
-    "last_updated": "2026-11-25T05:07:53.470707",
+    "last_updated": "2026-11-25T20:25:16.061317",
     "raw_data": {
       "id": "363715",
       "number": "ETA-TEGL-02-26",
@@ -211324,7 +211325,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-31T17:57:31.444702",
-    "last_updated": "2026-11-25T05:07:49.983538",
+    "last_updated": "2026-11-25T20:25:12.555662",
     "raw_data": {
       "id": "363749",
       "number": "CDC-RFA-JG-27-0070",
@@ -211406,7 +211407,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-08-31T17:57:34.443325",
-    "last_updated": "2026-11-25T05:07:52.550440",
+    "last_updated": "2026-11-25T20:25:15.040519",
     "raw_data": {
       "id": "360398",
       "number": "RFA-NS-27-002",
@@ -212549,7 +212550,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.826669",
-    "last_updated": "2026-11-25T05:07:52.551176",
+    "last_updated": "2026-11-25T20:25:15.041009",
     "raw_data": {
       "id": "361418",
       "number": "USDA-FS-2026-GLRI-CFP",
@@ -212590,7 +212591,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.826712",
-    "last_updated": "2026-11-25T05:07:52.551228",
+    "last_updated": "2026-11-25T20:25:15.041041",
     "raw_data": {
       "id": "359266",
       "number": "PDS-ATHENS-FY25-01",
@@ -212672,7 +212673,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.826907",
-    "last_updated": "2026-11-25T05:07:52.551325",
+    "last_updated": "2026-11-25T20:25:15.041106",
     "raw_data": {
       "id": "362086",
       "number": "PAS-TUNIS- APS FY2026",
@@ -212754,7 +212755,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.827146",
-    "last_updated": "2026-11-25T05:07:52.551553",
+    "last_updated": "2026-11-25T20:25:15.041258",
     "raw_data": {
       "id": "360393",
       "number": "PAR-28-062",
@@ -212918,7 +212919,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.827574",
-    "last_updated": "2026-11-25T05:07:52.551952",
+    "last_updated": "2026-11-25T20:25:15.041510",
     "raw_data": {
       "id": "359649",
       "number": "RFA-DC-27-004",
@@ -213009,7 +213010,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.827691",
-    "last_updated": "2026-11-25T05:07:52.970084",
+    "last_updated": "2026-11-25T20:25:15.546682",
     "raw_data": {
       "id": "359862",
       "number": "PAR-26-121",
@@ -213091,7 +213092,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-01T15:26:08.827807",
-    "last_updated": "2026-11-25T05:07:52.970206",
+    "last_updated": "2026-11-25T20:25:15.546745",
     "raw_data": {
       "id": "363729",
       "number": "NOAA-NMFS-SE-2027-33642",
@@ -214641,7 +214642,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-02T15:01:45.734884",
-    "last_updated": "2026-11-25T05:07:52.970577",
+    "last_updated": "2026-11-25T20:25:15.546969",
     "raw_data": {
       "id": "358859",
       "number": "RFA-NS-27-001",
@@ -217813,7 +217814,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-03T14:56:23.433796",
-    "last_updated": "2026-11-25T05:07:52.971484",
+    "last_updated": "2026-11-25T20:25:15.547476",
     "raw_data": {
       "id": "361554",
       "number": "DFOP0017204",
@@ -217854,7 +217855,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-03T14:56:23.433880",
-    "last_updated": "2026-11-25T05:07:59.483043",
+    "last_updated": "2026-11-25T20:25:22.145742",
     "raw_data": {
       "id": "363745",
       "number": "FA955026S0002",
@@ -219132,7 +219133,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-04T14:52:55.995388",
-    "last_updated": "2026-11-25T05:07:52.970765",
+    "last_updated": "2026-11-25T20:25:15.547076",
     "raw_data": {
       "id": "361104",
       "number": "PAR-27-069",
@@ -220849,7 +220850,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-05T13:47:12.086162",
-    "last_updated": "2026-11-25T05:07:59.483203",
+    "last_updated": "2026-11-25T20:25:22.145857",
     "raw_data": {
       "id": "360918",
       "number": "PAR-25-444",
@@ -220890,7 +220891,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-05T13:47:12.086245",
-    "last_updated": "2026-11-25T05:07:59.483285",
+    "last_updated": "2026-11-25T20:25:22.145912",
     "raw_data": {
       "id": "363699",
       "number": "F26AS00105",
@@ -224834,7 +224835,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-08T15:01:29.352103",
-    "last_updated": "2026-11-25T05:07:59.978199",
+    "last_updated": "2026-11-25T20:25:22.572913",
     "raw_data": {
       "id": "361159",
       "number": "PA-27-036",
@@ -224900,7 +224901,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-08T15:01:30.353552",
-    "last_updated": "2026-11-25T05:08:00.983850",
+    "last_updated": "2026-11-25T20:25:23.566150",
     "raw_data": {
       "id": "363804",
       "number": "RD-RBS-26-03-MPPEP",
@@ -226527,7 +226528,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-09T15:03:58.259100",
-    "last_updated": "2026-11-25T05:07:59.483365",
+    "last_updated": "2026-11-25T20:25:22.145965",
     "raw_data": {
       "id": "360532",
       "number": "PAR-27-022",
@@ -227885,7 +227886,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-10T14:56:37.932047",
-    "last_updated": "2026-11-25T05:07:59.483440",
+    "last_updated": "2026-11-25T20:25:22.146016",
     "raw_data": {
       "id": "360909",
       "number": "PAR-27-112",
@@ -228633,7 +228634,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-11T00:38:44.200315",
-    "last_updated": "2026-11-25T05:07:54.976256",
+    "last_updated": "2026-11-25T20:25:17.546434",
     "raw_data": {
       "id": "363846",
       "number": "USDA-NIFA-HSI-011903",
@@ -229458,7 +229459,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-11T14:56:22.304266",
-    "last_updated": "2026-11-25T05:07:52.971237",
+    "last_updated": "2026-11-25T20:25:15.547329",
     "raw_data": {
       "id": "360593",
       "number": "PAR-27-032",
@@ -230397,7 +230398,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-12T00:46:04.136084",
-    "last_updated": "2026-11-25T05:07:58.990129",
+    "last_updated": "2026-11-25T20:25:21.566120",
     "raw_data": {
       "id": "363815",
       "number": "DE-FOA-0003647",
@@ -233904,7 +233905,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-14T16:53:33.288020",
-    "last_updated": "2026-11-25T05:07:59.483665",
+    "last_updated": "2026-11-25T20:25:22.146168",
     "raw_data": {
       "id": "349554",
       "number": "FA2391-23-S-2403",
@@ -234607,7 +234608,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-15T01:03:02.941357",
-    "last_updated": "2026-11-25T05:07:57.992192",
+    "last_updated": "2026-11-25T20:25:20.571866",
     "raw_data": {
       "id": "363857",
       "number": "RFA-RM-28-014",
@@ -237467,7 +237468,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-17T00:57:05.651977",
-    "last_updated": "2026-11-25T05:07:56.519889",
+    "last_updated": "2026-11-25T20:25:19.086896",
     "raw_data": {
       "id": "363878",
       "number": "PDR-2600-DC-0006",
@@ -238230,7 +238231,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-17T15:29:10.312966",
-    "last_updated": "2026-11-25T05:07:52.972137",
+    "last_updated": "2026-11-25T20:25:15.547859",
     "raw_data": {
       "id": "363880",
       "number": "20261209-EDK-EDU",
@@ -239731,7 +239732,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-18T14:52:30.607313",
-    "last_updated": "2026-11-25T05:07:53.470792",
+    "last_updated": "2026-11-25T20:25:16.061371",
     "raw_data": {
       "id": "360261",
       "number": "FA238424S2334",
@@ -239772,7 +239773,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-18T14:52:30.607345",
-    "last_updated": "2026-11-25T05:07:53.470929",
+    "last_updated": "2026-11-25T20:25:16.061423",
     "raw_data": {
       "id": "360262",
       "number": "FA238424S2335",
@@ -245023,7 +245024,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-22T01:20:33.814682",
-    "last_updated": "2026-11-25T05:07:51.045741",
+    "last_updated": "2026-11-25T20:25:13.629065",
     "raw_data": {
       "id": "363899",
       "number": "NOFOAFRLAFOSR20260002",
@@ -245064,7 +245065,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-22T01:20:33.814727",
-    "last_updated": "2026-11-25T05:07:51.045817",
+    "last_updated": "2026-11-25T20:25:13.629114",
     "raw_data": {
       "id": "363905",
       "number": "W911NF26S1000",
@@ -245107,7 +245108,7 @@
       "naval"
     ],
     "first_seen": "2026-09-22T01:20:33.814773",
-    "last_updated": "2026-11-25T05:07:51.045662",
+    "last_updated": "2026-11-25T20:25:13.629011",
     "raw_data": {
       "id": "363906",
       "number": "N0001426SF002",
@@ -248059,7 +248060,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-24T00:57:27.471437",
-    "last_updated": "2026-11-25T05:07:49.587525",
+    "last_updated": "2026-11-25T20:25:12.313128",
     "raw_data": {
       "id": "363929",
       "number": "NOAA-NMFS-PRPO-2026-31863",
@@ -248793,7 +248794,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-24T15:45:47.591289",
-    "last_updated": "2026-11-25T05:07:51.466589",
+    "last_updated": "2026-11-25T20:25:14.033391",
     "raw_data": {
       "id": "363936",
       "number": "EPA-OAR-OTAQ-26-01",
@@ -250932,7 +250933,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-26T01:01:28.725577",
-    "last_updated": "2026-11-25T05:07:52.551020",
+    "last_updated": "2026-11-25T20:25:15.040903",
     "raw_data": {
       "id": "363958",
       "number": "NOAA-NOS-NCCOS-2026-32934",
@@ -250973,7 +250974,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-26T01:01:32.248352",
-    "last_updated": "2026-11-25T05:07:56.519671",
+    "last_updated": "2026-11-25T20:25:19.086756",
     "raw_data": {
       "id": "361275",
       "number": "PAR-28-056",
@@ -251014,7 +251015,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-26T01:01:32.746390",
-    "last_updated": "2026-11-25T05:07:56.971831",
+    "last_updated": "2026-11-25T20:25:19.555197",
     "raw_data": {
       "id": "361276",
       "number": "PAR-28-057",
@@ -256437,7 +256438,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-30T01:42:45.561863",
-    "last_updated": "2026-11-25T05:07:51.046490",
+    "last_updated": "2026-11-25T20:25:13.629537",
     "raw_data": {
       "id": "363992",
       "number": "F26AS00023",
@@ -257185,7 +257186,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-09-30T16:44:47.693200",
-    "last_updated": "2026-11-25T05:07:51.046566",
+    "last_updated": "2026-11-25T20:25:13.629587",
     "raw_data": {
       "id": "363993",
       "number": "DE-FOA-0003665",
@@ -258022,7 +258023,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-01T01:39:04.082852",
-    "last_updated": "2026-11-25T05:07:51.973974",
+    "last_updated": "2026-11-25T20:25:14.591366",
     "raw_data": {
       "id": "360402",
       "number": "RFA-NS-28-010",
@@ -260384,7 +260385,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-02T16:34:31.648089",
-    "last_updated": "2026-11-25T05:07:57.993359",
+    "last_updated": "2026-11-25T20:25:20.572656",
     "raw_data": {
       "id": "359325",
       "number": "23-589",
@@ -264197,7 +264198,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-05T19:38:59.206329",
-    "last_updated": "2026-11-25T05:08:00.984004",
+    "last_updated": "2026-11-25T20:25:23.566217",
     "raw_data": {
       "id": "364026",
       "number": "DE-FOA-0003577",
@@ -265554,7 +265555,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-06T17:05:57.461136",
-    "last_updated": "2026-11-25T05:07:51.044975",
+    "last_updated": "2026-11-25T20:25:13.628510",
     "raw_data": {
       "id": "364027",
       "number": "RFA-AI-28-020",
@@ -266229,7 +266230,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-07T01:52:54.674721",
-    "last_updated": "2026-11-25T05:07:51.045580",
+    "last_updated": "2026-11-25T20:25:13.628957",
     "raw_data": {
       "id": "364031",
       "number": "PIH-2600-DC-0023",
@@ -266270,7 +266271,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-07T01:53:00.687751",
-    "last_updated": "2026-11-25T05:07:56.972435",
+    "last_updated": "2026-11-25T20:25:19.555557",
     "raw_data": {
       "id": "360873",
       "number": "RFA-AI-27-018",
@@ -267335,7 +267336,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-07T17:44:11.580363",
-    "last_updated": "2026-11-25T05:08:29.184497",
+    "last_updated": "2026-11-25T20:25:53.285714",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -269280,7 +269281,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-08T17:47:54.811093",
-    "last_updated": "2026-11-25T05:07:55.465624",
+    "last_updated": "2026-11-25T20:25:18.063352",
     "raw_data": {
       "id": "364033",
       "number": "DE-FOA-0003673",
@@ -269321,7 +269322,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-08T17:47:59.329737",
-    "last_updated": "2026-11-25T05:07:59.978081",
+    "last_updated": "2026-11-25T20:25:22.572838",
     "raw_data": {
       "id": "360048",
       "number": "RFA-DA-28-011",
@@ -270769,7 +270770,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-09T17:23:35.848585",
-    "last_updated": "2026-11-25T05:07:51.972694",
+    "last_updated": "2026-11-25T20:25:14.590503",
     "raw_data": {
       "id": "360562",
       "number": "RFA-DA-28-013",
@@ -270810,7 +270811,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-09T17:23:35.849507",
-    "last_updated": "2026-11-25T05:07:51.973282",
+    "last_updated": "2026-11-25T20:25:14.590908",
     "raw_data": {
       "id": "359170",
       "number": "RFA-HG-27-010",
@@ -270892,7 +270893,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-09T17:23:36.835450",
-    "last_updated": "2026-11-25T05:07:52.971560",
+    "last_updated": "2026-11-25T20:25:15.547525",
     "raw_data": {
       "id": "358854",
       "number": "RFA-HG-27-007",
@@ -276904,7 +276905,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-14T01:28:13.586335",
-    "last_updated": "2026-11-25T05:07:52.970307",
+    "last_updated": "2026-11-25T20:25:15.546804",
     "raw_data": {
       "id": "364069",
       "number": "NOAA-NESDIS-NESDISPO-2027-33921",
@@ -279862,7 +279863,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-16T00:52:22.040335",
-    "last_updated": "2026-11-25T05:07:52.970851",
+    "last_updated": "2026-11-25T20:25:15.547128",
     "raw_data": {
       "id": "359941",
       "number": "PAR-28-091",
@@ -279904,7 +279905,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-16T00:52:28.519160",
-    "last_updated": "2026-11-25T05:07:58.990289",
+    "last_updated": "2026-11-25T20:25:21.566238",
     "raw_data": {
       "id": "361134",
       "number": "RFA-CA-28-004",
@@ -279945,7 +279946,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-16T00:52:29.528427",
-    "last_updated": "2026-11-25T05:08:00.520212",
+    "last_updated": "2026-11-25T20:25:23.077949",
     "raw_data": {
       "id": "363651",
       "number": "HHS-2027-IHS-HLY-0001",
@@ -280726,7 +280727,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-16T15:19:01.766605",
-    "last_updated": "2026-11-25T05:07:52.551699",
+    "last_updated": "2026-11-25T20:25:15.041358",
     "raw_data": {
       "id": "364098",
       "number": "20261209-GE-GI-BP-BR-GGX",
@@ -281473,7 +281474,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-17T00:53:04.490711",
-    "last_updated": "2026-11-25T05:07:52.971072",
+    "last_updated": "2026-11-25T20:25:15.547229",
     "raw_data": {
       "id": "364099",
       "number": "NOAA-NMFS-FHQ-2027-33600",
@@ -281514,7 +281515,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-17T00:53:11.497234",
-    "last_updated": "2026-11-25T05:07:59.483124",
+    "last_updated": "2026-11-25T20:25:22.145797",
     "raw_data": {
       "id": "364087",
       "number": "ED-GRANTS-101526-002",
@@ -284538,7 +284539,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-19T17:23:19.176032",
-    "last_updated": "2026-11-25T05:07:57.993101",
+    "last_updated": "2026-11-25T20:25:20.572467",
     "raw_data": {
       "id": "364113",
       "number": "HHS-2027-ACL-AOA-ADPI-0008",
@@ -285756,7 +285757,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-20T15:35:35.440117",
-    "last_updated": "2026-11-25T05:07:51.046414",
+    "last_updated": "2026-11-25T20:25:13.629485",
     "raw_data": {
       "id": "364125",
       "number": "EPA-I-R1-SNEP-2026A",
@@ -285797,7 +285798,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-20T15:35:43.951037",
-    "last_updated": "2026-11-25T05:07:59.978385",
+    "last_updated": "2026-11-25T20:25:22.573033",
     "raw_data": {
       "id": "360869",
       "number": "PAR-28-090",
@@ -285857,7 +285858,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-20T15:35:43.951069",
-    "last_updated": "2026-11-25T05:07:59.978468",
+    "last_updated": "2026-11-25T20:25:22.573087",
     "raw_data": {
       "id": "360905",
       "number": "RFA-CA-28-013",
@@ -286533,7 +286534,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-21T01:05:12.748536",
-    "last_updated": "2026-11-25T05:07:50.470921",
+    "last_updated": "2026-11-25T20:25:13.040982",
     "raw_data": {
       "id": "364130",
       "number": "NOAA-OAR-BAA-2027-33939",
@@ -286574,7 +286575,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-22T01:04:23.825038",
-    "last_updated": "2026-11-25T05:07:52.550676",
+    "last_updated": "2026-11-25T20:25:15.040686",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -287298,7 +287299,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-21T15:53:09.493727",
-    "last_updated": "2026-11-25T05:07:51.466498",
+    "last_updated": "2026-11-25T20:25:14.033334",
     "raw_data": {
       "id": "364133",
       "number": "F26AS00088",
@@ -288597,7 +288598,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-22T15:57:42.559650",
-    "last_updated": "2026-11-25T05:07:51.973803",
+    "last_updated": "2026-11-25T20:25:14.591264",
     "raw_data": {
       "id": "364124",
       "number": "DHS-26-MT-029-000-98",
@@ -292868,7 +292869,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-26T17:12:05.769306",
-    "last_updated": "2026-11-25T05:07:52.551406",
+    "last_updated": "2026-11-25T20:25:15.041157",
     "raw_data": {
       "id": "364147",
       "number": "DFOP0020010",
@@ -293495,7 +293496,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-27T01:43:39.019969",
-    "last_updated": "2026-11-25T05:07:52.551626",
+    "last_updated": "2026-11-25T20:25:15.041308",
     "raw_data": {
       "id": "364149",
       "number": "DFOP0019929",
@@ -293536,7 +293537,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-27T01:43:44.048567",
-    "last_updated": "2026-11-25T05:07:57.993152",
+    "last_updated": "2026-11-25T20:25:20.572500",
     "raw_data": {
       "id": "364153",
       "number": "HHS-2027-ACL-AOD-DNDP-0016",
@@ -294651,7 +294652,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T01:52:42.356290",
-    "last_updated": "2026-11-25T05:07:52.972049",
+    "last_updated": "2026-11-25T20:25:15.547805",
     "raw_data": {
       "id": "364155",
       "number": "DFOP0019966",
@@ -294692,7 +294693,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T01:52:42.356476",
-    "last_updated": "2026-11-25T05:07:52.972303",
+    "last_updated": "2026-11-25T20:25:16.061072",
     "raw_data": {
       "id": "364158",
       "number": "DFOP0019974",
@@ -294733,7 +294734,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T01:52:42.356531",
-    "last_updated": "2026-11-25T05:07:52.972221",
+    "last_updated": "2026-11-25T20:25:15.547909",
     "raw_data": {
       "id": "364159",
       "number": "DFOP0019978",
@@ -294774,7 +294775,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T01:52:42.356611",
-    "last_updated": "2026-11-25T05:07:53.470425",
+    "last_updated": "2026-11-25T20:25:16.061146",
     "raw_data": {
       "id": "364161",
       "number": "DFOP0019982",
@@ -294815,7 +294816,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T01:52:42.356670",
-    "last_updated": "2026-11-25T05:07:53.470531",
+    "last_updated": "2026-11-25T20:25:16.061206",
     "raw_data": {
       "id": "364162",
       "number": "DFOP0019970",
@@ -294856,7 +294857,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T01:52:43.367485",
-    "last_updated": "2026-11-25T05:07:54.477196",
+    "last_updated": "2026-11-25T20:25:17.061407",
     "raw_data": {
       "id": "364160",
       "number": "NOAA-OAR-CPO-2027-33392",
@@ -295383,7 +295384,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T17:03:56.049553",
-    "last_updated": "2026-11-25T05:07:49.982316",
+    "last_updated": "2026-11-25T20:25:12.554936",
     "raw_data": {
       "id": "364164",
       "number": "USDA-FNA-CN-HTH-NSLP-EAG-2027",
@@ -295424,7 +295425,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T17:03:57.520803",
-    "last_updated": "2026-11-25T05:07:51.467420",
+    "last_updated": "2026-11-25T20:25:14.034050",
     "raw_data": {
       "id": "364144",
       "number": "USDA-FS-2026-LSR",
@@ -295465,7 +295466,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T17:03:58.011310",
-    "last_updated": "2026-11-25T05:07:51.972776",
+    "last_updated": "2026-11-25T20:25:14.590553",
     "raw_data": {
       "id": "364145",
       "number": "USDA-FS-2026-LSR-TRIBAL",
@@ -295547,7 +295548,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-28T17:04:05.036058",
-    "last_updated": "2026-11-25T05:07:58.989313",
+    "last_updated": "2026-11-25T20:25:21.565532",
     "raw_data": {
       "id": "364165",
       "number": "FA955027S0002",
@@ -296772,7 +296773,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-29T17:21:36.526821",
-    "last_updated": "2026-11-25T05:07:51.466672",
+    "last_updated": "2026-11-25T20:25:14.033452",
     "raw_data": {
       "id": "364171",
       "number": "FM-CCFP-27-001",
@@ -296813,7 +296814,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-29T17:21:42.044145",
-    "last_updated": "2026-11-25T05:07:56.971730",
+    "last_updated": "2026-11-25T20:25:19.555123",
     "raw_data": {
       "id": "358954",
       "number": "RFA-RM-27-008",
@@ -297342,7 +297343,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T02:13:56.201860",
-    "last_updated": "2026-11-25T05:07:50.470811",
+    "last_updated": "2026-11-25T20:25:13.040923",
     "raw_data": {
       "id": "364142",
       "number": "NOAA-NOS-MB-2027-33927",
@@ -297383,7 +297384,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T02:14:01.208579",
-    "last_updated": "2026-11-25T05:07:54.976092",
+    "last_updated": "2026-11-25T20:25:17.546317",
     "raw_data": {
       "id": "364172",
       "number": "FA955027S0001",
@@ -297912,7 +297913,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T16:58:21.406708",
-    "last_updated": "2026-11-25T05:07:51.045314",
+    "last_updated": "2026-11-25T20:25:13.628780",
     "raw_data": {
       "id": "364178",
       "number": "G27AS00081",
@@ -297953,7 +297954,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T16:58:21.406739",
-    "last_updated": "2026-11-25T05:07:51.045393",
+    "last_updated": "2026-11-25T20:25:13.628833",
     "raw_data": {
       "id": "364180",
       "number": "G27AS00083",
@@ -298035,7 +298036,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T16:58:25.410776",
-    "last_updated": "2026-11-25T05:07:54.477718",
+    "last_updated": "2026-11-25T20:25:17.061780",
     "raw_data": {
       "id": "364179",
       "number": "G27AS00082",
@@ -298076,7 +298077,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T16:58:25.410807",
-    "last_updated": "2026-11-25T05:07:54.477627",
+    "last_updated": "2026-11-25T20:25:17.061725",
     "raw_data": {
       "id": "364177",
       "number": "G27AS00076",
@@ -298117,7 +298118,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T16:58:25.410859",
-    "last_updated": "2026-11-25T05:07:54.477549",
+    "last_updated": "2026-11-25T20:25:17.061669",
     "raw_data": {
       "id": "364181",
       "number": "G27AS00084",
@@ -298199,7 +298200,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-10-30T16:58:26.387303",
-    "last_updated": "2026-11-25T05:07:55.465422",
+    "last_updated": "2026-11-25T20:25:18.063229",
     "raw_data": {
       "id": "364174",
       "number": "DE-FOA-0003641",
@@ -301243,7 +301244,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:51.168121",
-    "last_updated": "2026-11-25T05:07:51.466836",
+    "last_updated": "2026-11-25T20:25:14.033656",
     "raw_data": {
       "id": "364198",
       "number": "EPA-OLEM-OBLR-26-02",
@@ -301284,7 +301285,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:51.168183",
-    "last_updated": "2026-11-25T05:07:51.466755",
+    "last_updated": "2026-11-25T20:25:14.033540",
     "raw_data": {
       "id": "364200",
       "number": "EPA-OLEM-OBLR-26-04",
@@ -301325,7 +301326,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:51.168237",
-    "last_updated": "2026-11-25T05:07:51.467016",
+    "last_updated": "2026-11-25T20:25:14.033773",
     "raw_data": {
       "id": "364199",
       "number": "EPA-OLEM-OBLR-26-03",
@@ -301366,7 +301367,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:51.168290",
-    "last_updated": "2026-11-25T05:07:51.466937",
+    "last_updated": "2026-11-25T20:25:14.033718",
     "raw_data": {
       "id": "364201",
       "number": "EPA-OLEM-OBLR-26-05",
@@ -301407,7 +301408,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:51.168430",
-    "last_updated": "2026-11-25T05:07:51.467299",
+    "last_updated": "2026-11-25T20:25:14.033966",
     "raw_data": {
       "id": "364202",
       "number": "EPA-OLEM-OBLR-26-06",
@@ -301448,7 +301449,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:51.168726",
-    "last_updated": "2026-11-25T05:07:51.467714",
+    "last_updated": "2026-11-25T20:25:14.034313",
     "raw_data": {
       "id": "364196",
       "number": "G27AS00381",
@@ -301489,7 +301490,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:56.674216",
-    "last_updated": "2026-11-25T05:07:57.993434",
+    "last_updated": "2026-11-25T20:25:20.572711",
     "raw_data": {
       "id": "364194",
       "number": "G27AS00090",
@@ -301530,7 +301531,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-02T20:40:59.171910",
-    "last_updated": "2026-11-25T05:07:59.482563",
+    "last_updated": "2026-11-25T20:25:22.145401",
     "raw_data": {
       "id": "364134",
       "number": "HHS-2027-ACF-ORR-ZU-0045",
@@ -302588,7 +302589,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-03T18:18:25.740856",
-    "last_updated": "2026-11-25T05:07:52.970398",
+    "last_updated": "2026-11-25T20:25:15.546861",
     "raw_data": {
       "id": "360625",
       "number": "RFA-DK-28-213",
@@ -302629,7 +302630,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-03T18:18:31.252997",
-    "last_updated": "2026-11-25T05:07:58.475769",
+    "last_updated": "2026-11-25T20:25:21.123009",
     "raw_data": {
       "id": "360946",
       "number": "PAR-28-042",
@@ -303694,7 +303695,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:45:37.377852",
-    "last_updated": "2026-11-25T05:07:59.482666",
+    "last_updated": "2026-11-25T20:25:22.145479",
     "raw_data": {
       "id": "362952",
       "number": "RFA-AI-28-014",
@@ -304024,7 +304025,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822430",
-    "last_updated": "2026-11-25T05:08:29.184524",
+    "last_updated": "2026-11-25T20:25:53.285731",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304059,7 +304060,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822457",
-    "last_updated": "2026-11-25T05:08:29.184548",
+    "last_updated": "2026-11-25T20:25:53.285748",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304096,7 +304097,7 @@
       "autonomous"
     ],
     "first_seen": "2026-11-04T18:46:10.822765",
-    "last_updated": "2026-11-25T05:08:29.184830",
+    "last_updated": "2026-11-25T20:25:53.285765",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304133,7 +304134,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-11-04T18:46:10.822784",
-    "last_updated": "2026-11-25T05:08:29.184843",
+    "last_updated": "2026-11-25T20:25:53.285782",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304170,7 +304171,7 @@
       "autonomous"
     ],
     "first_seen": "2026-11-04T18:46:10.822798",
-    "last_updated": "2026-11-25T05:08:29.184891",
+    "last_updated": "2026-11-25T20:25:53.285802",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304207,7 +304208,7 @@
       "autonomous"
     ],
     "first_seen": "2026-11-04T18:46:10.822813",
-    "last_updated": "2026-11-25T05:08:29.184916",
+    "last_updated": "2026-11-25T20:25:53.285822",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304242,7 +304243,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822827",
-    "last_updated": "2026-11-25T05:08:29.184936",
+    "last_updated": "2026-11-25T20:25:53.285841",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304277,7 +304278,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822844",
-    "last_updated": "2026-11-25T05:08:29.184951",
+    "last_updated": "2026-11-25T20:25:53.285862",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304312,7 +304313,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822860",
-    "last_updated": "2026-11-25T05:08:29.184969",
+    "last_updated": "2026-11-25T20:25:53.285879",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304349,7 +304350,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-11-04T18:46:10.822876",
-    "last_updated": "2026-11-25T05:08:29.184985",
+    "last_updated": "2026-11-25T20:25:53.285900",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304384,7 +304385,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822890",
-    "last_updated": "2026-11-25T05:08:29.184999",
+    "last_updated": "2026-11-25T20:25:53.285926",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304421,7 +304422,7 @@
       "resilient"
     ],
     "first_seen": "2026-11-04T18:46:10.822904",
-    "last_updated": "2026-11-25T05:08:29.185013",
+    "last_updated": "2026-11-25T20:25:53.285945",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304456,7 +304457,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822918",
-    "last_updated": "2026-11-25T05:08:29.185026",
+    "last_updated": "2026-11-25T20:25:53.285966",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304491,7 +304492,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822932",
-    "last_updated": "2026-11-25T05:08:29.185040",
+    "last_updated": "2026-11-25T20:25:53.285984",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304526,7 +304527,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.822946",
-    "last_updated": "2026-11-25T05:08:29.185054",
+    "last_updated": "2026-11-25T20:25:53.286001",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -304561,7 +304562,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823007",
-    "last_updated": "2026-11-25T05:08:29.185114",
+    "last_updated": "2026-11-25T20:25:53.286018",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -304596,7 +304597,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823024",
-    "last_updated": "2026-11-25T05:08:29.185128",
+    "last_updated": "2026-11-25T20:25:53.286037",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -304631,7 +304632,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823039",
-    "last_updated": "2026-11-25T05:08:29.185142",
+    "last_updated": "2026-11-25T20:25:53.286054",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -304666,7 +304667,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823111",
-    "last_updated": "2026-11-25T05:08:29.185219",
+    "last_updated": "2026-11-25T20:25:53.286079",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304701,7 +304702,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823125",
-    "last_updated": "2026-11-25T05:08:29.185238",
+    "last_updated": "2026-11-25T20:25:53.286093",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304736,7 +304737,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823138",
-    "last_updated": "2026-11-25T05:08:29.185252",
+    "last_updated": "2026-11-25T20:25:53.286106",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304771,7 +304772,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823155",
-    "last_updated": "2026-11-25T05:08:29.185266",
+    "last_updated": "2026-11-25T20:25:53.286118",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304806,7 +304807,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823168",
-    "last_updated": "2026-11-25T05:08:29.185280",
+    "last_updated": "2026-11-25T20:25:53.286130",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304843,7 +304844,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-11-04T18:46:10.823182",
-    "last_updated": "2026-11-25T05:08:29.185294",
+    "last_updated": "2026-11-25T20:25:53.286142",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304878,7 +304879,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823199",
-    "last_updated": "2026-11-25T05:08:29.185310",
+    "last_updated": "2026-11-25T20:25:53.286154",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304915,7 +304916,7 @@
       "communications"
     ],
     "first_seen": "2026-11-04T18:46:10.823214",
-    "last_updated": "2026-11-25T05:08:29.185325",
+    "last_updated": "2026-11-25T20:25:53.286165",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304950,7 +304951,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823228",
-    "last_updated": "2026-11-25T05:08:29.185338",
+    "last_updated": "2026-11-25T20:25:53.286178",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -304985,7 +304986,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823241",
-    "last_updated": "2026-11-25T05:08:29.185353",
+    "last_updated": "2026-11-25T20:25:53.286190",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305022,7 +305023,7 @@
       "autonomous"
     ],
     "first_seen": "2026-11-04T18:46:10.823255",
-    "last_updated": "2026-11-25T05:08:29.185367",
+    "last_updated": "2026-11-25T20:25:53.286201",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305057,7 +305058,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823268",
-    "last_updated": "2026-11-25T05:08:29.185381",
+    "last_updated": "2026-11-25T20:25:53.286212",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305094,7 +305095,7 @@
       "submarine"
     ],
     "first_seen": "2026-11-04T18:46:10.823286",
-    "last_updated": "2026-11-25T05:08:29.185395",
+    "last_updated": "2026-11-25T20:25:53.286223",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305129,7 +305130,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823303",
-    "last_updated": "2026-11-25T05:08:29.185411",
+    "last_updated": "2026-11-25T20:25:53.286234",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305164,7 +305165,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823318",
-    "last_updated": "2026-11-25T05:08:29.185426",
+    "last_updated": "2026-11-25T20:25:53.286245",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305201,7 +305202,7 @@
       "expeditionary"
     ],
     "first_seen": "2026-11-04T18:46:10.823331",
-    "last_updated": "2026-11-25T05:08:29.185442",
+    "last_updated": "2026-11-25T20:25:53.286256",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305236,7 +305237,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823345",
-    "last_updated": "2026-11-25T05:08:29.185457",
+    "last_updated": "2026-11-25T20:25:53.286272",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305271,7 +305272,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823359",
-    "last_updated": "2026-11-25T05:08:29.185472",
+    "last_updated": "2026-11-25T20:25:53.286284",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305306,7 +305307,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823373",
-    "last_updated": "2026-11-25T05:08:29.185486",
+    "last_updated": "2026-11-25T20:25:53.286295",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305343,7 +305344,7 @@
       "naval"
     ],
     "first_seen": "2026-11-04T18:46:10.823387",
-    "last_updated": "2026-11-25T05:08:29.185499",
+    "last_updated": "2026-11-25T20:25:53.286306",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305380,7 +305381,7 @@
       "unmanned"
     ],
     "first_seen": "2026-11-04T18:46:10.823403",
-    "last_updated": "2026-11-25T05:08:29.185516",
+    "last_updated": "2026-11-25T20:25:53.286319",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305415,7 +305416,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823419",
-    "last_updated": "2026-11-25T05:08:29.185539",
+    "last_updated": "2026-11-25T20:25:53.286331",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305450,7 +305451,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823433",
-    "last_updated": "2026-11-25T05:08:29.185555",
+    "last_updated": "2026-11-25T20:25:53.286342",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305485,7 +305486,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823450",
-    "last_updated": "2026-11-25T05:08:29.185570",
+    "last_updated": "2026-11-25T20:25:53.286354",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -305522,7 +305523,7 @@
       "sensor"
     ],
     "first_seen": "2026-11-04T18:46:10.823464",
-    "last_updated": "2026-11-25T05:08:29.185584",
+    "last_updated": "2026-11-25T20:25:53.286366",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305557,7 +305558,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823478",
-    "last_updated": "2026-11-25T05:08:29.185598",
+    "last_updated": "2026-11-25T20:25:53.286378",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305592,7 +305593,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823492",
-    "last_updated": "2026-11-25T05:08:29.185612",
+    "last_updated": "2026-11-25T20:25:53.286389",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305629,7 +305630,7 @@
       "undersea"
     ],
     "first_seen": "2026-11-04T18:46:10.823506",
-    "last_updated": "2026-11-25T05:08:29.185634",
+    "last_updated": "2026-11-25T20:25:53.286400",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305666,7 +305667,7 @@
       "autonomous"
     ],
     "first_seen": "2026-11-04T18:46:10.823519",
-    "last_updated": "2026-11-25T05:08:29.185666",
+    "last_updated": "2026-11-25T20:25:53.286411",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305703,7 +305704,7 @@
       "unmanned"
     ],
     "first_seen": "2026-11-04T18:46:10.823536",
-    "last_updated": "2026-11-25T05:08:29.185684",
+    "last_updated": "2026-11-25T20:25:53.286422",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305738,7 +305739,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823554",
-    "last_updated": "2026-11-25T05:08:29.185703",
+    "last_updated": "2026-11-25T20:25:53.286434",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305773,7 +305774,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823569",
-    "last_updated": "2026-11-25T05:08:29.185718",
+    "last_updated": "2026-11-25T20:25:53.286446",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305808,7 +305809,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823584",
-    "last_updated": "2026-11-25T05:08:29.185732",
+    "last_updated": "2026-11-25T20:25:53.286457",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305843,7 +305844,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823598",
-    "last_updated": "2026-11-25T05:08:29.185749",
+    "last_updated": "2026-11-25T20:25:53.286467",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305878,7 +305879,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823613",
-    "last_updated": "2026-11-25T05:08:29.185764",
+    "last_updated": "2026-11-25T20:25:53.286480",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305913,7 +305914,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823627",
-    "last_updated": "2026-11-25T05:08:29.185779",
+    "last_updated": "2026-11-25T20:25:53.286492",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305950,7 +305951,7 @@
       "naval"
     ],
     "first_seen": "2026-11-04T18:46:10.823641",
-    "last_updated": "2026-11-25T05:08:29.185793",
+    "last_updated": "2026-11-25T20:25:53.286503",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -305985,7 +305986,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823657",
-    "last_updated": "2026-11-25T05:08:29.185816",
+    "last_updated": "2026-11-25T20:25:53.286515",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -306020,7 +306021,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823673",
-    "last_updated": "2026-11-25T05:08:29.185831",
+    "last_updated": "2026-11-25T20:25:53.286529",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -306055,7 +306056,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-05T02:57:42.580835",
-    "last_updated": "2026-11-25T05:08:47.608911",
+    "last_updated": "2026-11-25T20:25:53.286546",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -306107,7 +306108,7 @@
       "autonomous"
     ],
     "first_seen": "2026-11-05T02:57:42.580892",
-    "last_updated": "2026-11-25T05:08:47.609075",
+    "last_updated": "2026-11-25T20:25:53.286557",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -306159,7 +306160,7 @@
       "sensor"
     ],
     "first_seen": "2026-11-05T02:57:42.580950",
-    "last_updated": "2026-11-25T05:08:47.609232",
+    "last_updated": "2026-11-25T20:25:53.286568",
     "raw_data": {
       "source": "darpa_opportunities_page",
       "card_lines": [
@@ -306209,7 +306210,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823768",
-    "last_updated": "2026-11-25T05:08:29.185935",
+    "last_updated": "2026-11-25T20:25:53.286579",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306244,7 +306245,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823785",
-    "last_updated": "2026-11-25T05:08:29.185950",
+    "last_updated": "2026-11-25T20:25:53.286590",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306281,7 +306282,7 @@
       "sensor"
     ],
     "first_seen": "2026-11-04T18:46:10.823799",
-    "last_updated": "2026-11-25T05:08:29.185968",
+    "last_updated": "2026-11-25T20:25:53.286601",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306316,7 +306317,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.823814",
-    "last_updated": "2026-11-25T05:08:29.185982",
+    "last_updated": "2026-11-25T20:25:53.286630",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306351,7 +306352,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825860",
-    "last_updated": "2026-11-25T05:08:29.185997",
+    "last_updated": "2026-11-25T20:25:53.286658",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306386,7 +306387,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825889",
-    "last_updated": "2026-11-25T05:08:29.186010",
+    "last_updated": "2026-11-25T20:25:53.286671",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306421,7 +306422,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825907",
-    "last_updated": "2026-11-25T05:08:29.186025",
+    "last_updated": "2026-11-25T20:25:53.286683",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -306456,7 +306457,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825923",
-    "last_updated": "2026-11-25T05:08:29.186040",
+    "last_updated": "2026-11-25T20:25:53.286694",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -306491,7 +306492,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825937",
-    "last_updated": "2026-11-25T05:08:29.186057",
+    "last_updated": "2026-11-25T20:25:53.286705",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -306526,7 +306527,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825951",
-    "last_updated": "2026-11-25T05:08:29.186071",
+    "last_updated": "2026-11-25T20:25:53.286716",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306561,7 +306562,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.825971",
-    "last_updated": "2026-11-25T05:08:29.186088",
+    "last_updated": "2026-11-25T20:25:53.286729",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306598,7 +306599,7 @@
       "communications"
     ],
     "first_seen": "2026-11-04T18:46:10.825987",
-    "last_updated": "2026-11-25T05:08:29.186103",
+    "last_updated": "2026-11-25T20:25:53.286741",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306633,7 +306634,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.826001",
-    "last_updated": "2026-11-25T05:08:29.186117",
+    "last_updated": "2026-11-25T20:25:53.286755",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306668,7 +306669,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:10.826015",
-    "last_updated": "2026-11-25T05:08:29.186131",
+    "last_updated": "2026-11-25T20:25:53.286767",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306703,7 +306704,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:11.210827",
-    "last_updated": "2026-11-25T05:08:29.515122",
+    "last_updated": "2026-11-25T20:25:53.286778",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306738,7 +306739,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:11.210860",
-    "last_updated": "2026-11-25T05:08:29.515152",
+    "last_updated": "2026-11-25T20:25:53.286789",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306808,7 +306809,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:11.210897",
-    "last_updated": "2026-11-25T05:08:29.515172",
+    "last_updated": "2026-11-25T20:25:53.286802",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306843,7 +306844,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:11.210927",
-    "last_updated": "2026-11-25T05:08:29.515189",
+    "last_updated": "2026-11-25T20:25:53.286815",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306878,7 +306879,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:11.210974",
-    "last_updated": "2026-11-25T05:08:29.515244",
+    "last_updated": "2026-11-25T20:25:53.286827",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306915,7 +306916,7 @@
       "resilient"
     ],
     "first_seen": "2026-11-04T18:46:11.210988",
-    "last_updated": "2026-11-25T05:08:29.515260",
+    "last_updated": "2026-11-25T20:25:53.286838",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306952,7 +306953,7 @@
       "extreme environment"
     ],
     "first_seen": "2026-11-04T18:46:11.211004",
-    "last_updated": "2026-11-25T05:08:29.515275",
+    "last_updated": "2026-11-25T20:25:53.286851",
     "raw_data": {
       "component": "",
       "program": "SBIR",
@@ -306987,7 +306988,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-04T18:46:11.211019",
-    "last_updated": "2026-11-25T05:08:29.515292",
+    "last_updated": "2026-11-25T20:25:53.286862",
     "raw_data": {
       "component": "",
       "program": "STTR",
@@ -307231,7 +307232,7 @@
     "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-05T02:56:38.197930",
-    "last_updated": "2026-11-25T05:07:51.467224",
+    "last_updated": "2026-11-25T20:25:14.033915",
     "raw_data": {
       "id": "364213",
       "number": "DOW2027APEXACCELERATORCLOSED",
@@ -307730,7 +307731,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-05T18:45:28.843227",
-    "last_updated": "2026-11-25T05:07:52.971405",
+    "last_updated": "2026-11-25T20:25:15.547426",
     "raw_data": {
       "id": "361994",
       "number": "PIH-2600-DC-0005",
@@ -307771,7 +307772,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-05T18:45:28.843356",
-    "last_updated": "2026-11-25T05:07:52.971715",
+    "last_updated": "2026-11-25T20:25:15.547638",
     "raw_data": {
       "id": "364215",
       "number": "USDA-APHIS-10025-VSSP0000-27-0002",
@@ -307812,7 +307813,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-05T18:45:35.424536",
-    "last_updated": "2026-11-25T05:07:58.989970",
+    "last_updated": "2026-11-25T20:25:21.566020",
     "raw_data": {
       "id": "364223",
       "number": "PAR-27-017",
@@ -308449,7 +308450,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T02:56:21.912652",
-    "last_updated": "2026-11-25T05:07:50.470563",
+    "last_updated": "2026-11-25T20:25:13.040749",
     "raw_data": {
       "id": "364231",
       "number": "G27AS00064",
@@ -308490,7 +308491,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T02:56:23.920104",
-    "last_updated": "2026-11-25T05:07:51.974047",
+    "last_updated": "2026-11-25T20:25:14.591418",
     "raw_data": {
       "id": "364227",
       "number": "G27AS00055",
@@ -308531,7 +308532,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T02:56:24.419637",
-    "last_updated": "2026-11-25T05:07:52.970990",
+    "last_updated": "2026-11-25T20:25:15.547179",
     "raw_data": {
       "id": "364228",
       "number": "G27AS00054",
@@ -308572,7 +308573,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T02:56:24.419697",
-    "last_updated": "2026-11-25T05:07:52.971159",
+    "last_updated": "2026-11-25T20:25:15.547279",
     "raw_data": {
       "id": "364229",
       "number": "G27AS00047",
@@ -308613,7 +308614,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T02:56:25.945622",
-    "last_updated": "2026-11-25T05:07:54.477334",
+    "last_updated": "2026-11-25T20:25:17.061507",
     "raw_data": {
       "id": "364235",
       "number": "G27AS00057",
@@ -308654,7 +308655,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T02:56:32.447132",
-    "last_updated": "2026-11-25T05:08:00.520296",
+    "last_updated": "2026-11-25T20:25:23.566067",
     "raw_data": {
       "id": "364239",
       "number": "G27AS00066",
@@ -309291,7 +309292,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-06T17:52:03.235102",
-    "last_updated": "2026-11-25T05:07:51.972967",
+    "last_updated": "2026-11-25T20:25:14.590689",
     "raw_data": {
       "id": "364240",
       "number": "DFOP0019913",
@@ -309880,7 +309881,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-07T02:26:18.600909",
-    "last_updated": "2026-11-25T05:07:51.045473",
+    "last_updated": "2026-11-25T20:25:13.628887",
     "raw_data": {
       "id": "364243",
       "number": "27-500",
@@ -312398,7 +312399,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-09T21:21:08.353014",
-    "last_updated": "2026-11-25T05:07:49.587285",
+    "last_updated": "2026-11-25T20:25:12.312829",
     "raw_data": {
       "id": "364244",
       "number": "DHS-27-061-COE-SUPP",
@@ -315923,7 +315924,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-13T03:00:24.877858",
-    "last_updated": "2026-11-25T05:07:52.552029",
+    "last_updated": "2026-11-25T20:25:15.041563",
     "raw_data": {
       "id": "364263",
       "number": "FHWA-GADC-27-001",
@@ -316452,7 +316453,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-13T18:27:25.489131",
-    "last_updated": "2026-11-25T05:07:52.551098",
+    "last_updated": "2026-11-25T20:25:15.040954",
     "raw_data": {
       "id": "364265",
       "number": "G27AS00148",
@@ -316493,7 +316494,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-13T18:27:33.030298",
-    "last_updated": "2026-11-25T05:07:59.483591",
+    "last_updated": "2026-11-25T20:25:22.146117",
     "raw_data": {
       "id": "364003",
       "number": "UST-SIPPRA-2027-003",
@@ -316534,7 +316535,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-13T18:27:33.030936",
-    "last_updated": "2026-11-25T05:07:59.978551",
+    "last_updated": "2026-11-25T20:25:22.573140",
     "raw_data": {
       "id": "359152",
       "number": "RFA-AR-28-001",
@@ -317520,7 +317521,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-14T16:54:35.103929",
-    "last_updated": "2026-11-25T05:07:59.978711",
+    "last_updated": "2026-11-25T20:25:22.573241",
     "raw_data": {
       "id": "360653",
       "number": "RFA-OD-27-003",
@@ -319468,7 +319469,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-16T20:53:07.301863",
-    "last_updated": "2026-11-25T05:07:52.970488",
+    "last_updated": "2026-11-25T20:25:15.546916",
     "raw_data": {
       "id": "364271",
       "number": "USDA-NIFA-OP-012541",
@@ -319997,7 +319998,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-17T04:50:58.051458",
-    "last_updated": "2026-11-25T05:07:59.978788",
+    "last_updated": "2026-11-25T20:25:22.573293",
     "raw_data": {
       "id": "359161",
       "number": "RFA-NS-27-007",
@@ -320587,7 +320588,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-17T19:41:27.406666",
-    "last_updated": "2026-11-25T05:07:52.552105",
+    "last_updated": "2026-11-25T20:25:15.546572",
     "raw_data": {
       "id": "364277",
       "number": "FHWA-CRPP-27-001",
@@ -321086,7 +321087,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-18T03:56:06.340327",
-    "last_updated": "2026-11-25T05:07:49.587437",
+    "last_updated": "2026-11-25T20:25:12.313035",
     "raw_data": {
       "id": "364278",
       "number": "G27AS00170",
@@ -321615,7 +321616,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-18T19:17:41.808640",
-    "last_updated": "2026-11-25T05:07:59.978974",
+    "last_updated": "2026-11-25T20:25:22.573397",
     "raw_data": {
       "id": "361438",
       "number": "PAR-28-014",
@@ -322193,7 +322194,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-19T03:54:19.502401",
-    "last_updated": "2026-11-25T05:07:52.971323",
+    "last_updated": "2026-11-25T20:25:15.547378",
     "raw_data": {
       "id": "364288",
       "number": "G27AS00063",
@@ -322722,7 +322723,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-19T19:25:52.473092",
-    "last_updated": "2026-11-25T05:07:52.971638",
+    "last_updated": "2026-11-25T20:25:15.547574",
     "raw_data": {
       "id": "364290",
       "number": "EPA-OA-OASES-26-09",
@@ -322763,7 +322764,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-19T19:25:59.484516",
-    "last_updated": "2026-11-25T05:07:59.978886",
+    "last_updated": "2026-11-25T20:25:22.573345",
     "raw_data": {
       "id": "364291",
       "number": "EPA-OA-OASES-26-10",
@@ -323798,7 +323799,7 @@
     "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-20T19:00:32.752246",
-    "last_updated": "2026-11-25T05:07:51.046341",
+    "last_updated": "2026-11-25T20:25:13.629436",
     "raw_data": {
       "id": "364206",
       "number": "EDA-B2S-2027",
@@ -323839,7 +323840,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-20T19:00:41.751723",
-    "last_updated": "2026-11-25T05:07:59.979054",
+    "last_updated": "2026-11-25T20:25:22.573449",
     "raw_data": {
       "id": "360655",
       "number": "RFA-OD-27-005",
@@ -324348,7 +324349,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-21T03:37:14.762760",
-    "last_updated": "2026-11-25T05:07:59.482960",
+    "last_updated": "2026-11-25T20:25:22.145684",
     "raw_data": {
       "id": "364298",
       "number": "27CS30",
@@ -324847,7 +324848,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-21T17:55:40.050935",
-    "last_updated": "2026-11-25T05:07:59.979132",
+    "last_updated": "2026-11-25T20:25:22.573505",
     "raw_data": {
       "id": "361380",
       "number": "RFA-EB-28-004",
@@ -326816,7 +326817,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-23T22:30:06.245988",
-    "last_updated": "2026-11-25T05:07:59.483516",
+    "last_updated": "2026-11-25T20:25:22.146067",
     "raw_data": {
       "id": "364301",
       "number": "USDA-FAS-10627-0700-25-26-P",
@@ -327883,7 +327884,7 @@
     "arctic_relevance_reasoning": "Not relevant to arctic defense",
     "arctic_keywords_found": [],
     "first_seen": "2026-11-24T21:02:09.699448",
-    "last_updated": "2026-11-25T05:07:58.475661",
+    "last_updated": "2026-11-25T20:25:21.122935",
     "raw_data": {
       "id": "364305",
       "number": "G27AS00041",
@@ -328812,6 +328813,492 @@
     "arctic_keywords_found": [],
     "first_seen": "2026-11-25T05:09:44.726686",
     "last_updated": "2026-11-25T05:09:44.726688",
+    "raw_data": {
+      "scraped_from": "https://spacewerx.us/get-funded/"
+    }
+  },
+  {
+    "id": "ab3b585d-d808-4d25-ae82-6de187567835",
+    "source": "grants_gov",
+    "source_id": "364307",
+    "source_url": "https://grants.gov/search-results-detail/364307",
+    "title": "U.S. Mission to the Kingdom of Bahrain Annual Program Statement (Public Diplomacy Small Grants Program)",
+    "description": "Document Type: Synopsis | CFDA: 19.040, 19.022 | Agency Code: DOS-BAH",
+    "opportunity_type": "Grant",
+    "status": "Open",
+    "solicitation_number": "DOS-MANAMA-PD-2027-001",
+    "agency": "U.S. Mission to Bahrain",
+    "sub_agency": "DOS-BAH",
+    "office": null,
+    "posted_date": "2026-11-25T00:00:00",
+    "close_date": "2027-08-15T00:00:00",
+    "response_deadline": "2027-08-15T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.0,
+    "arctic_relevance_reasoning": "Not relevant to arctic defense",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:25:14.034208",
+    "last_updated": "2026-11-25T20:25:14.034208",
+    "raw_data": {
+      "id": "364307",
+      "number": "DOS-MANAMA-PD-2027-001",
+      "title": "U.S. Mission to the Kingdom of Bahrain Annual Program Statement (Public Diplomacy Small Grants Program)",
+      "agencyCode": "DOS-BAH",
+      "agency": "U.S. Mission to Bahrain",
+      "openDate": "11/25/2026",
+      "closeDate": "08/15/2027",
+      "oppStatus": "posted",
+      "docType": "synopsis",
+      "cfdaList": [
+        "19.040",
+        "19.022"
+      ]
+    }
+  },
+  {
+    "id": "67c127b3-0169-4d1b-a821-448e112cd48c",
+    "source": "grants_gov",
+    "source_id": "364312",
+    "source_url": "https://grants.gov/search-results-detail/364312",
+    "title": "American Indian Alaska Native Head Start Expansion, Early Head Start Expansion and Early Head Start-Child Care Partnership Grants",
+    "description": "Document Type: Forecast | CFDA: 93.600 | Agency Code: HHS-ACF-OHS",
+    "opportunity_type": "Grant",
+    "status": "Forecasted",
+    "solicitation_number": "HHS-2027-ACF-OHS-CI-0025",
+    "agency": "Administration for Children and Families - OHS",
+    "sub_agency": "HHS-ACF-OHS",
+    "office": null,
+    "posted_date": "2026-11-25T00:00:00",
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.0,
+    "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:25:23.077394",
+    "last_updated": "2026-11-25T20:25:23.077395",
+    "raw_data": {
+      "id": "364312",
+      "number": "HHS-2027-ACF-OHS-CI-0025",
+      "title": "American Indian Alaska Native Head Start Expansion, Early Head Start Expansion and Early Head Start-Child Care Partnership Grants",
+      "agencyCode": "HHS-ACF-OHS",
+      "agency": "Administration for Children and Families - OHS",
+      "openDate": "11/25/2026",
+      "closeDate": "",
+      "oppStatus": "forecasted",
+      "docType": "forecast",
+      "cfdaList": [
+        "93.600"
+      ]
+    }
+  },
+  {
+    "id": "1a6faecd-5729-493e-a254-8df078488112",
+    "source": "grants_gov",
+    "source_id": "364313",
+    "source_url": "https://grants.gov/search-results-detail/364313",
+    "title": "American Indian Alaska Native Head Start Grants in Multiple States",
+    "description": "Document Type: Forecast | CFDA: 93.600 | Agency Code: HHS-ACF-OHS",
+    "opportunity_type": "Grant",
+    "status": "Forecasted",
+    "solicitation_number": "HHS-2027-ACF-OHS-CI-0204",
+    "agency": "Administration for Children and Families - OHS",
+    "sub_agency": "HHS-ACF-OHS",
+    "office": null,
+    "posted_date": "2026-11-25T00:00:00",
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.0,
+    "arctic_relevance_reasoning": "Excluded: Non-defense opportunity (social services, education, wildlife, etc.)",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:25:23.077435",
+    "last_updated": "2026-11-25T20:25:23.077436",
+    "raw_data": {
+      "id": "364313",
+      "number": "HHS-2027-ACF-OHS-CI-0204",
+      "title": "American Indian Alaska Native Head Start Grants in Multiple States",
+      "agencyCode": "HHS-ACF-OHS",
+      "agency": "Administration for Children and Families - OHS",
+      "openDate": "11/25/2026",
+      "closeDate": "",
+      "oppStatus": "forecasted",
+      "docType": "forecast",
+      "cfdaList": [
+        "93.600"
+      ]
+    }
+  },
+  {
+    "id": "494431c0-5506-4241-8f71-6b411275df7d",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_0_3857",
+    "source_url": "https://www.erdcwerx.org/temporary-shelter-evaluation/",
+    "title": "Temporary Shelter Evaluation at Fort Leonard Wood",
+    "description": "ERDC invites temporary pop-up shelter solutions\u202ffor evaluation and potential use in military operations.",
+    "opportunity_type": "Other",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:25:52.141755",
+    "last_updated": "2026-11-25T20:25:52.141759",
+    "raw_data": {
+      "deadline_text": "Continuously OpenERDC invites temporary pop-up shelter solutions\u202ffor evaluation and potential use in military operations.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "c5aa646b-8500-4d3f-bd29-0f8736b28cf7",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_1_9566",
+    "source_url": "https://www.erdcwerx.org/information-technology-laboratory-cso/",
+    "title": "Information Technology Laboratory CSO",
+    "description": "ERDC invites commercial solutions in support of integrated digital transformation, advanced computing, secure and resilient systems, and data-driven decision-making to address complex defense and civil works challenges.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2027-10-30T00:00:00",
+    "response_deadline": "2027-10-30T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-11-25T20:25:52.162281",
+    "last_updated": "2026-11-25T20:25:52.162284",
+    "raw_data": {
+      "deadline_text": "October 30, 2027ERDC invites commercial solutions in support of integrated digital transformation, advanced computing, secure and resilient systems, and data-driven decision-making to address complex defense and civil works challenges.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "f4a91696-7f6f-4e31-8ada-77596f68cff9",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_2_557",
+    "source_url": "https://www.erdcwerx.org/broad-other-transaction-authority-announcement/",
+    "title": "Broad Other Transaction Authority Announcement",
+    "description": "ERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+    "opportunity_type": "OTA",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.35,
+    "arctic_relevance_reasoning": "Defense technology relevant to arctic operations: resilient",
+    "arctic_keywords_found": [
+      "resilient"
+    ],
+    "first_seen": "2026-11-25T20:25:52.181570",
+    "last_updated": "2026-11-25T20:25:52.181574",
+    "raw_data": {
+      "deadline_text": "Continuously OpenERDC engages in research that addresses some of the world\u2019s toughest challenges in Military Engineering and Engineered Resilient Systems. As a result, ERDC is requesting white papers in response to this Broad Other Transaction Authority Announcement.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "0c555e29-0188-4db3-a0d7-269acd5406eb",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_3_1977",
+    "source_url": "https://www.erdcwerx.org/civil-works-cso/",
+    "title": "Civil Works CSO",
+    "description": "ERDC seeks to obtain innovative solutions that progress R&D efforts or advance civil works science and engineering capabilities.",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "Civil Works",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": "2026-12-31T00:00:00",
+    "response_deadline": "2026-12-31T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:25:52.215814",
+    "last_updated": "2026-11-25T20:25:52.215817",
+    "raw_data": {
+      "deadline_text": "Open through December 31, 2026ERDC seeks to obtain innovative solutions that progress R&D efforts or advance civil works science and engineering capabilities.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "1e17a12a-944d-4156-81db-a19260fa244f",
+    "source": "erdcwerx",
+    "source_id": "erdcwerx_5_3680",
+    "source_url": "https://www.erdcwerx.org/u-s-army-engineer-research-and-development-center-broad-agency-announcement/",
+    "title": "U.S. Army Engineer Research and Development Center Broad Agency Announcement",
+    "description": "ERDC's Broad Agency Announcement invites concepts in various research and development topic areas for potential collaboration.",
+    "opportunity_type": "BAA",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "U.S. Army Corps of Engineers",
+    "sub_agency": "ERDC",
+    "office": "ERDC",
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:25:52.251368",
+    "last_updated": "2026-11-25T20:25:52.251371",
+    "raw_data": {
+      "deadline_text": "Continuously OpenERDC's Broad Agency Announcement invites concepts in various research and development topic areas for potential collaboration.",
+      "scraped_from": "https://www.erdcwerx.org/category/event-tech-challenges/current/"
+    }
+  },
+  {
+    "id": "396f1125-62dd-4391-b694-a6fa4b045172",
+    "source": "diu",
+    "source_id": "diu_28887",
+    "source_url": "https://www.diu.mil/work-with-us/open-solicitations",
+    "title": "2 Open Pathways",
+    "description": "",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "Defense Innovation Unit",
+    "office": null,
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:26:03.880050",
+    "last_updated": "2026-11-25T20:26:03.884571",
+    "raw_data": {
+      "extracted_from_links": true,
+      "also_found_on": []
+    }
+  },
+  {
+    "id": "3ceca29e-8b7f-4e4a-b184-0eecc7b4de9c",
+    "source": "diu",
+    "source_id": "diu_29337",
+    "source_url": "https://www.diu.mil/work-with-us/submit-solution/PROJ00721",
+    "title": "Autonomous Warfare Suitable Warfighting Adaptive Payloads (SWAP)-USV Sprint 2 Closing: 2026-11-30 23:59:59 US/Eastern Time \u2197 02",
+    "description": "",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "Defense Innovation Unit",
+    "office": null,
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.2,
+    "arctic_relevance_reasoning": "Defense technology potentially applicable to arctic: autonomous",
+    "arctic_keywords_found": [
+      "autonomous"
+    ],
+    "first_seen": "2026-11-25T20:26:03.893000",
+    "last_updated": "2026-11-25T20:26:03.893003",
+    "raw_data": {
+      "extracted_from_links": true
+    }
+  },
+  {
+    "id": "0edcf89e-3954-45ce-8147-6533f8af105b",
+    "source": "diu",
+    "source_id": "diu_26788",
+    "source_url": "https://s3.us-gov-west-1.amazonaws.com/publicdocs.diu.mil/DIU_CSO_HQ0845-20-S-C001.pdf",
+    "title": "DIU CSO Guidance",
+    "description": "",
+    "opportunity_type": "CSO",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "Defense Innovation Unit",
+    "office": null,
+    "posted_date": null,
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:26:03.914998",
+    "last_updated": "2026-11-25T20:26:03.915001",
+    "raw_data": {
+      "extracted_from_links": true
+    }
+  },
+  {
+    "id": "437e3549-e14f-4c75-898b-ed1847587c8f",
+    "source": "darpa",
+    "source_id": "darpa_rss_48500",
+    "source_url": "https://www.darpa.mil/work-with-us/opportunities",
+    "title": "RFI: Photonic Computing in Transit",
+    "description": "<p>Aims to further develop surface electromyography sensors, piezoelectric micromachined ultrasonic transducers (PMUTs), or other non-invasive sensor modalities as a user interface for warfighter multi-system operations1-6. | <a href=\"https://www.darpa.mil/research/programs/human-universal-remote\" target=\"_blank\">See Topic</a></p>",
+    "opportunity_type": "RFI",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "DARPA",
+    "office": "DARPA",
+    "posted_date": "2026-11-23T13:33:12",
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.2,
+    "arctic_relevance_reasoning": "Defense technology potentially applicable to arctic: sensor",
+    "arctic_keywords_found": [
+      "sensor"
+    ],
+    "first_seen": "2026-11-25T20:27:35.327122",
+    "last_updated": "2026-11-25T20:27:35.327886",
+    "raw_data": {
+      "source": "rss",
+      "also_found_on": []
+    }
+  },
+  {
+    "id": "b07530c0-9934-4639-a330-0e98e525f77d",
+    "source": "afwerx",
+    "source_id": "afwerx_78179",
+    "source_url": "https://afwerx.com/get-funded/",
+    "title": "DAF SBIR SPECIFIC TOPIC 27.BZ \u2013 RELEASE 2",
+    "description": "",
+    "opportunity_type": "SBIR",
+    "status": "Forecasted",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "U.S. Air Force",
+    "office": "AFWERX",
+    "posted_date": "2026-12-02T00:00:00",
+    "close_date": "2027-01-05T00:00:00",
+    "response_deadline": "2027-01-05T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:27:41.308281",
+    "last_updated": "2026-11-25T20:27:41.308283",
+    "raw_data": {
+      "markers": "AF",
+      "scraped_from": "https://afwerx.com/get-funded/"
+    }
+  },
+  {
+    "id": "e9bdd2c4-cbb2-4a6e-b24f-82d7240b0dfe",
+    "source": "afwerx",
+    "source_id": "afwerx_65053",
+    "source_url": "https://afwerx.com/get-funded/",
+    "title": "DAF STTR SPECIFIC TOPIC 27.TZ \u2013 RELEASE 2",
+    "description": "",
+    "opportunity_type": "STTR",
+    "status": "Forecasted",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "U.S. Air Force",
+    "office": "AFWERX",
+    "posted_date": "2026-12-02T00:00:00",
+    "close_date": "2027-01-06T00:00:00",
+    "response_deadline": "2027-01-06T00:00:00",
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:27:41.308504",
+    "last_updated": "2026-11-25T20:27:41.308505",
+    "raw_data": {
+      "markers": "AF",
+      "scraped_from": "https://afwerx.com/get-funded/"
+    }
+  },
+  {
+    "id": "4f477cff-ce67-42e6-b78e-10fcead118ab",
+    "source": "spacewerx",
+    "source_id": "spacewerx_86873",
+    "source_url": "https://spacewerx.us/get-funded/",
+    "title": "PY26.2 TACFI NOTICE OF OPPORTUNITY",
+    "description": "",
+    "opportunity_type": "Other",
+    "status": "Open",
+    "solicitation_number": null,
+    "agency": "Department of Defense",
+    "sub_agency": "U.S. Space Force",
+    "office": "SpaceWERX",
+    "posted_date": "2026-06-05T00:00:00",
+    "close_date": null,
+    "response_deadline": null,
+    "naics_codes": [],
+    "set_aside": null,
+    "award_floor": null,
+    "award_ceiling": null,
+    "arctic_relevance_score": 0.1,
+    "arctic_relevance_reasoning": "Defense opportunity - potential arctic application",
+    "arctic_keywords_found": [],
+    "first_seen": "2026-11-25T20:29:28.516931",
+    "last_updated": "2026-11-25T20:29:28.516933",
     "raw_data": {
       "scraped_from": "https://spacewerx.us/get-funded/"
     }
